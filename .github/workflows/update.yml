@@ -78,7 +78,7 @@ jobs:
       - name: Get Version
         id: version
         run: |
-          VERSION=$(grep "^# Version:" rules/adblockdns.txt | awk '{print $3}')
+          VERSION=$(grep "^! Version:" rules/adblockdns.txt | awk '{print $3}')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create Release
