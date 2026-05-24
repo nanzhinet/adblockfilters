@@ -46,7 +46,7 @@ jobs:
           ./sing-box-${{env.SINGBOX_VERSION}}-linux-amd64/sing-box rule-set compile --output rules/adblocksingbox.srs     rules/adblocksingbox.json
           ./sing-box-${{env.SINGBOX_VERSION}}-linux-amd64/sing-box rule-set compile --output rules/adblocksingboxlite.srs rules/adblocksingboxlite.json
           rm -rf sing-box*
-      
+
       - name: Compile mihomo filters
         run: |
           wget https://github.com/MetaCubeX/mihomo/releases/download/v${{env.MIHOMO_VERSION}}/mihomo-linux-amd64-v${{env.MIHOMO_VERSION}}.gz
@@ -55,12 +55,115 @@ jobs:
           ./mihomo-linux-amd64-v${{env.MIHOMO_VERSION}} convert-ruleset domain yaml rules/adblockmihomo.yaml     rules/adblockmihomo.mrs
           ./mihomo-linux-amd64-v${{env.MIHOMO_VERSION}} convert-ruleset domain yaml rules/adblockmihomolite.yaml rules/adblockmihomolite.mrs
           rm -rf mihomo*
-      
+
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: ${{ steps.update.outputs.message }}
-  
+
+  Release_Filters:
+    needs: [ Update_Filters ]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Get Version
+        id: version
+        run: |
+          VERSION=$(grep "^# Version:" rules/adblockdns.txt | awk '{print $3}')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          files: |
+            rules/adblockfilters.txt
+            rules/adblockfilterslite.txt
+            rules/adblockdns.txt
+            rules/adblockdnslite.txt
+            rules/adblockdnsmasq.txt
+            rules/adblockdnsmasqlite.txt
+            rules/adblocksmartdns.conf
+            rules/adblocksmartdnslite.conf
+            rules/adblockshadowrocket.sgmodule
+            rules/adblockshadowrocketlite.sgmodule
+            rules/adblockqx.conf
+            rules/adblockqxlite.conf
+            rules/adblockclash.list
+            rules/adblockclashlite.list
+            rules/adblockmihomo.yaml
+            rules/adblockmihomolite.yaml
+            rules/adblockmihomo.mrs
+            rules/adblockmihomolite.mrs
+            rules/adblockhosts.txt
+            rules/adblockhostslite.txt
+            rules/adblocksingbox.json
+            rules/adblocksingboxlite.json
+            rules/adblocksingbox.srs
+            rules/adblocksingboxlite.srs
+            rules/adblockloon.list
+            rules/adblockloonlite.list
+            rules/adblocksurge.list
+            rules/adblocksurgelite.list
+            rules/adblockmosdns.txt
+            rules/adblockmosdnslite.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 生成构建证明
+        id: attest
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: |
+            rules/adblockfilters.txt
+            rules/adblockfilterslite.txt
+            rules/adblockdns.txt
+            rules/adblockdnslite.txt
+            rules/adblockdnsmasq.txt
+            rules/adblockdnsmasqlite.txt
+            rules/adblocksmartdns.conf
+            rules/adblocksmartdnslite.conf
+            rules/adblockshadowrocket.sgmodule
+            rules/adblockshadowrocketlite.sgmodule
+            rules/adblockqx.conf
+            rules/adblockqxlite.conf
+            rules/adblockclash.list
+            rules/adblockclashlite.list
+            rules/adblockmihomo.yaml
+            rules/adblockmihomolite.yaml
+            rules/adblockmihomo.mrs
+            rules/adblockmihomolite.mrs
+            rules/adblockhosts.txt
+            rules/adblockhostslite.txt
+            rules/adblocksingbox.json
+            rules/adblocksingboxlite.json
+            rules/adblocksingbox.srs
+            rules/adblocksingboxlite.srs
+            rules/adblockloon.list
+            rules/adblockloonlite.list
+            rules/adblocksurge.list
+            rules/adblocksurgelite.list
+            rules/adblockmosdns.txt
+            rules/adblockmosdnslite.txt
+
+      - name: 上传证明到 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          files: ${{ steps.attest.outputs.bundle-path }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   Refresh_CDN:
     needs: [ Update_Filters ]
     runs-on: ubuntu-latest
@@ -68,7 +171,7 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v6
-      
+
       - name: Setup Python 3.14
         uses: actions/setup-python@v6
         with:
@@ -78,13 +181,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -U tld IPy dnspython httpx loguru
-      
+
       - name: Refsh CDN Cache
         run: |
           python refreshcdn.py
 
   Delete_Workflow_Runs:
-    needs: [ Refresh_CDN ]
+    needs: [ Refresh_CDN, Release_Filters ]
     runs-on: ubuntu-latest
 
     steps:
