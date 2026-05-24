@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260524174934
-! Last modified: 2026/05/24 17:49:34
-! Blocked Filters: 102726
+! Version: 20260525005421
+! Last modified: 2026/05/25 00:54:21
+! Blocked Filters: 102735
 !
 ###AC_ad
 ###AD_160
@@ -44277,6 +44277,8 @@ crypto.news##.a49292cf69626
 crypto.news##.b6470de94dc
 crypto.news##.rexas-presale
 crypto.news##.sponsored-button-group
+cryptobriefing.com##.ad-sticky-banner
+cryptobriefing.com##.na-item.item
 cryptocompare.com##.front-page-info-wrapper
 cryptocompare.com##.item-special
 cryptocompare.com##.title-hero
@@ -51075,6 +51077,12 @@ gamesmain.xyz,foodtechnos.in#%#//scriptlet('prevent-element-src-loading', 'scrip
 gamesmain.xyz,foodtechnos.in#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 gamesmain.xyz,foodtechnos.in#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
 gamesmarket.global##.MuiBox-root > .MuiBox-root:has(> .adSlot)
+gamesofdesire.com###chat
+gamesofdesire.com###maincol > div.game_box:has(> a[href="https://www.mnfclub.com"])
+gamesofdesire.com##[alt="banner"]
+gamesofdesire.com##[id^="skin_"]
+gamesofdesire.com##a#img_left
+gamesofdesire.com##a#img_right
 gamespot.com##.vjs-overlay-onceux-countdown-text
 gamespot.com##script.stub-leader
 gamespot.com##script.stub-mpu
@@ -68206,6 +68214,7 @@ ponselharian.com#%#//scriptlet('prevent-window-open')
 popart.hk###slideshow
 popbee.com##.adblocker
 popcornflix.com#%#//scriptlet('trusted-replace-fetch-response', '"adEnabled":true', '"adEnabled":false')
+popcornmovies.org#%#//scriptlet("json-prune", "*", "ppuClicks")
 popcorntv.it#%#//scriptlet('set-constant', 'adstarted', '5')
 popcorntv.it#%#//scriptlet('set-constant', 'wantedPreroll', '0')
 popcorntv.it#%#//scriptlet('set-constant', 'waterfallIndex', '11')
@@ -88069,7 +88078,6 @@ zzzyk.com###Tinfo
 ||btbtdy.*/templets/btdy/js/ad
 ||btbuluo.com/uploads/*.gif
 ||btc.com/v1/poster/production/explorer-banner.
-||btccasinoexpert.com^$popup
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.*/bal.js
 ||btdb.in/beacon.html
@@ -88863,7 +88871,6 @@ zzzyk.com###Tinfo
 ||cityspark.com^$third-party
 ||citytv.com/wp-json/rsm-adutil/$xmlhttprequest,redirect-rule=noopjson
 ||cityzen.io/Pixel/
-||civicscience.com/jot?
 ||civitai.com/api/page-view
 ||civitai.com/api/trpc/track.addView
 ||cj1*.online^
@@ -91344,6 +91351,9 @@ zzzyk.com###Tinfo
 ||games.ifeng.com^*.shtml?v=
 ||games.masque.com/util/crossPromo/crossPromo.php?id=
 ||gamesdeal.com/media/allkeyshop/banner/text.html
+||gamesofdesire.com/files/flash/*-side.swf
+||gamesofdesire.com/skin/*_*.html
+||gamesofdesire.com/vghd/
 ||gamesports.net/monkey_
 ||gamesrepacks.com/wp-content/plugins/deblocker/$important
 ||gamessumo.com/ima3.js$script,redirect=google-ima3
@@ -92390,7 +92400,6 @@ zzzyk.com###Tinfo
 ||hqtrk.com^$popup
 ||hqtube.xxx/api/pu/
 ||hqtube.xxx/tmp/
-||hrbpark.bid^$third-party
 ||hrjg.com.cn^$third-party
 ||hrtyh.com^$popup
 ||hs.cnfol.com/Cm/Imgs/Load.gif
@@ -96614,7 +96623,6 @@ zzzyk.com###Tinfo
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
 ||pexu.com^$popup
-||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pg.ignimgs.com/pogoadkit.js
 ||pg.totaaltv.nl/api/metrics
@@ -100920,6 +100928,7 @@ zzzyk.com###Tinfo
 ||users-api.com^$third-party
 ||userscript.zone/s.js
 ||usersonline.org/ping.php?
+||userstatics.com/get/script.js
 ||usertracks.live^$third-party
 ||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
