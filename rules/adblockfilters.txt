@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260525005421
-! Last modified: 2026/05/25 00:54:21
-! Blocked Filters: 102735
+! Version: 20260525103942
+! Last modified: 2026/05/25 10:39:42
+! Blocked Filters: 102737
 !
 ###AC_ad
 ###AD_160
@@ -49580,6 +49580,7 @@ followfollow.com##.structItemContainer-group > div[style*="text-align: center; w
 followfollow.com##div[id^="snack-incontent-"]
 followfollow.com,bluemoon-mcfc.co.uk##div[id^="snack_"]
 followfollow.com,downloadcrew.com,eurogamer.net,rockpapershotgun.com##.mpu
+followstalker.com##.sponsor-ad
 fomo.id#?#div.block > div > div > div.relative > div.cursor-pointer:has(> div.border > div > div.items-start p.text-primary-gray:contains(Sponsored))
 fonearena.com###text-523313999
 fonearena.com###text-523314007
@@ -60134,6 +60135,8 @@ loc8nearme.com##div[id^="google-ads"]
 local10.com##.ad-htl-slot
 local10.com##.box--top-wide
 local10.com##div:has(> h5 + form.formField)
+localgovernmentlawyer.co.uk###gk-mainbody-top
+localgovernmentlawyer.co.uk##.mod-banners
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 localking.com.tw###adbannerurl
 localnow.com#%#//scriptlet('json-prune', 'ads vmap ad_tag props.pageProps.config.localNow.advertising.*')
@@ -90258,7 +90261,6 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||eavesofefinegoldf.info^$popup
 ||eazydata.io^$third-party
