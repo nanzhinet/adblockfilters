@@ -49,11 +49,10 @@
 
 ## 上游规则源
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
-2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
-3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
-4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。
-5. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/nanzhinet/adblockfilters/issues/85)。
-6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)，误杀较多。
+2. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
+3. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。
+4. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原项目[已停止维护]。
+5. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)，误杀较多。
 
 | 规则 | 类型 | 原始链接 | 加速链接1 | 加速链接2 | 加速链接3 | 更新日期 |
 |:-|:-|:-|:-|:-|:-|:-|
@@ -74,7 +73,7 @@
 | OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/nanzhinet/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/OISD_Basic.txt) | 2026/05/26 |
 | StevenBlack hosts | host | [原始链接](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/nanzhinet/adblockfilters@main/rules/StevenBlack_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/StevenBlack_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/StevenBlack_hosts.txt) | 2026/05/24 |
 | Pollock hosts | host | [原始链接](https://someonewhocares.org/hosts/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/nanzhinet/adblockfilters@main/rules/Pollock_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/Pollock_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/Pollock_hosts.txt) | 2026/05/25 |
-| anti-AD | filter | [原始链接](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt) | |  | |  |
+| anti-AD | filter | [原始链接](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/nanzhinet/adblockfilters@main/rules/anti-AD.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/anti-AD.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/anti-AD.txt) | 2026/05/26 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=nanzhinet/adblockfilters&type=Date)](https://star-history.com/#nanzhinet/adblockfilters&Date)
