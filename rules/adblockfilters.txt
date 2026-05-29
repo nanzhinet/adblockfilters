@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260529023140
-! Last modified: 2026/05/29 02:31:40
-! Blocked Filters: 101088
+! Version: 20260529103051
+! Last modified: 2026/05/29 10:30:51
+! Blocked Filters: 101091
 !
 ###AC_ad
 ###AD_160
@@ -36314,6 +36314,7 @@ ah-me.com##div.DarkBg
 ah-me.com##div[id^="ts_ad_"]
 ah-me.com##div[style^="float: right;"][style*="width: 300px;"]
 ah-me.com,gaygo.tv,tranny.one##.flirt-block
+aha-music.com##.countdown-ad-wrap
 ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 ahaan.co.uk##.sticky-side-ad
 ahaan.co.uk#?#.MuiBox-root:has(> div[class*="-only"] > .adunitContainer)
@@ -37713,7 +37714,6 @@ apkmody.com##a[href*="ldplayer.net?n="][target="_blank"]
 apkmody.mobi###custom-container
 apkmody.mobi###flirtwith-modal
 apkmody.mobi##.body-fixed-footer
-apkmos.com##.td-header-sp-recs
 apkmos.com##div[class^="apkmo-"][style]
 apkpac.com##.layout-beyond-ads
 apkpure.*##.ad-box-auto
@@ -46798,7 +46798,6 @@ edm.com##.mai-ad-unit-container
 edm.com##.wp-block-group.has-alt-background-color:has(> .wp-block-group__inner-container > .mai-ad-unit-container)
 edm.com##.wp-block-group.has-alt-background-color:has(> .wp-block-group__inner-container > .mai-ad-video)
 edmtunes.com##div[id^="sticky-footer-div-gpt-ad-"]
-edmtunes.com,fixyourandroid.com,thewincentral.com##.td-g-rec
 edmunds.com###adhesion-container
 edmunds.com##.car-news-marquee
 edn.com###SideBarWrap
@@ -60629,6 +60628,7 @@ majorgeeks.com##.content > b > font[color="#00000f"] + a[rel="nofollow"]
 majorgeeks.com##.content > table.alford
 majorgeeks.com##.geekycolumn > b > font[color="#000000"]
 majorgeeks.com##.geekycolumn > b > font[color="#000000"] + a[rel="nofollow"]
+majorgeeks.com##.mg-giveaway-banner
 majorgeeks.com##[style*="background-color:"]:has(> a[href*="&utm_source"])
 majorgeeks.com##a[href*="/affiliate.php?"]
 majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
@@ -75061,6 +75061,8 @@ talenta.co#$#.pum-overlay { display: none !important; }
 talenta.co#$#html { overflow: auto !important; }
 talk.lowendspirit.com##ul[class$="banners"]
 talk.tv##div[class^="css-"]:has(> p:first-child + .ad-outline:last-child)
+talkbasket.net,apkmos.com##.td-header-sp-recs
+talkbasket.net,edmtunes.com,fixyourandroid.com,thewincentral.com##.td-g-rec
 talkbass.com###primary-products
 talkfx.co###frameff1Hu9_left
 talkfx.co##.slidebox
@@ -84337,6 +84339,8 @@ zzzyk.com###Tinfo
 ||241hs.com/js/jquery.js
 ||249999.xyz^*.gif
 ||24cmm.com:8888/js
+||24live.com/api/ads
+||24live.com/api/banners
 ||24log.*^
 ||24scor*.*/img/*background$image
 ||24scor*.*/img/branding
@@ -85195,7 +85199,6 @@ zzzyk.com###Tinfo
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
 ||affliate-api.hindustantimes.com^$xmlhttprequest
-||affonso.io^$third-party
 ||affportal.bhphoto.com^$domain=canonrumors.com|knowtechie.com
 ||affyun.com/wp-content/uploads/*-ad.
 ||affyun.com/wp-content/uploads/*/ad-
