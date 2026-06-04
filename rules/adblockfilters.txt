@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260604034357
-! Last modified: 2026/06/04 03:43:57
-! Blocked Filters: 100999
+! Version: 20260604105122
+! Last modified: 2026/06/04 10:51:22
+! Blocked Filters: 100987
 !
 ###AC_ad
 ###AD_160
@@ -29733,6 +29733,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
+@@||jsxx.gds.edu.cn^$genericblock
 @@||juduo.cc^$generichide
 @@||jumpmanclubbrasil.com.br^$generichide
 @@||justlightnovels.com^$generichide
@@ -34195,7 +34196,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||travel.mediaalpha.com/js/serve.js$domain=goseek.com
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 @@||tremormedia.com/crossdomain.xml
-@@||trenddify.com^$generichide
 @@||trib.com^$generichide
 @@||trinitymedia.ai/player/$stealth=referrer
 @@||trip-jam.com/resources/js/adsense.js
@@ -35597,7 +35597,7 @@ adikdrive.my.id#%#//scriptlet("set-constant", "window.adikAds", "true")
 adikdrive.my.id#%#//scriptlet("set-constant", "window.adikAdsTest", "true")
 adikdrive.my.id#%#//scriptlet("set-constant", "window.isAdBlockActive", "false")
 adinserter.pro#@##banner-advert-container
-adisteme.kz,adobevn.net,applosungen.com,awamiweb.com,besthealthyguide.com,bhookedcrochet.com,biochemden.com,bloggingden.com,carapraktis.info,caratulasparacuadernos.com,catchmyjobs.com,ccna6.com,ccnav6.com,circuiteasy.com,dayoadetiloye.com,detutorial.com,diedit.com,dollsnews.com,duniaq.com,espiaresgratis.com,gamingguidetips.com,geekpeaksoftware.com,gennarino.org,healthspiritbody.com,hightechbuzz.net,inmigrantesenmadrid.com,laivanduc.com,langsungviral.com,learn-automation.com,lifeblogid.com,liriklaguindonesia.net,masterdrivers.com,mobilehardreset.com,mobilesreview.co.in,mypapercraft.net,mysemakan.com,nicecarsinfo.com,ofertasahora.com,orduh.com,organichealthcorner.com,ovnihoje.com,parhaye.com,prdnews.com,quoteacademy.com,ricasaude.com,rwaag.org,satgobmx.com,shoemoney.com,smartphonehrvatska.com,soltvperu.com,ssante.com,sumberpendidikan.com,supportcanon.com,tatuajestatu.com,topnaturaltips.com,topwebsitelists.com,trenddify.com,tutorialescomo.com,ultra4kporn.com,vegrecetas.com,vidabytes.com,wikigain.com,wisdomquotesandstories.com,yoemigro.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
+adisteme.kz,adobevn.net,applosungen.com,awamiweb.com,besthealthyguide.com,bhookedcrochet.com,biochemden.com,bloggingden.com,carapraktis.info,catchmyjobs.com,ccna6.com,ccnav6.com,circuiteasy.com,dayoadetiloye.com,detutorial.com,diedit.com,dollsnews.com,duniaq.com,espiaresgratis.com,gamingguidetips.com,geekpeaksoftware.com,gennarino.org,healthspiritbody.com,hightechbuzz.net,inmigrantesenmadrid.com,laivanduc.com,langsungviral.com,learn-automation.com,lifeblogid.com,liriklaguindonesia.net,masterdrivers.com,mobilehardreset.com,mobilesreview.co.in,mypapercraft.net,mysemakan.com,nicecarsinfo.com,ofertasahora.com,orduh.com,organichealthcorner.com,ovnihoje.com,parhaye.com,prdnews.com,quoteacademy.com,ricasaude.com,rwaag.org,satgobmx.com,shoemoney.com,smartphonehrvatska.com,soltvperu.com,ssante.com,sumberpendidikan.com,supportcanon.com,tatuajestatu.com,topnaturaltips.com,topwebsitelists.com,tutorialescomo.com,ultra4kporn.com,vegrecetas.com,vidabytes.com,wikigain.com,wisdomquotesandstories.com,yoemigro.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 adjaranet.com##.hedgehog-overlay-gg
 adjaranet.com##a[href^="https://open5.myvideo.ge/delivery/ck.php?"]
 adjaranet.com##div[class^="sc-"][width="980"][height="150"]:empty
@@ -46800,7 +46800,6 @@ embedgram.com#%#//scriptlet("prevent-window-open")
 embedplayer.site###adangle-overlay
 embedplayer.xyz#%#//scriptlet('prevent-window-open', 'pagerrentablespotlight.com')
 embedplayer.xyz#%#//scriptlet('trusted-replace-argument', 'Document.prototype.querySelector', '0', 'body', 'ads-direct-link')
-embedrb.com#$?##extra { remove: true; }
 embedrise.com#%#//scriptlet('prevent-window-open')
 embedrise.com,mangoporn.net,mangoporn.co,xxxmoviestream.xyz,watchpornfree.info,streamporn.pw###overlays
 embedseek.online#%#//scriptlet('prevent-addEventListener', 'click', 'popunder')
@@ -66607,9 +66606,6 @@ phimgi.tv#%#//scriptlet('prevent-window-open')
 phimgiz.net#%#//scriptlet("set-constant", "open", "noopFunc")
 phimhotjav.com##.social
 phimlongtieng.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-phimmoizz.org###quangcao
-phimmoizz.org##.ad-container
-phimmoizz.org##div[id^="catfish"]
 phimnhe.net###pc-ballon-left
 phimnhe.net###pc-catfix
 phimnhe.net#%#//scriptlet("abort-current-inline-script", "createCookie", "popurl")
@@ -78336,10 +78332,6 @@ tvhay.*##.banner-ads
 tvhay.*#$#body > #wrapper + center { height: 2px !important; }
 tvhay.org##.ad_location
 tvhay.org##.float-ck
-tvhayz.top###ads-preload
-tvhayz.top###demo
-tvhayz.top##.float-ck-center-lt
-tvhayz.top#%#//scriptlet("prevent-setTimeout", "myGreeting")
 tvline.com##._video_ti56x_1
 tvline.com##.pluto-tv-wrapper
 tvline.com##div[data-component="featured-media"]
@@ -88918,7 +88910,6 @@ zzzyk.com###Tinfo
 ||easypic.com/js/easypicads.js
 ||easyporn.xxx/tmp/
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -93364,7 +93355,6 @@ zzzyk.com###Tinfo
 ||manhuascan.com^*/popads.js
 ||manhwa18.cc/*_*.php
 ||manhwa18.cc/main2023/
-||manhwascan.net/my2023/my2023
 ||manifest.*.theplatform.com/*/*.m3u8?*referer=$replace=/(#EXTINF:.*\n.*tvessaiprod\.nbcuni\.com\/video\/[\s\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\n.*nbcuadops-vh.akamaihd.net\/i\/ads\/.*\n)//,domain=player.theplatform.com,important
 ||manifest.*.theplatform.com/*/*.meta*referer=$replace=/#EXT-X-VMAP-AD-BREAK[\s\S]*?#EXT-X-ENDLIST/#EXT-X-ENDLIST/,domain=player.theplatform.com,important
 ||manifest.theplatform.com/*/*.m3u8?$replace=/(#EXTINF:.*\n.*tvessaiprod\.nbcuni\.com\/video\/[\s\S]*?#EXT-X-DISCONTINUITY|#EXTINF:.*\n.*nbcuadops-vh.akamaihd.net\/i\/ads\/.*\n)//,important
@@ -95125,8 +95115,6 @@ zzzyk.com###Tinfo
 ||phenotypebest.com^$popup
 ||phimlongtieng.net/*.mp4
 ||phimmoisz.org/wp-content/uploads/tvc/*.xml
-||phimmoizz.org/storage/files/img/*.gif
-||phimmoizz.org/storage/files/system/*.gif
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
 ||phoenixnewtimes.com/phoenix/xandr/apnads.js
