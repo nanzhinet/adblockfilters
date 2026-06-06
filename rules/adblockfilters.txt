@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260606014915
-! Last modified: 2026/06/06 01:49:15
-! Blocked Filters: 101865
+! Version: 20260606102651
+! Last modified: 2026/06/06 10:26:51
+! Blocked Filters: 101867
 !
 ###AC_ad
 ###AD_160
@@ -41598,6 +41598,7 @@ caminspector.net##body > .footer ~ div[style*="background-color: rgb(0"][style*=
 caminspector.net#?#.container > .headline:has(> h2:contains(Web Girls - Online Now!))
 caminspector.net,cambabe.me,camwhores.tv##.tdn
 campaignlive.com##.optanon-category-3
+campbellrivermirror.com,magnoliastatelive.com##.one_by_one_group
 camporn.is###overlayMod
 camporn.is###sliderBox
 camseek.tv##.navigation > ul.primary > li > a:not([href^="http://camseek.tv/"])
@@ -44859,7 +44860,7 @@ dajie.com##.register_layer
 dalipan.com##.hongbao-wrap
 dallasinnovates.com##.ads-article-body
 dallasinnovates.com##.sponsor-footer
-dallasinnovates.com,fingerlakes1.com,thecoastnews.com,watchesbysjx.com##.gofollow
+dallasinnovates.com,fingerlakes1.com,namibian.com.na,thecoastnews.com,watchesbysjx.com##.gofollow
 dallasnews.com##.hdr-ad
 dallasnews.com##.hm-rundown__ad
 dallasnews.com##.main-content > .art-footer-band.js-art-post-body
@@ -47907,6 +47908,7 @@ euronews.com#@##connatix-container
 euronews.com#@#.cnx-player-wrapper
 euronews.com#@#.connatix-container
 euronews.com#@#[data-ad-name]
+euronews.com,globalnews.ca,stuff.tv##.c-ad
 europaplus.ru#@#img[width="240px"][height="400px"]
 european-alternatives.eu##[data-banner-key]
 europeangaming.eu###mvp-leader-wrap > a[href^="https://www.softswiss.com/"]
@@ -51979,7 +51981,6 @@ globalnews.ca##.l-headerAd
 globalnews.ca##body div.c-ad
 globalnews.ca##div[data-watch-onload^="gpt-a"]
 globalnews.ca#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
-globalnews.ca,stuff.tv##.c-ad
 globalpublishers.co.tz###custom_html-40
 globalpublishers.co.tz##.adcontainer
 globalpublishers.co.tz##.widget_custom_html a[href="#"]
@@ -60676,7 +60677,6 @@ magma.com##.partnership-content-controls > button
 magma.com##.partnership-content-wrapper
 magma.com##partnership-content
 magnetdl.uproxy.to##a[href="/b/?/site/vpn/"]
-magnoliastatelive.com##.one_by_one_group
 magro.hu##.banner_leaderboard
 maguays.cc##.animate-bounce-up
 magyarepitok.hu##.ad.row
@@ -61222,6 +61222,7 @@ mashable.com##.exco
 mashable.com##.top-0.sticky > div
 mashable.com##.ziff-video-container
 mashable.com##[data-pogo="top"]
+mashable.com##[data-seamless-ad]
 mashable.com##aside[data-seamless-ad]
 mashable.com##div[data-pogo]
 mashable.com##section.mt-4 > div
@@ -63080,6 +63081,7 @@ msn.com##.drrTopAdWrapper
 msn.com##.eocb-ads
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
+msn.com##.gem-display-ad-wrapper
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
 msn.com##.me-stripe-tile-content:has(a[href*="?"] .me-stripe-title-subtitle)
@@ -63918,6 +63920,7 @@ namify.tech##.suggestion-rows .suggestion__namify-partner
 namify.tech##[class*="gtm-banner-"]
 nana2play.com#%#//scriptlet("set-constant", "link_ads", "emptyObj")
 nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw#%#//scriptlet('abort-on-property-write', '__PROXY_META')
 nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw#%#//scriptlet('abort-on-property-write', '__ad_unblock_id_obfuscation')
 nanamovies.*##a[target="_blank"] > img
 nanamovies.me##.yan-rek
@@ -86346,7 +86349,6 @@ zzzyk.com###Tinfo
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
 ||anluyg.net/static/js/channel*.js
-||annihilativefaltermillion.com^$popup
 ||annual-gamers-choice.com^$popup
 ||anoneko.com^*.*?$image
 ||anonyviet.com/wp-content/uploads/2017/02/LienHeQuangCao.png
@@ -88945,7 +88947,6 @@ zzzyk.com###Tinfo
 ||crunchbase.com/rw7M6iAV/init.js
 ||crunchyroll.com/awidget/
 ||crunchyroll.com/tracker?
-||cruzswim.org^$popup
 ||crxs.me/service/assets/core-state.
 ||crypto-fire.website/mine/partner/$third-party
 ||cryptofans.news/frame/OfferPack?
@@ -93355,11 +93356,12 @@ zzzyk.com###Tinfo
 ||kisscartoon.*/api/pop*.php
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
+||kit.com/posts/visit
+||kit.com/ui/reporting_event
 ||kitco.com/jscripts/popunders/
 ||kitguru.net/wp-content/uploads/*-Takeover-*.jpg
 ||kitz.co.uk/files/jump2/
 ||kiva.org/r3pNVz1F/init.js
-||kiwari.com^*/impressions.asp?
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwisizing.com/api/log
 ||kk-resources.com/ks.js
