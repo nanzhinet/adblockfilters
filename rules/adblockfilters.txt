@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260607010241
-! Last modified: 2026/06/07 01:02:41
-! Blocked Filters: 101353
+! Version: 20260607104415
+! Last modified: 2026/06/07 10:44:15
+! Blocked Filters: 101361
 !
 ###AC_ad
 ###AD_160
@@ -15179,6 +15179,7 @@
 ##div[id][style$="width:336px; max-width:100%; min-height:250px; background-color:transparent;"]
 ##div[id][style="border: 0pt; width:    970px; height:    90px;"]
 ##div[id][style="max-height: 180px; text-align: center; margin: 0px auto; display: block;"]
+##div[id][style="width:   100%;height:   280px;overflow:hidden"]
 ##div[id][style^="min-width: 300px; min-height: 250px"]
 ##div[id][style^="width:    3"][style*="height:    1"]
 ##div[id^="M"][id*="Composite"]
@@ -16000,7 +16001,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .com/dongcidaci/
 .com/ed/java.js$script
 .com/exload.js
-.com/f_lo.js|$script,~third-party
 .com/g.gif?
 .com/gg.js
 .com/gg/*?x=$script,third-party
@@ -18961,7 +18961,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /flashad.asp$subdocument
 /flashad.js$script
 /flipptag.js
-/flo.js|
 /floa.js$domain=ah-me.com|beeg.com|croea.com|imagetwist.com|kporno.com|picshick.com|picturelol.com|porntube.com
 /float_ad.js$script
 /float_r.js
@@ -37502,6 +37501,7 @@ animezone.pl#$#.myTestAd { display: block!important; height: 1px!important; }
 animezone.pl#$?#.category-description > #episode > .embed-container:has(> a[href][target="_blank"].link-play) { padding-bottom: 0!important; }
 animezone.pl#@#.myTestAd
 aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
+aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
 aniporn.com###in_v
 aniporn.com###und_ban
 aniporn.com##.btn-close
@@ -44512,6 +44512,7 @@ cww.net.cn##.ggbar
 cwyuni.tw###banner > h2
 cwyuni.tw###box34614 > [class^="box-"]
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box1026387):not(#box34614)
+cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 cyberciti.biz##.amp-wp-4ed0dd1
 cyberciti.biz##.entry-content > center > div[style="border: 1px solid #e9ecef; border-radius: 3px; padding: 3px; color: #999999;"]
 cyberciti.biz##div[class^="tips_"][class*="_slot_"]
@@ -45290,6 +45291,7 @@ designtaxi.com##[id^="in-news-link-"]
 designtaxi.com##a.a-click[target="_blank"]
 designwizard.com##.blog-footer
 designyourway.net##.reclamaint
+desihoes.com###topRightBanner
 desimartini.com##.bor_bot > div[style="background-color: #f5f5f5; min-height: 110px; padding: 10px 0 10px 0;"]:empty
 desipapa.tv##.video-tb > .video-col
 desiporn.one,gay0day.com,thetranny.com,xlilith.com##.block-video > .table:has(> div[id][style^="height:"] > iframe.na)
@@ -64201,7 +64203,10 @@ nczsks.com###downyxjs
 nczsks.com###rightyxjs
 nczsks.com###wzyxjs
 ndtv.com###ad100
+ndtv.com###header-ad-slot
 ndtv.com###newsDescriptionContainer > div[style="box-sizing: border-box;float: left;margin: 20px 0;width: 100%;"]
+ndtv.com###right-ad-slot
+ndtv.com##.CustomAdWidget-module-scss-module__xgZgtW__ads-wrp
 ndtv.com##.TpGnAd_ad-cn
 ndtv.com##.TpGnAd_ad-tx
 ndtv.com##.TpGnAd_ad-wr
@@ -64229,6 +64234,7 @@ ndtv.com##.mx-spon
 ndtv.com##.nd-ad
 ndtv.com##.newins_widget > div[id][data-wdgt][class^="__pcwgt"]
 ndtv.com##.section:has(> div[data-ndsp-widget="sponsors"])
+ndtv.com##.taboola-slot
 ndtv.com##[class^="ads_"]
 ndtv.com##div:has(> [id^="adslot"])
 ndtv.com##div[class^="add_"]
@@ -86625,6 +86631,7 @@ zzzyk.com###Tinfo
 ||api.taboola.com^$app=Mahjong.exe|Solitaire.exe|Microsoft.Msn.News.exe
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.takealot.com^$ping
+||api.tblcontent.com*/log/
 ||api.thefantazy.com/web-vitals
 ||api.tin.network/banners/
 ||api.tinypass.com^$domain=dallasnews.com
@@ -94859,6 +94866,7 @@ zzzyk.com###Tinfo
 ||nczsks.com/SCWB/WebResource.axd
 ||ndcomemunica.com^$popup
 ||ndmais.com.br/tracking-parceiros-ndmais/
+||ndtv.in/estatic/hindi-fcm.js
 ||neatorama.com/story/view/
 ||neeceeglogu.net^$popup
 ||needgayporn.com/fancyAds^
