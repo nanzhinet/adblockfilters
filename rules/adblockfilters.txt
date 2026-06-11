@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260611200449
-! Last modified: 2026/06/11 20:04:49
-! Blocked Filters: 101858
+! Version: 20260612024242
+! Last modified: 2026/06/12 02:42:42
+! Blocked Filters: 101870
 !
 ###AC_ad
 ###AD_160
@@ -33112,6 +33112,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||satoshiquiz.com^$generichide
 @@||satoshitap.com/assets/ads-
 @@||savegame.pro^$generichide
+@@||sazwe.com^$generichide
 @@||sberbank.com^$stealth=donottrack
 @@||sberbank.ru^$stealth=ip
 @@||sbm.org.tr^$stealth=dpi
@@ -50817,6 +50818,7 @@ gamenora.com##.widget-sidebar > .kare
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
 gamepadla.com##.pMain:has(div[class^="asd_"])
+gamepadla.com##.pMain:has(div[title="Partner placement"])
 gamepadla.com#?#.sliderBlock:contains(ADS)
 gamepadla.com#?#.sliderBlock:has-text(ADS)
 gamepedia.com##body div#content > div#atflb
@@ -59589,7 +59591,6 @@ link.paid4link.com#%#//scriptlet('remove-class', 'get-link', 'a.get-link[target=
 link.snipcash.com#%#//scriptlet('prevent-addEventListener', 'click', 'openOnce')
 link.snipcash.com#%#//scriptlet('remove-node-text', 'script', 'urlPC')
 link.snipcash.com$$script:contains(urlPC)
-link.snipcash.com,paymoney.click,tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 link.technics-goods.info,mysafe.stisda.ac.id##.text-center > h3
 link.vipurl.in,bhram.hydtech.in##.adb
 link1s.*###baolink1s
@@ -61155,7 +61156,6 @@ mashable.com##div[data-pogo]
 mashable.com##section.mt-4 > div
 mashable.com##section.mt-4:has(> div[data-pogo])
 mashable.com#$#.warmgray:has(> .zad) { padding: 0 !important; }
-mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
 maskinbladet.dk##.openx-iframe-wrapper
 maskinbladet.dk#%#//scriptlet("prevent-setTimeout", "/doCheck\(.,.\)/")
 masok.cn###bottomLayer
@@ -65681,6 +65681,10 @@ oilprice.com##.banner--inPage
 oilprice.com##.dianomi_context
 oisd.nl###adgb
 ojaivalleynews.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ad-text.adSense.adBlock.adContent.adBanner { display: block !important; }
+ok.co.uk##div[class*="BoxStyles_commercial__"]
+ok.co.uk##div[data-testid="commercial-label-gpt"]
+ok.co.uk##div[data-tmdatatrack-type="commercial"]
+ok.co.uk#$#header[class^="Header_header__"] { top: 0 !important; }
 ok.co.uk,express.co.uk###ovp-primis
 ok.porn,ok.xxx,pornhat.com##.bns-bl
 ok.porn,okxxx3.com,okxxx2.com,okxxx1.com,ok.xxx,perfektdamen.*,perfectgirls.*##.video-link:has(> b > a[href][rel="sponsored"])
@@ -65700,6 +65704,7 @@ oklikshare.com###prplads01
 oklivetv.com##.box
 oklivetv.com#%#//scriptlet('abort-current-inline-script', 'String.fromCharCode', 'motionAd')
 okmagazine.com##article > div[class^="sc-"]:has(> div[class*="lngtd"])
+okmagazine.com##div[class^="sc-"]:has(> div.lngtd_dynamic_leaderboard)
 okmagazine.com##div[data-field="ad"]
 okmagazine.com##div[style="font-size:x-small;text-align:center"]
 okmagazine.com#?##Paginator > div[class]:has(> .ad-title)
@@ -67954,6 +67959,7 @@ point2homes.com##.saved-search-banner-list
 point2homes.com,propertyshark.com###fixedban
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
+pokde.net##.ai-dynamic > a[href^="https://my.asus.click/"]
 pokebattler.com##.curse-ad
 pokeflix.tv###pokepoppinSquare
 pokeflix.tv##.container > .row> .col-md-4:has(> center > center > .adsbygoogle)
@@ -71638,6 +71644,8 @@ savevideo.tube#%#//scriptlet("prevent-window-open")
 savingcountrymusic.com###top-goog
 savvytime.com##.converter-ad
 sawlive.tv###sawdiv
+sazwe.com#%#//scriptlet('prevent-setTimeout', 'nextFunction')
+sazwe.com,link.snipcash.com,paymoney.click,tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 sb.by##a[class^="brand-link-"]
 sbazar.cz#%#//scriptlet("set-constant", "sssp", "emptyObj")
 sbenny.com##.btnDownload5
@@ -73838,6 +73846,7 @@ sonycrackle.com#$#.cracklePlayer > div > div { display: block!important; }
 sonyliv.com$$meta[name="referrer"][content="never"]
 soompi.com###ad-med-rect
 soompi.com##.article-wrapper div > p > a[target="_blank"] > img
+soonersports.com###headerAdWrapper
 soopage.com###main > .row > div:has(> .box > .ads)
 soopat.com###SoopatAside
 soranews24.com###aw0[on="tap:exit-api.exit(target='landingPage',_googClickLocation='2')"]
@@ -83187,6 +83196,7 @@ xpornotubes.com,dildoxxxtube.com,oxotube.com###ubr
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 xprime4u.*,movies4u.*##.onclick-input
 xprime4u.lat##body > div.main-content-parent + div[class*=" "][id]
+xpxp.eu,mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
 xranks.com#%#//scriptlet('prevent-element-src-loading', 'script', 'm2d.m2.ai')
 xrares.com###nuevoa
 xrares.com##.absd-body
@@ -84734,6 +84744,7 @@ zzzyk.com###Tinfo
 ||1024wanzhai.
 ||1024wanzhai.$popup,third-party
 ||102tv.cn/js/main.js
+||103.179.189.35^$network
 ||104.com.tw/log/
 ||1069jp.com/js/script_
 ||107.167.16.*.gif
@@ -88870,6 +88881,7 @@ zzzyk.com###Tinfo
 ||crjugate.com^$popup
 ||crm-vwg.com/tracker/
 ||crn.com.au/scripts/js_$script
+||crn.com/scripts/delayed.js
 ||croconet.ge/*/assets/data/banners_data.js
 ||croconet.ge/ads-crocobet/
 ||crocotube.com/pop/
@@ -91058,6 +91070,7 @@ zzzyk.com###Tinfo
 ||golem.de/staticrl/scripts/external/snow-390-min.js
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||golengmen.com/assets/publish/
+||goloot.io^$domain=usnews.com
 ||gome.com.cn/flight?
 ||gomo.cc^$popup
 ||gonews*.net^
@@ -93149,7 +93162,6 @@ zzzyk.com###Tinfo
 ||jumboporn.xyz/t63fd79f7055.js
 ||juno.com/start/javascript.do?message=
 ||juqingw.com/js/tad
-||justanswer.com/jatag/
 ||justdial.com/jd-trkr
 ||justfullporn.net/a554739c4f.php
 ||justjared.com/index_revive.php
