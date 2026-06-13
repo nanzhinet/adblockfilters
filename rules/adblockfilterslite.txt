@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260613020052
-! Last modified: 2026/06/13 02:00:52
-! Blocked Filters: 42696
+! Version: 20260613103656
+! Last modified: 2026/06/13 10:36:56
+! Blocked Filters: 42694
 !
 ###AC_ad
 ###AD_160
@@ -13299,7 +13299,6 @@
 ##.sponsored-ad-label
 ##.sponsored-add
 ##.sponsored-ads
-##.sponsored-article
 ##.sponsored-article-item
 ##.sponsored-article-widget
 ##.sponsored-block
@@ -42184,7 +42183,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tracking-*.trnox.com^
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
-||tracking.cds.dmm.
 ||tracking.geo.*.amazonaws.com^
 ||tracking.olx.
 ||transfermarkt.com.tr^$replace=/<tm-consent[\s\S]*?<\/tm-consent>(<!DOCTYPE html>)/\$1/,document
