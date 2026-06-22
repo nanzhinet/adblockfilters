@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260622212909
-! Last modified: 2026/06/22 21:29:09
-! Blocked Filters: 101908
+! Version: 20260623032004
+! Last modified: 2026/06/23 03:20:04
+! Blocked Filters: 101926
 !
 ###AC_ad
 ###AD_160
@@ -38401,6 +38401,9 @@ ashemaletube.com##.navmenu > li:has(> a[rel="sponsored"])
 ashemaletube.com##.side-content-block
 ashemaletube.com##.vast-overlay
 ashemaletube.com##.vidItem > div[class*="advi"]
+ashemaletube.com##a.q1-line
+ashemaletube.com##ul.detail-info-links > li:has(> .ads-stripchat-link)
+ashemaletube.com##ul.navmenu > li:has(> a[target="_blank"]:not([class]))
 ashemaletube.com#$##site { min-width: calc(100%)!important; max-width: calc(100%)!important; }
 ashemaletube.com#$##site-wrapper { min-height: calc(100%)!important; }
 ashemaletube.com#$##site-wrapper { padding-top: 0!important; }
@@ -46405,6 +46408,8 @@ douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
 douguo.com###dlayer
 douguo.com##.mbs
+doujin-y.com##.sticky-close
+doujin-y.com##div.center_doujiny
 doujinblog.org##.wppopups-whole
 doujindesu.tv#?#center:has(> a[target="_blank"] > img)
 doulci.net#@##adlabel
@@ -60691,9 +60696,13 @@ luchaonline.com,onworks.net,unitystr.com,azrotv.com,uptoplay.net#%#//scriptlet('
 lucianne.com##table[width="180"][height="630"]
 lucianne.com##table[width="300"][height="290"]
 lucianne.com##table[width="728"][height="119"]
+luciferdonghua.in###afu-ab
+luciferdonghua.in###sidebar > .widget_text:has(> .custom-html-widget > div[style^="width:350px"])
+luciferdonghua.in##.afu-banner
 luciferdonghua.in##.announ
 luciferdonghua.in##div[style="position:absolute;z-index:200;width:100%;height:100%;background:rgba(0,0,0,0.7);"]
 luciferdonghua.in##div[style="width: 100%;text-align: center;display: scroll;position:fixed;bottom: 0;margin: 0 auto;z-index: 103;"]
+luciferdonghua.in#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'afu')
 luciferdonghua.in#?##sidebar > div.widget_text:has(> div.releases > h3:contains(Main Ad))
 luckyvaper.com##a[href*="&utm_medium=banner"] > img
 ludicer.it#%#//scriptlet("prevent-setTimeout", "document.body.innerHTML")
@@ -65101,6 +65110,8 @@ newsbomb.gr##.textlinks > div.textlink > a[rel="nofollow noopener"]
 newsbreak.com##div[style*="position:relative;width:100%;height:0;padding-bottom:"]
 newsbreak.gr##.gAdCentered
 newscaststudio.com##.top-bar div.iframe-post
+newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
+newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_ad)
 newscientist.com##.Outbrain
 newscon.org##.adblock-warning
 newsday.com##.fullBanner
@@ -66379,6 +66390,7 @@ on.cc##.appinstall
 on3.com##.adhesionAd
 on3.com##.desktopAdhesion
 on3.com##div[class^="ArticleWrapper_promo"]
+on3.com##div[class^="ExcoPlayer_container__"]
 on3.com##div[class^="MobileMPU_ad"]
 on4t.com#$##adblockModal { display: none !important; }
 on4t.com#$#body { overflow: auto !important; }
@@ -83452,7 +83464,9 @@ wykop.pl##section[class]:has(> .wrapper > img:first-child + a[target="_blank"]:l
 wykop.pl#%#(()=>{const t={apply:(t,e,r)=>{const o=r[0]&&"href"===r[0],n=r[1];if(e&&e instanceof HTMLAnchorElement&&o&&n&&n.includes?.("https://wykop.pl/api/v3/ads/redirect?data="))try{const t=new URL(n).searchParams.get("data"),e=atob(t),o=JSON.parse(e),p=decodeURIComponent(o.target_url);(t=>{let e;try{e=new URL(t)}catch(t){return!1}return"http:"===e.protocol||"https:"===e.protocol})(p)&&(r[1]=p)}catch(o){return Reflect.apply(t,e,r)}return Reflect.apply(t,e,r)}};window.Element.prototype.setAttribute=new Proxy(window.Element.prototype.setAttribute,t)})();
 wykop.pl#%#//scriptlet('json-prune', '*', '*.target.[=]./ad\.doubleclick\.net/')
 wykop.pl#%#//scriptlet('json-prune', '*', 'data.prot.[=].true')
+wykop.pl#%#//scriptlet('prevent-setTimeout', '/setBlockAlert|getBoundingClientRect\(\)\.height<|config\/setIsAB/')
 wykop.pl#%#//scriptlet('remove-class', 'screening', 'body.screening')
+wykop.pl#%#//scriptlet('trusted-replace-argument', 'Array.from', '0', 'replace:/.*\/dn\/ads\?.*//g', '/dn/ads?')
 wykop.pl#%#//scriptlet('trusted-replace-argument', 'TextEncoder.prototype.encode', '0', 'replace:/.*\/dn\/ads\?.*//g', '/dn/ads?')
 wykop.pl#?##itemsStream > .link:has(a[href^="http://www.wykop.pl/reklama"])
 wykop.pl#?#.main .content [layout="default-layout"] *:matches-css(before, content: /^​r‍﻿‌e﻿k‌‌‍﻿l​am‍‌a​$/) a[target="_blank"]:only-child > img
@@ -88916,6 +88930,7 @@ zzzyk.com###Tinfo
 ||cdn3x.com/xxxdan/js/xxxdan.vast.
 ||cdn77.ashemaletube.com/ast/*/bg-b.jpg
 ||cdn77.ashemaletube.com/ast/*/h.jpg
+||cdn77.ashemaletube.com/ast/www/js-v*.min.js?url=
 ||cdn77.org^$domain=pricebefore.com
 ||cdn77.org^*.mp4$badfilter
 ||cdn77.org^*.mp4|
@@ -90213,6 +90228,7 @@ zzzyk.com###Tinfo
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
 ||douguo.net/upload/post/d/
+||doujin-y.com/wp-content/uploads/*.gif$image
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
 ||douyin.com/api/user/getPcBanner?
@@ -94471,6 +94487,7 @@ zzzyk.com###Tinfo
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||ltwebstatic.com^*/libs/sensors/
 ||lucida.su/api/event
+||luciferdonghua.in/*.html$subdocument,~third-party
 ||ludicer.it/template/checkP.js
 ||lunhua5.com/images/more.gif
 ||luogu.me/static/anti_block.json
@@ -97796,6 +97813,7 @@ zzzyk.com###Tinfo
 ||script.hentaicdn.com/cdn/*assets/js/Feinee
 ||script.hentaicdn.com/cdn/v*.assets/js/NATORI.
 ||script.mixi.net/static/js/build/mixi-analysis-.production.js
+||scriptcat.org/api/*/advertise?
 ||scripts.dailymail.co.uk/static/mol-adverts/*.css
 ||scripts.postie.com/otcteung/lp.1.js
 ||scripts.swifteq.com/hc_events.js
