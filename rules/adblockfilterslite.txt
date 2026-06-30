@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260630020455
-! Last modified: 2026/06/30 02:04:55
-! Blocked Filters: 42748
+! Version: 20260630103548
+! Last modified: 2026/06/30 10:35:48
+! Blocked Filters: 42749
 !
 ###AC_ad
 ###AD_160
@@ -28190,6 +28190,7 @@ blackedraw.com,blacked.com#$#header { top: 0px !important; }
 blanktext.co,cruisecritic.com,finbold.com,gizmodo.com,kotaku.com,op.gg,outsideonline.com,radio.net##.min-h-\[250px\]
 bleacherreport.com,coles.com.au##[data-testid="ad"]
 bleachmyeyes.com,kojka.com##.spot-box
+bleachmyeyes.com,watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
 bleedingcool.com,heatmap.news,jamaicaobserver.com###bottom_leaderboard
 blenderartists.org,stonetoss.com###friends
 blisseyhusband.in,freecoursesite.com,novelmultiverse.com#%#//scriptlet("abort-current-inline-script", "decodeURIComponent", "String.fromCharCode")
