@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260706005832
-! Last modified: 2026/07/06 00:58:32
-! Blocked Filters: 102136
+! Version: 20260706102440
+! Last modified: 2026/07/06 10:24:40
+! Blocked Filters: 102138
 !
 ###AC_ad
 ###AD_160
@@ -30129,7 +30129,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||intelcorporationproductione*.org.coveo.com/rest/search/$stealth=3p-auth
 @@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||interfans.org^$generichide
-@@||inven.co.kr/sitebuilder/common/?mode=leftmenu$xmlhttprequest,elemhide,jsinject,extension
 @@||inven.co.kr^$stealth=dpi
 @@||inven.co.kr^$stealth=ip
 @@||inven.com^$stealth=dpi
@@ -70291,6 +70290,7 @@ quackr.io#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 quackr.io#%#window.adsbygoogle = { loaded: !0 };
 quadraphonicquad.com##.adthrive-placeholder-header
 quadraphonicquad.com##.adthrive-placeholder-static-sidebar
+quantpedia.com,wakingtimes.com,ymcinema.com###media_image-2
 quantrimang.com###adsposttop
 quantrimang.com##.adbox
 quark.cn##.ad-wolong-container
@@ -81522,7 +81522,6 @@ waitrose.com##article[data-product-pod-type="sponsored"]
 waitrose.com##div[data-analytics-component-type="internal-promotion"]
 wakefieldexpress.co.uk#?#div[class] > section:has(> div.slab > div.slab__inner > div.dy-editorial-wow)
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
-wakingtimes.com,ymcinema.com###media_image-2
 walbrzyszek.com##.kontener-reklam
 walgreens.com###prod-sponsored
 walgreens.com###searchSponsoredProductContainer
@@ -81547,6 +81546,7 @@ walla.co.il#@%#//scriptlet('ubo-acis.js', 'btoa', 'upManager')
 walla.co.il#@%#//scriptlet('ubo-aopw.js', 'upManager')
 walla.co.il$$script[wildcard="*<=0x0||*new Uint8Array*"][min-length="50000"][max-length="150000"]
 wallapop.com##[class^="search-page_SearchPage__"][class*="Sky__"]
+wallethacks.com###custom_html-18
 walletinvestor.com##.sticky-footer-content
 walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
 wallgif.com###ad_modal
@@ -100756,6 +100756,8 @@ zzzyk.com###Tinfo
 ||walla.co.il/js/walla.js
 ||walla.co.il/p.php
 ||walla.co.il/stats/
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
