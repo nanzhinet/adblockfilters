@@ -2,8 +2,8 @@
 #!desc=每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 #!homepage=https://github.com/nanzhinet/adblockfilters
 #!source=https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
-#!version=20260710014941
-#!updated=2026/07/10 01:49:41
+#!version=20260710100531
+#!updated=2026/07/10 10:05:31
 
 [Rule]
 DOMAIN-SUFFIX,013572.cn,REJECT-DROP
@@ -145,6 +145,8 @@ DOMAIN-SUFFIX,w.1lib.cn,REJECT-DROP
 DOMAIN-SUFFIX,ssp.1nmob.com,REJECT-DROP
 DOMAIN-SUFFIX,d1.1ppt.com,REJECT-DROP
 DOMAIN-SUFFIX,m.1qp9k.cn,REJECT-DROP
+DOMAIN-SUFFIX,ddd.1sapp.com,REJECT-DROP
+DOMAIN-SUFFIX,inapp.1sapp.com,REJECT-DROP
 DOMAIN-SUFFIX,wm.20150.net,REJECT-DROP
 DOMAIN-SUFFIX,ssp.21ic.com,REJECT-DROP
 DOMAIN-SUFFIX,tj.21ic.com,REJECT-DROP
@@ -1490,7 +1492,6 @@ DOMAIN-SUFFIX,atrace.chelaile.net.cn,REJECT-DROP
 DOMAIN-SUFFIX,logs.chelaile.net.cn,REJECT-DROP
 DOMAIN-SUFFIX,chemdraw.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,chenggao.cn,REJECT-DROP
-DOMAIN-SUFFIX,localads.chengzijianzhan.cn,REJECT-DROP
 DOMAIN-SUFFIX,chenshengyu.cn,REJECT-DROP
 DOMAIN-SUFFIX,chenyanjiao.cn,REJECT-DROP
 DOMAIN-SUFFIX,analytics.cherry-ai.com,REJECT-DROP
@@ -2012,7 +2013,6 @@ DOMAIN-SUFFIX,ad.dzwindows.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.dzwww.com,REJECT-DROP
 DOMAIN-SUFFIX,app.acm.dzwww.com,REJECT-DROP
 DOMAIN-SUFFIX,page.acm.dzwww.com,REJECT-DROP
-DOMAIN-SUFFIX,api.e-toys.cn,REJECT-DROP
 DOMAIN-SUFFIX,eagle-tex.cn,REJECT-DROP
 DOMAIN-SUFFIX,earmasterchina.cn,REJECT-DROP
 DOMAIN-SUFFIX,track.easeus.com,REJECT-DROP
@@ -4219,7 +4219,6 @@ DOMAIN-SUFFIX,oaclrst.cn,REJECT-DROP
 DOMAIN-SUFFIX,oadz.com,REJECT-DROP
 DOMAIN-SUFFIX,obsworks.com,REJECT-DROP
 DOMAIN-SUFFIX,obv3epx22d.com,REJECT-DROP
-DOMAIN-SUFFIX,ad.oceanengine.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.oceanengine.com,REJECT-DROP
 DOMAIN-SUFFIX,ochnikbags-pl.shop,REJECT-DROP
 DOMAIN-SUFFIX,offerstrack.net,REJECT-DROP
@@ -4314,7 +4313,7 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com,REJECT-DROP
 DOMAIN-SUFFIX,bmw2ep.paomifen.cn,REJECT-DROP
-DOMAIN-SUFFIX,partnerboost.com,REJECT-DROP
+DOMAIN-SUFFIX,app.partnerboost.com,REJECT-DROP
 DOMAIN-SUFFIX,pasco.cc,REJECT-DROP
 DOMAIN-SUFFIX,passwordrecovery.cn,REJECT-DROP
 DOMAIN-SUFFIX,bt1.patexplorer.com,REJECT-DROP
@@ -4950,7 +4949,6 @@ DOMAIN-SUFFIX,s8.pw,REJECT-DROP
 DOMAIN-SUFFIX,s8bet.com,REJECT-DROP
 DOMAIN-SUFFIX,g.s8dj.com,REJECT-DROP
 DOMAIN-SUFFIX,news.s9377.com,REJECT-DROP
-DOMAIN-SUFFIX,sabbiremart.com,REJECT-DROP
 DOMAIN-SUFFIX,sadrfv.cn,REJECT-DROP
 DOMAIN-SUFFIX,404.safedog.cn,REJECT-DROP
 DOMAIN-SUFFIX,saitef.cn,REJECT-DROP
@@ -5051,7 +5049,6 @@ DOMAIN-SUFFIX,smetrics.marketing.signify.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,silasbuchanan.shop,REJECT-DROP
 DOMAIN-SUFFIX,www.silurian.cn,REJECT-DROP
 DOMAIN-SUFFIX,simengadx.com,REJECT-DROP
-DOMAIN-SUFFIX,simicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,adblock.sina.cn,REJECT-DROP
 DOMAIN-SUFFIX,adimg.mobile.sina.cn,REJECT-DROP
 DOMAIN-SUFFIX,click.uve.mobile.sina.cn,REJECT-DROP
@@ -6781,6 +6778,7 @@ DOMAIN-SUFFIX,yncjsc.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad123.ynet.com,REJECT-DROP
 DOMAIN-SUFFIX,jpwy.ynp0h.cn,REJECT-DROP
 DOMAIN-SUFFIX,ynztzh.com,REJECT-DROP
+DOMAIN-SUFFIX,m.yocvn.com,REJECT-DROP
 DOMAIN-SUFFIX,webtrans.yodao.com,REJECT-DROP
 DOMAIN-SUFFIX,yodo1.com,REJECT-DROP
 DOMAIN-SUFFIX,ocd.yodo1api.com,REJECT-DROP
