@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/nanzhinet/adblockfilters
 # Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260719004559
-# Last modified: 2026/07/19 00:45:59
-# Blocked domains: 7186
+# Version: 20260719095241
+# Last modified: 2026/07/19 09:52:41
+# Blocked domains: 7173
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -657,7 +657,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aapz.com
 0.0.0.0	abbyychina.com
 0.0.0.0	s.abcache.com
-0.0.0.0	msmp.abchina.com.cn
 0.0.0.0	abckzo.cn
 0.0.0.0	smetrics.abercrombie.cn
 0.0.0.0	abodevra.com
@@ -828,7 +827,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	mum.alibabachengdun.net
 0.0.0.0	images.info.alibabacloud.com
 0.0.0.0	beacon-api.aliyuncs.com.gds.alibabadns.com
-0.0.0.0	offer.alibaba.com.gds.alibabadns.com
 0.0.0.0	aecpm.alicdn.com
 0.0.0.0	afp.alicdn.com
 0.0.0.0	afpmm.alicdn.com
@@ -954,7 +952,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cgicol.amap.com
 0.0.0.0	dualstack-cgicol.amap.com
 0.0.0.0	dualstack-logs.amap.com
-0.0.0.0	free-aos-cdn-image.amap.com
 0.0.0.0	h-adashx.ut.amap.com
 0.0.0.0	logs.amap.com
 0.0.0.0	optimus-ads.amap.com
@@ -1167,11 +1164,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	isite.baidu.com
 0.0.0.0	itsdata.map.baidu.com
 0.0.0.0	kstj.baidu.com
-0.0.0.0	lc.map.baidu.com
 0.0.0.0	leads.baidu.com
 0.0.0.0	libs.baidu.com
 0.0.0.0	log.music.baidu.com
-0.0.0.0	lookup.api.bsb.baidu.com
 0.0.0.0	luimg.baidu.com
 0.0.0.0	m1.baidu.com
 0.0.0.0	miao.baidu.com
@@ -2789,8 +2784,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adsbdfs.heytapimage.com
 0.0.0.0	adsfs.heytapimage.com
 0.0.0.0	adsfs-sdkconfig.heytapimage.com
-0.0.0.0	cc-algo-cn.heytapimage.com
-0.0.0.0	cc-img-cn.heytapimage.com
 0.0.0.0	dhfs-id.heytapimage.com
 0.0.0.0	dhfs-in.heytapimage.com
 0.0.0.0	dhfs-my.heytapimage.com
@@ -2828,7 +2821,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dc-dragate-cn.heytapmobi.com
 0.0.0.0	dragate-sg.dc.heytapmobi.com
 0.0.0.0	epoch-id.cdo.heytapmobi.com
-0.0.0.0	ibrowser.feeds.heytapmobi.com
 0.0.0.0	iot-earbuds-cn.heytapmobi.com
 0.0.0.0	obus-cn.dc.heytapmobi.com
 0.0.0.0	obus-config-cn.heytapmobi.com
@@ -3038,7 +3030,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ibozys.cn
 0.0.0.0	sensors.ibreader.com
 0.0.0.0	busuanzi.ibruce.info
-0.0.0.0	oisc.icbc.com.cn
 0.0.0.0	static.ichehome.com
 0.0.0.0	f1.ichong123.com
 0.0.0.0	goto.www.iciba.com
@@ -3923,15 +3914,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	mgs123.com
 0.0.0.0	audit.aaa.mgtv.com
 0.0.0.0	cmop.mgtv.com
-0.0.0.0	credits.bz.mgtv.com
 0.0.0.0	disp.titan.mgtv.com
-0.0.0.0	encounter.bz.mgtv.com
 0.0.0.0	imgaliyun.res.mgtv.com
 0.0.0.0	mobaliyun.res.mgtv.com
 0.0.0.0	ott-v0-al.data.mgtv.com
 0.0.0.0	ott.v1.data.mgtv.com
 0.0.0.0	pcweb.v1.mgtv.com
-0.0.0.0	vip.bz.mgtv.com
 0.0.0.0	mgzjin.cn
 0.0.0.0	resolver.gslb.mi-idc.com
 0.0.0.0	ad.mi.com
@@ -4805,7 +4793,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tmfsdktcpv4.m.qq.com
 0.0.0.0	tools.3g.qq.com
 0.0.0.0	tp2p.kg.qq.com
-0.0.0.0	tpns.qq.com
 0.0.0.0	tpush.html5.qq.com
 0.0.0.0	trace.qq.com
 0.0.0.0	ugcup.music.qq.com
@@ -4889,6 +4876,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.quwin.cn
 0.0.0.0	vn-ebay.quxlpuj.cn
 0.0.0.0	quyaoya.com
+0.0.0.0	api.qvpublish.com
 0.0.0.0	api.ts.feedback.qy.net
 0.0.0.0	msg.qy.net
 0.0.0.0	msg-intl.qy.net
@@ -6338,7 +6326,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wesiedu.com
 0.0.0.0	count.west263.com
 0.0.0.0	perfsight.wetest.net
-0.0.0.0	mtrace.wetvinfo.com
 0.0.0.0	wexrty.cn
 0.0.0.0	ee.wh723.cn
 0.0.0.0	m.wh723.cn
