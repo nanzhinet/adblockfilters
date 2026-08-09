@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260809163233
-! Last modified: 2026/08/09 16:32:33
-! Blocked Filters: 102878
+! Version: 20260810002435
+! Last modified: 2026/08/10 00:24:35
+! Blocked Filters: 102883
 !
 ###AC_ad
 ###AD_160
@@ -39981,8 +39981,8 @@ bellezashot.com#@#.ad_unit
 bellezashot.com#@#.adslot
 bellezashot.com#@#.adslot_1
 bellezashot.com#@#.adunit
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,huffpost.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,montrealgazette.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone-el
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 belloflostsouls.net##div[id^="ad-container-"]
 belloflostsouls.net#?#span.text-secondary:contains(Advertisement)
 belloflostsouls.net#?#span.text-secondary:has-text(Advertisement)
@@ -88986,7 +88986,6 @@ zzzyk.com###Tinfo
 ||bitwarden.com/plsbl/
 ||bitzv.com^$popup
 ||bixingjia.com/js/hf.
-||biz-cdn.varzesh3.com/banners
 ||bizimxeber.az/banner
 ||bizimyol.info/az/wp-content/uploads/*-ads-*.png
 ||bizimyol.info/azz_rightads.html
@@ -90997,6 +90996,7 @@ zzzyk.com###Tinfo
 ||docin.com/jsp_cn/ad/
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||docs.github.com/events
+||doct-umb.org^$popup
 ||doczj.com/js/common.js
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
@@ -91181,6 +91181,10 @@ zzzyk.com###Tinfo
 ||dykshao.cn/image/$third-party
 ||dyktanda.pl/static/js/main.*.chunk.js$replace=/src:"https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js"/src:"\/"/
 ||dymmt.com/skin/mzitu/js/foot.
+||dynacrems.wp.pl/ad/
+||dynacrems.wp.pl/ad/$replace=/.+//,important
+||dynacrems.wp.pl/script/?id=*&placement_id=$replace=/.+//,important
+||dynacrems.wp.pl/staticad/$replace=/.+//,important
 ||dynamic-manifest.hulustream.com/hulu*playlist.m3u8$replace=/#EXT-X-DATERANGE:ID=".*?ad".*?\n[\s\S]*?(?=#EXT-X-DATERANGE:ID=)//,domain=hulu.com
 ||dynamicyield.com/batch?
 ||dynamicyield.com/clog
@@ -101198,6 +101202,7 @@ zzzyk.com###Tinfo
 ||usercentrics.eu/session/$image
 ||userscript.zone/s.js
 ||usersonline.org/ping.php?
+||userstatics.com/get/script.js
 ||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
