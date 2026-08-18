@@ -2,8 +2,8 @@
 #!desc=每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 #!homepage=https://github.com/nanzhinet/adblockfilters
 #!source=https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
-#!version=20260817163353
-#!updated=2026/08/17 16:33:53
+#!version=20260818084358
+#!updated=2026/08/18 08:43:58
 
 [Rule]
 DOMAIN-SUFFIX,013572.cn,REJECT-DROP
@@ -1659,6 +1659,8 @@ DOMAIN-SUFFIX,click.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,clickeye.cn,REJECT-DROP
 DOMAIN-SUFFIX,clicki.cn,REJECT-DROP
 DOMAIN-SUFFIX,clickvalue.cn,REJECT-DROP
+DOMAIN-SUFFIX,7mnpeh.com1.z0.glb.clouddn.com,REJECT-DROP
+DOMAIN-SUFFIX,7xi9g1.com1.z0.glb.clouddn.com,REJECT-DROP
 DOMAIN-SUFFIX,bkt.clouddn.com,REJECT-DROP
 DOMAIN-SUFFIX,advertise.cloudlinks.cn,REJECT-DROP
 DOMAIN-SUFFIX,log.cmbchina.com,REJECT-DROP
@@ -1736,7 +1738,6 @@ DOMAIN-SUFFIX,logreport-global-dual.coolbcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,detaillog-global.coolccloud.com,REJECT-DROP
 DOMAIN-SUFFIX,detaillog-global-dual.coolccloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logreport-global-dual.coolccloud.com,REJECT-DROP
-DOMAIN-SUFFIX,weblogger-wss.coolccloud.com,REJECT-DROP
 DOMAIN-SUFFIX,wslog-global-dual.coolccloud.com,REJECT-DROP
 DOMAIN-SUFFIX,coolkaba.com,REJECT-DROP
 DOMAIN-SUFFIX,detaillog-global.coolzcloud.com,REJECT-DROP
@@ -3550,7 +3551,6 @@ DOMAIN-SUFFIX,jsmxkj.com,REJECT-DROP
 DOMAIN-SUFFIX,jspcdn.cn,REJECT-DROP
 DOMAIN-SUFFIX,fpb1.jsq886.com,REJECT-DROP
 DOMAIN-SUFFIX,jszctech.com,REJECT-DROP
-DOMAIN-SUFFIX,log.jtexpress.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,juandou.com,REJECT-DROP
 DOMAIN-SUFFIX,jugao.com,REJECT-DROP
 DOMAIN-SUFFIX,juhuisuan.com,REJECT-DROP
@@ -3667,7 +3667,6 @@ DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com,REJECT-DROP
 DOMAIN-SUFFIX,log-sdk.ksapisrv.com,REJECT-DROP
 DOMAIN-SUFFIX,multi-az-ulog.ksapisrv.com,REJECT-DROP
 DOMAIN-SUFFIX,ulog.ksapisrv.com,REJECT-DROP
-DOMAIN-SUFFIX,ulog-sdk.ksapisrv.com,REJECT-DROP
 DOMAIN-SUFFIX,ulog.v6.ksapisrv.com,REJECT-DROP
 DOMAIN-SUFFIX,ulogjs.ksapisrv.com,REJECT-DROP
 DOMAIN-SUFFIX,ulogs1.ksapisrv.com,REJECT-DROP
@@ -6314,7 +6313,6 @@ DOMAIN-SUFFIX,in-vpushonrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,in-vpushort-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-onrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-ort-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,kz-st-exappupgrade.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-vcode-od.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,mx-cota.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,mx-domaincfg.vivoglobal.com,REJECT-DROP
@@ -6730,7 +6728,6 @@ DOMAIN-SUFFIX,stats.music.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,sys.tv.india.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,t1.a.market.xiaomi.com,REJECT-DROP
-DOMAIN-SUFFIX,t17.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,tz.sec.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,api.device.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,api.g.micloud.xiaomi.net,REJECT-DROP
