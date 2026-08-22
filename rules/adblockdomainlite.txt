@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260822002240
-! Last modified: 2026/08/22 00:22:40
-! Blocked domains: 7369
+! Version: 20260822084417
+! Last modified: 2026/08/22 08:44:17
+! Blocked domains: 7436
 !
 013572.cn
 photo.0234408.cn
@@ -260,7 +260,6 @@ cm.dmp.360.cn
 commercial.shouji.360.cn
 dd.browser.360.cn
 down.360.cn
-f.360.cn
 fenxi.360.cn
 h5.mse.360.cn
 hao.360.cn
@@ -268,10 +267,13 @@ huid.ad.360.cn
 huodong.mobilem.360.cn
 iad.e.360.cn
 lianmeng.360.cn
+mclean.f.360.cn
 msg.shouji.360.cn
+mvconf.f.360.cn
 openbox.mobilem.360.cn
 papi.look.360.cn
 qstore.inner.api.sj.360.cn
+qurl.f.360.cn
 s.360.cn
 sdk.look.360.cn
 se.360.cn
@@ -285,6 +287,7 @@ tf.360.cn
 tr.p.360.cn
 u.360.cn
 u.api.look.360.cn
+vconf.f.360.cn
 wan.360.cn
 yasuo.360.cn
 360ads.com
@@ -1004,7 +1007,8 @@ asyn.cn
 aiseet.aa.atianqi.com
 atpanel.com
 atplay.cn
-attribuly.com
+ad.api.attribuly.com
+tr.attribuly.com
 audioadx.com
 ausaas.cn
 somni.aussiespecialist.cn
@@ -1268,7 +1272,8 @@ a.bake818.cn
 changan.bama555.com
 h.baminw.cn
 j.baminw.cn
-baminw.com.cn
+n.baminw.com.cn
+q.baminw.com.cn
 ad.bandao.cn
 bangyoul.cn
 baobaoshiye.com.cn
@@ -1288,7 +1293,8 @@ barrister.org.cn
 bartender.cc
 bashenghuo.com
 baycode.cn
-bayescom.com
+ad.bayescom.com
+raddus.bayescom.com
 bbbazlp.cn
 bbcoe.cn
 event.bblmw.com
@@ -1617,7 +1623,9 @@ config.chsmarttv.com
 data.chsmarttv.com
 api-ad.chuangyuejoy.com
 y66xvgo5i.chuimg.com
-chuiyue.com
+bd3.chuiyue.com
+bd4.chuiyue.com
+sbpb1.chuiyue.com
 chunyuqiufeng.com
 tc.ci123.com
 ciajifmfsp.com
@@ -1659,6 +1667,8 @@ click.com.cn
 clickeye.cn
 clicki.cn
 clickvalue.cn
+7mnpeh.com1.z0.glb.clouddn.com
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -2032,11 +2042,11 @@ analytics.dsyqt.com
 dtsxn.cn
 www.dualspace.com
 src.duanxin520.com
-duapp.com
+agentchannel.api.duapp.com
+channel.api.duapp.com
 duapps.com
 bu1.duba.com
 bu2.duba.com
-duba.net
 img.dubyc.com
 union.duizhuang.com
 ad.duoduo.link
@@ -2065,6 +2075,10 @@ dvzk66.cn
 untitled.dwstatic.com
 dxpmedia.com
 2021.dxsbb.com
+ak.dxsvr.com
+rc.dxsvr.com
+tls.dxsvr.com
+u.dxsvr.com
 adsdkapi.dxys.pro
 fumiad.dxys.pro
 dycwt.cn
@@ -2082,6 +2096,9 @@ app.acm.dzwww.com
 page.acm.dzwww.com
 gusbern.e2qh68.info
 eagle-tex.cn
+api.eagllwin.com
+creative.eagllwin.com
+h5.eagllwin.com
 earmasterchina.cn
 track.easeus.com
 easou.com
@@ -2458,6 +2475,9 @@ madx.flyme.cn
 t-e.flyme.cn
 t-flow.flyme.cn
 b.flyreading.cn
+cfgc.flysleep.cn
+log-auth.flysleep.cn
+upc.flysleep.cn
 flyye.cn
 www.fm120.com
 api.sdk.fmobi.cn
@@ -2794,7 +2814,7 @@ tui.gtimg.com
 wa.gtimg.com
 wb.gtimg.com
 gtlp.net.cn
-guance.com
+rum-openway.guance.com
 bd1.guancha.cn
 bdjs.guangyuanol.cn
 bdjsym.guangyuanol.cn
@@ -3089,8 +3109,30 @@ telemetry.pod5.prod.avatar.ext.hp.com
 telemetry.pod6.prod.avatar.ext.hp.com
 telemetry.pod7.prod.avatar.ext.hp.com
 hpiekt.cn
-hpplay.cn
-hpplay.com.cn
+ad.hpplay.cn
+adc.hpplay.cn
+adcdn.hpplay.cn
+adeng.hpplay.cn
+adks.hpplay.cn
+conf.hpplay.cn
+fix.hpplay.cn
+gslb.hpplay.cn
+hotupgrade.hpplay.cn
+image.hpplay.cn
+imdns.hpplay.cn
+logu.hpplay.cn
+pin.hpplay.cn
+rp.hpplay.cn
+rps.hpplay.cn
+saas.hpplay.cn
+sdkauth.hpplay.cn
+sl.hpplay.cn
+ssdkauth.hpplay.cn
+tvapp.hpplay.cn
+vipauth.hpplay.cn
+vipgslb.hpplay.cn
+cdn.hpplay.com.cn
+h5.hpplay.com.cn
 support.hqts.com
 hrcmzp.cn
 hrjg.com.cn
@@ -3591,7 +3633,14 @@ k8velr77p.com
 k99.cc
 log.kaayun.com
 ds1.kaijia.com
-kajicam.com
+adg.kajicam.com
+adg-data.kajicam.com
+api-ad.kajicam.com
+api-ad-data.kajicam.com
+log.kajicam.com
+res-ad.kajicam.com
+res-ad-kr.kajicam.com
+zjres-ad.kajicam.com
 smart-789.kakamobi.cn
 js.kalvinbg.cn
 img2.user.kanimg.com
@@ -4115,7 +4164,7 @@ microad-cn.com
 stat.microvirt.com
 pylon.micstatic.com
 miduoke.net
-midway.run
+track.midway.run
 hz.miercn.com
 app.log.nf.migu.cn
 uem.migu.cn
@@ -4468,9 +4517,11 @@ onelnk.com
 click.oneplus.cn
 apaff.oneplus.com
 natdetection.onethingpcs.com
-oneway.mobi
+ads.oneway.mobi
+tl.oneway.mobi
 oneyouxi.com.cn
-onezapp.com
+svibeacon.onezapp.com
+vibeaconstr.onezapp.com
 online.sh.cn
 forspeed.onlinedown.net
 fpbcode.onlinedown.net
@@ -4868,6 +4919,8 @@ kde.qq.com
 kuaibao.qq.com
 l.qq.com
 lcsdk.3g.qq.com
+livep.l.ott.video.qq.com
+lives.l.ott.video.qq.com
 lmbsy.qq.com
 log.node.minigame.qq.com
 log.tbs.qq.com
@@ -4892,6 +4945,7 @@ mqqadr.reader.qq.com
 mta.qq.com
 mtrace.qq.com
 newlog.reader.qq.com
+news-l.play.ott.video.qq.com
 novelsns.html5.qq.com
 oimsgad.qq.com
 omgid.qq.com
@@ -5380,6 +5434,11 @@ image-ad.sm.cn
 log.m.sm.cn
 sugs.m.sm.cn
 video-ad.sm.cn
+adx-ad.smart-tv.cn
+launcher.smart-tv.cn
+launcherimg.smart-tv.cn
+mission-pub.smart-tv.cn
+newvoice.chiq5.smart-tv.cn
 data.aftersales.smart.com
 data.ajo-dev.notifications.future.smart.com
 data.ajo-dev.srv.smart.com
@@ -5780,21 +5839,26 @@ ad.hunyuan.tencent.com
 android.bugly.tencent.com
 beacon.tencent.com
 galileotelemetry.tencent.com
+guid.tpns.tencent.com
 guid.tpns.hk.tencent.com
+guid.tpns.sgp.tencent.com
 guid.tpns.sh.tencent.com
 ios.bugly.tencent.com
+log.tpns.tencent.com
 log.tpns.gz2.tencent.com
 log.tpns.hk.tencent.com
+log.tpns.sgp.tencent.com
 log.tpns.sh.tencent.com
+mstat.tpns.tencent.com
 mstat.tpns.sh.tencent.com
 ping.cloud.tencent.com
 report.meeting.tencent.com
 sensors.cloud.tencent.com
+stat.tpns.tencent.com
 stat.tpns.gz2.tencent.com
 stat.tpns.hk.tencent.com
+stat.tpns.sgp.tencent.com
 stat.tpns.sh.tencent.com
-tpns.tencent.com
-tpns.sgp.tencent.com
 tpstelemetry.tencent.com
 tencentapigw.com
 tencentapigw.com.cn
@@ -5870,6 +5934,8 @@ tnjvz.cn
 pxx.tnklrs.cn
 tnze.cn
 tobidad.com
+tobapplog.tobsnssdk.com
+toblog.tobsnssdk.com
 todesk-web.hl.cn
 todesk-zh.cn
 todesk-zh.hl.cn
@@ -5883,7 +5949,6 @@ adsup.togothermany.cn
 a.tn.token-ad.com
 track.tom.com
 track.tomwx.net
-tongdun.net
 sky.tongjiai.com
 tongruitex.cn
 tonnn.com
@@ -5930,6 +5995,9 @@ tradplus.cn
 tradplus.com
 tradplusad.com
 trafficjam.cn
+tracking.trnox.com
+tracking-3-9f58.trnox.com
+trcakingapp.trnox.com
 ta.trs.cn
 trustutn.org
 ts166.net
@@ -6057,7 +6125,7 @@ gf.umenglog.com
 analytics.umetrip.com
 sensors.umetrip.com.cn
 a.umilu.com
-umiwi.com
+www.umiwi.com
 ccb.uncle-ad.com
 unionli.com
 unionsky.cn
@@ -6704,7 +6772,6 @@ global-ad-extranet-pri-azams.alb.xiaomi.com
 global-ad-extranet-pri-azpn.alb.xiaomi.com
 global-ad-intl-pri-alisgp.alb.xiaomi.com
 globalvideo.cdn.pandora.intl.xiaomi.com
-hybrid.xiaomi.com
 image.cdn.pandora.xiaomi.com
 in-miuilog.sms.intl.xiaomi.com
 milink.pandora.xiaomi.com
