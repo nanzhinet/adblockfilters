@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260830212641
-! Last modified: 2026/08/30 21:26:41
-! Blocked Filters: 102515
+! Version: 20260831025745
+! Last modified: 2026/08/31 02:57:45
+! Blocked Filters: 102517
 !
 ###AC_ad
 ###AD_160
@@ -40925,7 +40925,7 @@ boundhub.com##.tab7le
 boundhub.com##div[class$=-adv]
 boundhub.com##div[class^="p"][class$="lace"]
 boundhub.com##noindex
-boundingintocomics.com,thegrio.com##.tpd-incontent-ad-container
+boundingintocomics.com,theblast.com,thegrio.com##.tpd-incontent-ad-container
 bowenislandundercurrent.com,coastreporter.net,delta-optimist.com,griceconnect.com,moosejawtoday.com,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com##.item-sponsored
 bowenislandundercurrent.com,coastreporter.net,delta-optimist.com,richmond-news.com,squamishchief.com##.ga-ext
 bowfile.com#%#//scriptlet("abort-current-inline-script", "genlink", "onclick")
@@ -46579,7 +46579,7 @@ drawize.com#%#//scriptlet('set-constant', 'recreateAds', 'noopFunc')
 drawize.com#%#//scriptlet('set-constant', 'showVideoAd', 'noopFunc')
 drc1bk94f7rq8.cloudfront.net,shiropro-re.net#@##ad_link
 dreadcentral.com#%#//scriptlet('trusted-suppress-native-method', 'Element.prototype.setAttribute', ' |"html-load.com"')
-dreadcentral.com,justjared.com##.widget_tpd_ad_widget
+dreadcentral.com,justjared.com,theblast.com##.widget_tpd_ad_widget
 dreamdth.com#%#//scriptlet('prevent-addEventListener', 'load', 'document.createElement')
 drednot.io##.shipyard-ad
 dressupmix.com##.banner300x600
@@ -58320,13 +58320,13 @@ justinweather.com##.top-ad-banner-wrapper
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 justjared.com##.header-container__main
 justjared.com##.tpd-ob-reserve
-justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0 !important}
 justjared.com#$#.banner-spacer-top { max-height: 50px !important; }
 justjared.com#$#[role="banner"] { top:0 !important }
 justjared.com#%#//scriptlet('abort-current-inline-script', 'document.readyState', 'getAttribute("abp")')
 justjared.com$$script[tag-content="pub_300x250m"][max-length="14000"]
 justjared.com,justjaredjr.com##.top_rail_shell
+justjared.com,theblast.com##.tpd-tcm-widget
 justnerd.it##.adsbygoogle
 justpicsplease.com##.ba
 justporn.com##.avd-video-item
@@ -86754,6 +86754,7 @@ zzzyk.com###Tinfo
 ||adyen.com/checkoutshopper/v2/analytics/log?
 ||adzblockersentinel.net^$popup
 ||aeelookithdifyf.com^$popup
+||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||aem-collector-*.kgslb.com^
 ||aem.three.com.hk/content/three/sosim/app/*/promo-
 ||aem.three.com.hk/content/three/sosim/app/*/promotion/
@@ -87370,6 +87371,7 @@ zzzyk.com###Tinfo
 ||api.thefantazy.com/web-vitals
 ||api.tin.network/banners/
 ||api.tinypass.com^$domain=dallasnews.com
+||api.transtore.app/api/v2/storefront/tracking
 ||api.tsc.ca/Tracking/v1/events/
 ||api.tv.de/*/tracking/
 ||api.usestoryteller.com/api/app/activity/recordActivity?
@@ -87401,7 +87403,7 @@ zzzyk.com###Tinfo
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||apkmody.io/pa-ad.js
-||aplus.aliexpress.com^$image,ping,~third-party
+||aplus.aliexpress.$image,ping,~third-party
 ||aplus.qwen.ai/aplus.monitor.load_cna_success?
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||app-analytics-*.snapchat.com^
@@ -91571,7 +91573,6 @@ zzzyk.com###Tinfo
 ||g-scale.org/scripts/EventLog.js
 ||g-years.com/gy/
 ||g-years.com/tb/
-||g.alicdn.com/AWSC/fireyejs/
 ||g.alicdn.com/htmlVodP2P/$script
 ||g.cda.pl/block/block.php
 ||g.cda.pl/player.php?ads
@@ -95108,6 +95109,7 @@ zzzyk.com###Tinfo
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||marmiton.org/reloaded/errpix.php
+||marriott.com/mi/api/shop-renderer/logger
 ||marsflag.com/mf2file/site/ext/tr.js
 ||mas.martech.yahoo.com^$domain=mail.yahoo.com
 ||masadora.net/kakusan-
