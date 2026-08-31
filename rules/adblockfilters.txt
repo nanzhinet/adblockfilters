@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260831234248
-! Last modified: 2026/08/31 23:42:48
-! Blocked Filters: 102331
+! Version: 20260901051442
+! Last modified: 2026/09/01 05:14:42
+! Blocked Filters: 102333
 !
 ###AC_ad
 ###AD_160
@@ -58609,8 +58609,8 @@ katitube.com##.advertisement
 katitube.com##.linkvideo
 katitube.com##li > a[href][target="_blank"]
 katitube.com#%#//scriptlet('remove-node-text', 'script', 'ltvClicksCurrent')
-katitube.com#?#.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/i))
-katitube.com#?#.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/i)) + div#similar
+katitube.com#?#.video > div.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/g))
+katitube.com#?#.video > div.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/g)) + div#similar
 katitube.com$$script:contains(ltvClicksCurrent)
 katmoviehd.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "/\/main\.js[\s\S]*?document\?document:null/")
 katoikos.world,fcsnew.net,wemove-charity.org,hdplayersystem.live,okpeliz.com,jazbaat.in,cgtips.org,audiotools.blog,drivers.plus,gplastra.co,pcgameszone.com,trigonevo.com,sportshub.to,djqunjab.in,xerifetech.com,thepresetsroom.com,apkdelisi.net,ezaudiobookforsoul.com,qcscertification.com,plc4me.com,shortix.co,highkeyfinance.com,vietnoiket.com,blackwot.ru,asiaon.top,snlookup.com,filmisub.cc,javindo.eu.org,mixrootmods.com,kisahdunia.com,magicgameworld.com,gamedrive.org,apkdrill.com,daotranslate.com,techacode.com,azmath.info,downfile.site,sonixgvn.net,tuxnews.it,pinsystem.co.uk,blessedhornbill.com,filmefarsi.com,luciferdonghua.in,cctvwiki.com,7xm.xyz,jadukit.com,tech5s.co,emptycode.in,porninblack.com,tkbsen.in,teksnologi.com,shineads.in,app.trangchu.news,tavernadequadrinhos.com.br,uiiumovie.*,plc247.com,thecustomrom.com,nulleb.com,step-tech.pl,kuponigo.com,gplastra.com,souq-design.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementsByTagName', 'adsBlocked')
@@ -92234,6 +92234,8 @@ zzzyk.com###Tinfo
 ||guanggao*.*^
 ||guanggaolianmeng.net/plushuan/ad_js.php?aid=
 ||guangzhoubingqing.com/88888.jpg
+||guazimanhua.com/assets/ad/
+||guazimanhua.com/assets/reader/mobile*-ad.js
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
 ||gucheng.com/2016/ggimg/
