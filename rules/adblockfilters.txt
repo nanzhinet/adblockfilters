@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260902030259
-! Last modified: 2026/09/02 03:02:59
-! Blocked Filters: 103326
+! Version: 20260902100748
+! Last modified: 2026/09/02 10:07:48
+! Blocked Filters: 103327
 !
 ###AC_ad
 ###AD_160
@@ -68151,6 +68151,8 @@ peacemakeronline.com###front_mid_right > center
 peacemakeronline.com###latest_news > center
 peacemakeronline.com###middle_banner_section
 peachify.top#%#//scriptlet('prevent-addEventListener', 'click', '_blank')
+peachring.com#%#//scriptlet('prevent-navigation', '/popunder')
+peachring.com#%#//scriptlet('remove-class', 'hv-pending', 'html')
 peachurbate.com##.video-right-banner
 peachurnet.com##.video-right-banner
 peachurnet.com,scotsman.com,warcraftlogs.com###bottom-banner
@@ -97480,6 +97482,7 @@ zzzyk.com###Tinfo
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
 ||pdst.fm^$script,third-party
+||peachring.com/new-page/js/human-verify.js$script
 ||peachurnet.com/templates/banner-*x*-*.png
 ||peachurnet.com/templates/stake.com-banner-size-*-min.jpg
 ||pearos.xyz/assets/adblock-detector.js
@@ -99423,6 +99426,7 @@ zzzyk.com###Tinfo
 ||showstopped.com/owa/log.php
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
 ||shrib.com/zuex/img/trusty.gif
+||shrinetheme.com/api/analytics/
 ||shrink-service.it/v*/public/api/prototype/news/$domain=adshrink.it
 ||shrinkme.io/banners/ref/$third-party
 ||shrinkme.io/js/full-page-script.js
@@ -100083,9 +100087,6 @@ zzzyk.com###Tinfo
 ||static.xraws.com/min/*/xraws/script.js
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
-||static.zongheng.com^*/adClickStat.js
-||static.zongheng.com^*/ad_click.js
-||static.zongheng.com^*/logger.min.js
 ||static0.wi-fi.ru/static/000/ios/index.html
 ||staticasset.amarujala.com/handler/recomUserEvent.js
 ||staticfile.qq.com/datong/$script
