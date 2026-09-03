@@ -11867,6 +11867,7 @@ ad.broadstreetads.com
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
+||bbs.xhamster.com^
 ||bbm-ad-stack-production.up.railway.app^
 ||launcher.disconetwork.com^$third-party
 ||serve.affiliate.heurekashopping.sk^
@@ -74428,6 +74429,8 @@ implbits.com#@#.banner_container
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/240114
+@@||mwa.co.th^$stealth=dpi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239953
 @@||bdebooks.com/*/book-download/?$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239749
