@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260906195203
-! Last modified: 2026/09/06 19:52:03
-! Blocked Filters: 103711
+! Version: 20260907015455
+! Last modified: 2026/09/07 01:54:55
+! Blocked Filters: 103713
 !
 ###AC_ad
 ###AD_160
@@ -68921,11 +68921,11 @@ ping-test.net##.rek970x90
 ping-test.net##div[style^="width: 336px; height: 280px;"]
 ping.chinaz.com##.sth > .col-red
 ping.eu##td > center[style="margin-bottom: 2px;"]
+ping0.cc###adjright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
+ping0.cc##.xeeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
-ping0.cc#?#div:-abp-has(>a>.tipbd)
-ping0.cc#?#div:has(>a>.tipbd)
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -88742,6 +88742,7 @@ zzzyk.com###Tinfo
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||app-analytics-*.snapchat.com^
 ||app-bnkr.b-cdn.net/js/lv.js
+||app.alhena.ai/analytics/
 ||app.audiopulsar.com/*/embed/
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -89150,6 +89151,7 @@ zzzyk.com###Tinfo
 ||backend.academy.cs.cmu.edu/api/v0/event/
 ||backend.alia-cloudflare.com/launcher/events/
 ||backend.alia-cloudflare.com/user/events
+||backend.alia-prod.com/launcher/events/
 ||backend.leadconnectorhq.com/attribution_service/user_session_v3/update_session/
 ||backend.leadconnectorhq.com/forms/form-survey-event
 ||backgroundrunway.com^$popup
@@ -98088,7 +98090,7 @@ zzzyk.com###Tinfo
 ||ping*.bidease.com^
 ||ping*.qq.com^
 ||ping.*.sogou.com^
-||ping0.cc/images/fx/*.gif
+||ping0.cc/images/gx/*.gif
 ||ping0.cc/static/images/ad/
 ||pinggu.org/api/bbsgg.
 ||pingmeibang.com/zt/zx.jpg
