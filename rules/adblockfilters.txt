@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260916032338
-! Last modified: 2026/09/16 03:23:38
-! Blocked Filters: 103656
+! Version: 20260916103214
+! Last modified: 2026/09/16 10:32:14
+! Blocked Filters: 103664
 !
 ###AC_ad
 ###AD_160
@@ -34387,6 +34387,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 @@||static.hotjar.com/c/hotjar-*.js$xmlhttprequest,domain=app.neilpatel.com
 @@||static.kendam.com/js/prebid-ads.js
+@@||static.klaviyo.com/onsite/js/event_adapter.$domain=gear.blizzard.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.lbc.co.uk/*/libs/videojs/vast/video.ads.js$domain=lbc.co.uk
 @@||static.leaddyno.com/js$script,domain=s4l.us
@@ -42741,7 +42742,7 @@ chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chatgpt.com##.wm-app-threadContent aside[aria-label^="Sponsored"]
 chatgpt.com##[class*="_assistantAds"]
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]
 chatgpt.com##aside[data-assistant-ads-unit]
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
@@ -76201,6 +76202,7 @@ stileproject.com##.download-btn > a[href][rel="nofollow"][rel="nofollow"]
 stileproject.com##.fluid_nonLinear_bottom
 stileproject.com##.sponsor-btn
 stileproject.com,shemaleporn.xxx##.aff-item-list
+stimme.de##.download-btn
 stirilekanald.ro#?#div[class^="col-"] > div.sidebar.featured:has(> div.ad)
 stirileprotv.ro###billboardBanner
 stirileprotv.ro###branding
@@ -81694,6 +81696,9 @@ ustream.to$$script[wildcard="*['push']*['shift']*decodeURIComponent*"][min-lengt
 utahgunexchange.com##.rev_slider_wrapper
 utahgunexchange.com##.tp-revslider-mainul
 utahgunexchange.com##[href*="/click.track"]
+utatime.com##.playblocktop
+utatime.com##div[class^="responsive"]
+utatime.com##div[id^="amplified_"]
 utctime.net##[style="min-height:120px"]
 utilitymagazine.com.au,linoxide.com###text-36
 utne.com###URTK_Bottom_728x90
@@ -89376,6 +89381,7 @@ zzzyk.com###Tinfo
 ||blbclassic.org/assets/images/*banners/
 ||bleandworldw.org^$popup
 ||blend.com/event/
+||blendfencingprune.com^$popup
 ||blink.net/e/
 ||blisseyhusband.in/wp-content/plugins/adfoxly/
 ||blitz-cdn.blitz.gg/self-promotion/
@@ -99845,6 +99851,7 @@ zzzyk.com###Tinfo
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||site24x7rum.jp/beacon/
 ||sitebooster.com/sb/wix/p?$third-party
+||sitecorecloud.io/v1/events/
 ||sitefinity.com/collect/
 ||siteground.com/img/affiliate/
 ||siteground.com/img/banners/
@@ -101471,6 +101478,7 @@ zzzyk.com###Tinfo
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||trcklks.com^$popup
 ||tree-nation.com/js/track.js
+||treesmajestic.com^$popup
 ||trefoil.tv/adb/promo.js
 ||trend.az/templates/adv/
 ||trend48.st/adcash-auto.js
