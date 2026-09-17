@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260917031447
-! Last modified: 2026/09/17 03:14:47
-! Blocked Filters: 102656
+! Version: 20260917103625
+! Last modified: 2026/09/17 10:36:25
+! Blocked Filters: 102654
 !
 ###AC_ad
 ###AD_160
@@ -16762,6 +16762,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /?abt_opts=1&
 /?c=propeller&lpid=$all
 /?clck=*&sid=$document
+/?compression=*&ip=
 /?dm=*&blogid=$script
 /?essb_counter_
 /?fp=*&poru=$subdocument
@@ -26424,6 +26425,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||app.zoom.us^$stealth=useragent
 @@||appdn.net/wp-content/plugins/chilly-pot/assets/js/advertisement.min.js
 @@||appdn.net^$generichide
+@@||appdynamics.com/adrum/adrum-$script,domain=telecharge.com
 @@||appex-rf.msn.com/*.js?adtype=
 @@||appgw.ess.tencent.cn^$stealth=referrer
 @@||apple.com/v/watch/home/ad^
@@ -68430,8 +68432,6 @@ pinterest.*#?#div > div[style] > div[data-grid-item="true"]:has(div[data-test-pi
 pinterest.*#?#div > div[style] > div[data-grid-item="true"]:has(div[data-test-pin-id] a[rel] div[class][style] > div[class]:last-child:matches-css(before, content:/Promoted\s*by|Promowane\s*przez|Sponsorisée\s*par|Рекламный\s*пин|Рекламодатель|Gesponsord\s*door|広告|Promocionado\s*por|Promovido\s*por/))
 pinterest.com##a[href*="&epik="]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
-pinterest.com##div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
-pinterest.com##div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 piotrkowski24.pl###block-3
 piotrkowski24.pl##.stream-item
 pipeflare.io#@#div[id^="amzn-assoc-ad"]
@@ -100561,7 +100561,6 @@ zzzyk.com###Tinfo
 ||tracking-*.trnox.com^
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
-||tracking.geo.*.amazonaws.com^
 ||tracking.olx.
 ||trackitonline.ru/pics/lety.gif
 ||tracktollywood.com/wp-content/cache/min/1/wp-content/plugins/tt-splash-screen/
@@ -101797,7 +101796,6 @@ zzzyk.com###Tinfo
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
-||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
 ||x.com/i/jot
