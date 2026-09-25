@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260925033910
-! Last modified: 2026/09/25 03:39:10
-! Blocked Filters: 104105
+! Version: 20260925104008
+! Last modified: 2026/09/25 10:40:08
+! Blocked Filters: 104104
 !
 ###AC_ad
 ###AD_160
@@ -27236,6 +27236,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.digiteka.com/player/PrebidLibrary.js$domain=ultimedia.com
 @@||cdn.dotstream.buzz^$stealth=referrer,domain=megaplay.*
+@@||cdn.engagement.coremedia.cloud^$domain=flytap.com
 @@||cdn.engine.addroplet.com/Scripts/infinity.js.aspx^$domain=mirrored.to
 @@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.evolutionadv.it/money.it/*.mp4$domain=money.it
@@ -27931,6 +27932,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||customeragent-v3.seb.se/Amelia$stealth=donottrack
 @@||customgames.ru/forum/js/*/ads.min.js
 @@||custommapposter.com^$generichide
+@@||cuttty.com^$generichide
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cw-api.takeaway.com^$stealth=3p-auth
@@ -37880,11 +37882,13 @@ animehub.ac##.sb-subs
 animehub.ac#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 animeid.tv###player > div#ap
 animeidhentai.com###promo-topbar
+animeidhentai.com##.intl
 animeidhentai.com##.intl-ad
 animeidhentai.com##.promo--isad
 animeidhentai.com#%#//scriptlet('adjust-setTimeout', '/\(\)=>.\(.=>.-1\)/', '*', '0.001')
 animeidhentai.com#?#.player > .player-hd + div[class] > aside[class]:has(> div[class] > script[src^="https://a.magsrv.com/"])
 animeidhentai.com#?#.player > div[class]:not([class*="player"]) > aside[class]:has(> div[class]:not(.embed) > iframe[name^="spot_id_"])
+animeidhentai.com,xnostars.com##.promo
 animekai.la,animekai.gs,animekai.fo,animekai.fi,anikai.to#%#//scriptlet('prevent-window-open')
 animekhor.xyz#?##sidebar > .widget_text:has(> .releases > h3:contains(Advertisement))
 animekimi.com###animekimiads1
@@ -64183,14 +64187,10 @@ motherless.com#%#//scriptlet("set-constant", "_ml_ads_ns", "null")
 motherless.com#%#//scriptlet('abort-current-inline-script', 'Math.floor', '_0x')
 motherless.com#%#//scriptlet('set-cookie', '_pre_js', '1')
 motherless.com$$script[tag-content="_ml_ads_ns"][min-length="4000"][max-length="5000"]
-mothership.sg###block-imu1
-mothership.sg###block-imu2
-mothership.sg###block-outstream1
-mothership.sg###block-outstream2
-mothership.sg###block-outstream3
 mothership.sg##.ad--imu
 mothership.sg##.ad--lb
 mothership.sg##.ad--side
+mothership.sg##[id^="block-"]:has(> .advertisement__container)
 moto.it##.aside-spacer:empty
 moto.it#?#.d-none:has(> div.adv)
 motobanda.pl#$#body #mvideo { z-index: 1!important; }
@@ -69066,6 +69066,7 @@ pimpandhost.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
 pimpandhost.com##div[class*="aaablock"] > div.iframe-container
 pimpandhost.com#?#.list-view > .content_placing > .item:not([data-key]):has(> a[target="_blank"] > img)
 pimpandhost.com,pornone.com##.iframe-container
+pimpbunny.com##.col:has([rel*="sponsored"])
 pimpbunny.com##.pb-befor-similiar-carousel
 pimpbunny.com##.pb-header > div.pb-header-top-left-menu
 pimpbunny.com##.pb-header > div.pb-header-top-right-menu > a[href][rel="noopener"][target="_blank"]
@@ -85525,7 +85526,6 @@ xn--y3cta3b5d6a.net#$##main-video-container { display: block !important; }
 xn--y3cta3b5d6a.net#$#.top-banner-grid { display: none !important; }
 xnhau.pics,xnhau.*##.spot
 xnhau.pics,xnhau.*,web.epalovo.com,porn4fans.me,porn4fans.com,hentai-moon.com#%#//scriptlet('trusted-replace-node-text', 'script', 'kt_player.swf', 'adv_', 'noadv_')
-xnostars.com##.promo
 xnotx.com###sidebar > div.box:first-child
 xnotx.com###sidebar > noindex
 xnxx-ru.com,xvideos.*,tophentaicomics.com##.thumb-ad
@@ -92297,7 +92297,6 @@ zzzyk.com###Tinfo
 ||eastmoney.com/usercollect/
 ||eastmoney.com/web/prd/jump_tracker.js
 ||easyai.tech/wp-content/uploads/*-576x1024.
-||easydmarc.com/tools/$third-party
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
