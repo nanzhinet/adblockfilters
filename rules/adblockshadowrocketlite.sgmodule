@@ -2,8 +2,8 @@
 #!desc=每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 #!homepage=https://github.com/nanzhinet/adblockfilters
 #!source=https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
-#!version=20260929001757
-#!updated=2026/09/29 00:17:57
+#!version=20260929112707
+#!updated=2026/09/29 11:27:07
 
 [Rule]
 DOMAIN-SUFFIX,013572.cn,REJECT-DROP
@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,2te.com,REJECT-DROP
 DOMAIN-SUFFIX,2yt.cn,REJECT-DROP
 DOMAIN-SUFFIX,2ztav5r7r.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.3.cn,REJECT-DROP
+DOMAIN-SUFFIX,static.3001.net,REJECT-DROP
 DOMAIN-SUFFIX,analytics.300624.com,REJECT-DROP
 DOMAIN-SUFFIX,301848.com,REJECT-DROP
 DOMAIN-SUFFIX,301pk.com,REJECT-DROP
@@ -808,7 +809,6 @@ DOMAIN-SUFFIX,alertcenter.net.cn,REJECT-DROP
 DOMAIN-SUFFIX,alertcenter.qh.cn,REJECT-DROP
 DOMAIN-SUFFIX,alertcenter.sd.cn,REJECT-DROP
 DOMAIN-SUFFIX,alertcenter.sx.cn,REJECT-DROP
-DOMAIN-SUFFIX,alertcenter.xj.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.alfalaval.cn,REJECT-DROP
 DOMAIN-SUFFIX,bmp.ali213.net,REJECT-DROP
 DOMAIN-SUFFIX,bmp1.ali213.net,REJECT-DROP
@@ -2226,7 +2226,6 @@ DOMAIN-SUFFIX,accurate-purple-klawjsq5.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,achdh-dpdwwrdxc0a9.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,adminnfupanel-dpg54ztfrzuf.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,advisory-green-khxqmajx.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,afraid-brown-sofesy1w-dpnhp556c7v9.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,aktivasi-pemulihann-bimaa-mobile.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,aktivasiii-pemulihan-bima-mobile.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,alldbgdhhdhhdhhhchhchdhdm-dp9hzij3r3mr.edgeone.dev,REJECT-DROP
@@ -2262,7 +2261,6 @@ DOMAIN-SUFFIX,cpwehwhhhdsjddjkdfhesh-dps076qx66zp.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,crispy-garbanzo-me-dpbt0uga9b5v.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,crucial-black-tporkft5.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,d7522e2c-c5f7-4dc8-b83f-9f9dacd15c4d.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,dantethebakeryintn.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,dead-coffee-vczxixdn-dpwj3cuq93cf.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,disabled-peach-m28zu4sp.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,doc-fcms.edgeone.dev,REJECT-DROP
@@ -2339,7 +2337,6 @@ DOMAIN-SUFFIX,officedeskego-dp8bsedoxuio.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,officeme-dpjs5aucgasw.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,officialgmailveirifcationtunnel-dpfk8fse6v5v.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ofornaogu-dpzv6dife1hh.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,oksecurityprofessionals.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ordinary-silver-rkbwyw06.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,portalportalportalportalportal.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,pretty-white-ziekneey.edgeone.dev,REJECT-DROP
@@ -5558,7 +5555,6 @@ DOMAIN-SUFFIX,sdxitong.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.apps.seabroadnet.com,REJECT-DROP
 DOMAIN-SUFFIX,securemsg.fj.cn,REJECT-DROP
 DOMAIN-SUFFIX,securemsg.hi.cn,REJECT-DROP
-DOMAIN-SUFFIX,securemsg.qh.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.seeyouyima.com,REJECT-DROP
 DOMAIN-SUFFIX,trace.seeyouyima.com,REJECT-DROP
 DOMAIN-SUFFIX,sellbuyads.cn,REJECT-DROP
