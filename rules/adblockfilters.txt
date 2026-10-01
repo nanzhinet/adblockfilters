@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261001042607
-! Last modified: 2026/10/01 04:26:07
-! Blocked Filters: 102973
+! Version: 20261001111712
+! Last modified: 2026/10/01 11:17:12
+! Blocked Filters: 102979
 !
 ###AC_ad
 ###AD_160
@@ -17715,6 +17715,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /alljs/allwzwfoot.js
 /alljs/allwzwhead.js
 /alog.min.js
+/alog/dp.min.js
 /altiframe.php$domain=imgadult.com|imgdrive.net|imgtaxi.com
 /altiframe2.php$domain=imgadult.com|imgdrive.net|imgtaxi.com
 /amalker/pos/mag_ads.js$domain=letemsvetemapplem.eu|samsungmagazine.eu
@@ -22606,9 +22607,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 158.69.120.31#%#//scriptlet("adjust-setInterval", "timeLeft", "", "0.02")
 158.69.120.31#%#//scriptlet("set-constant", "Light.Popup.create", "noopFunc")
 159i.com,china.com.cn##.ab
-163.com,55188.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 163.com,changsha.cn,jrj.com.cn,neotv.com.cn,sina.cn,sina.com.cn##.topad
+163.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,jishujd.com##.index_top_ad
 163.com,zybang.com##.top-banner
 163.com,~love.163.com##a[href^="http://love.163.com/"]
@@ -23244,7 +23245,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 51.ca##.a-list-carousel-d-box
 51.ca##.top-a-container
 51.com###game_advlayer
-51.com,55188.com##.couplet
+51.com##.couplet
 5119.cn##.xzbtn_new + .xzbtn_new
 5119.cn##div[class="downDz"]
 512ms.com##div[id^="fy_"]
@@ -23369,12 +23370,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 54.246.248.134:3480$network
 54new.com###imgshow
 54new.com##img[width="1280"][height="100"]
-55188.com###center-pic
-55188.com###top-pic
-55188.com##.ggdistich
-55188.com##.wz_text
-55188.com##a[href*="/gg-link."]
-55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
+55188.com###bbslist
+55188.com###recommended-by-admin
+55188.com##.page-aside
 555.porn##.fel-tem
 5555op.com,router.houzi-blog.top##.img
 555hd2.com##a[href^="https://57063683.com"]
@@ -89677,6 +89675,7 @@ zzzyk.com###Tinfo
 ||cdn.xiuting.cc/js/go016.js
 ||cdn.xplay.cloud/img/site/common/partners/$domain=xplay.gg
 ||cdn.yeahwebimobi.fun/r6.png
+||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn2.myvidster.com/ads/
 ||cdn29.hu/apix_collect/ads^
@@ -90611,6 +90610,7 @@ zzzyk.com###Tinfo
 ||dailymail.co.uk/rta2/
 ||dailymail.co.uk/static/mol-adverts/*/mol-adverts.js
 ||dailymail.co.uk^*/linkListItem-$domain=thisismoney.co.uk
+||dailymail.com/zephr/features
 ||dailymirror.lk/youmaylike
 ||dailymotion.com/ac/video/$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
 ||dailymotion.com/ac/video/$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,important
@@ -91707,6 +91707,7 @@ zzzyk.com###Tinfo
 ||faqwiki.us/ezais/
 ||farmer.pl/js/modules/ptwp-ad-more-info.module.min.js
 ||farmer.pl/js/taboola*.min.js
+||faro-collector-*.grafana-ops.net^
 ||faro-collector-prod-*.grafana.net^
 ||faro.civitai.
 ||fas.li/js/p.js
@@ -96711,6 +96712,7 @@ zzzyk.com###Tinfo
 ||nsfwr34.com/ad_schedule/
 ||nsfwzone.xyz/js/jquery/*/jquery-*.min.js?v=
 ||nslookup.io/pl.js
+||nstool.netease.com/info.js
 ||nsultingcoe.net^$popup
 ||nsw2u.com^$popup,badfilter
 ||ntce.com/images/js/ntce_public.js
@@ -97239,6 +97241,7 @@ zzzyk.com###Tinfo
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||pdp.gokwik.co/cart-get-tokens.html
 ||pdst.fm^$script,third-party
 ||peachring.com/new-page/js/human-verify.js$script
 ||peachurnet.com/templates/banner-*x*-*.png
@@ -98493,6 +98496,7 @@ zzzyk.com###Tinfo
 ||ricardo.ch/api/browser-statistics/
 ||ricedigital.co.uk/wp-content/uploads/*/Rice_TakeOver_
 ||ricedigital.co.uk/wp-content/uploads/*/Rice_WideBanner_
+||ricedigital.co.uk/wp-content/uploads/2025/08/Rice_TakeOver_1600x1100-1.png
 ||richrelevance.com/rrserver/tracking?
 ||ridomovies.*/js/plib/
 ||rigengjihua.cn/banner/
@@ -99848,6 +99852,7 @@ zzzyk.com###Tinfo
 ||static.wgospodarce.pl/images/top_banners
 ||static.winporn.com/upload/banners^
 ||static.wixstatic.com/media/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png/v1/fill/w_300,h_22,al_c/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png
+||static.ws.126.net/utf8/3g/util/antanalysis.min.js$domain=163.com
 ||static.xcafe.com/adm/
 ||static.xraws.com/min/*/xraws/p/
 ||static.xraws.com/min/*/xraws/script.js
@@ -101418,6 +101423,7 @@ zzzyk.com###Tinfo
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||veck.io/ads/
+||vecteezy.com/dmpu/
 ||vectips.com/wp-content/themes/vectips-theme/js/adzones.js
 ||vector.co/pixel.js
 ||vedbex.com/tools/assets/images/img/*_*.gif
