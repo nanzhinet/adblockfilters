@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20261014211241
-! Last modified: 2026/10/14 21:12:41
-! Blocked Filters: 43101
+! Version: 20261015035233
+! Last modified: 2026/10/15 03:52:33
+! Blocked Filters: 43105
 !
 ###AC_ad
 ###AD_160
@@ -19152,6 +19152,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /i/api/graphql/*/HomeTimeline$jsonprune=\$.data.home.home_timeline_urt.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')],domain=twitter.com|x.com
 /i/api/graphql/*/ImmersiveMedia$jsonprune=\$.data.immersiveMedia.timeline.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')],domain=twitter.com|x.com
 /i/api/graphql/*/TweetDetail$jsonprune=\$.data.threaded_conversation_with_injections_v2.instructions..entries.[?(has "\$.content.items..item.itemContent.promotedMetadata.advertiser_results")],domain=twitter.com|x.com
+/i/api/kn/afterclick/*$~third-party,xmlhttprequest
 /i/npage/*$script,third-party
 /i2a.js
 /i2yesCounter.js
@@ -28767,11 +28768,13 @@ checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
+checkfelix.com,kayak.*,swoodoo.com##.CarResultsList .VbVE:has(.VbVE-ProviderContentBanner)
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
 checkfelix.com,kayak.*,swoodoo.com##.EvBR
 checkfelix.com,kayak.*,swoodoo.com##.IZSg-mod-banner
 checkfelix.com,kayak.*,swoodoo.com##.J8jg:has(.J8jg-provider-ad-badge)
 checkfelix.com,kayak.*,swoodoo.com##.YnaR
+checkfelix.com,kayak.*,swoodoo.com##.c71z4 > div:has(> .Tl2M-contentInner)
 checkfelix.com,kayak.*,swoodoo.com##.ev1_-results-list > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.ev1_-results-list > div > div > div > div[data-resultid$="-sponsored"]
 checkfelix.com,kayak.*,swoodoo.com##.nqHv-pres-three:has(div.nqHv-logo-ad-wrapper)
@@ -31111,6 +31114,7 @@ gizza.ai,mixonline.com,radioworld.com##.site-ad
 gkstk.com,ufanw.com##.layui-layer
 gktoday.in$$script[tag-content="function an_blocker_counter"][max-length="15500"]
 gleaks.pro$$script:contains(fuckAdBlock)
+gledaitv.*,bg-gledai.*###abort-overlay
 glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl##.banner_top
 glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl##.rotatorTop
 glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl#?#.similar__articles > div.similar__articles__single:has(> div[id^="render-campaign-"])
@@ -35423,7 +35427,7 @@ py.cn##.right-pops
 pysznosci.pl,domodi.pl,wideo.wp.pl,benchmark.pl,vpolshchi.pl,kafeteria.pl,dobreprogramy.pl,open.fm,abczdrowie.pl,www.o2.pl,parenting.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autocentrum.pl,autokult.pl,pudelek.pl,dom.wp.pl,tv.wp.pl,magazyn.wp.pl,facet.wp.pl,turystyka.wp.pl,gwiazdy.wp.pl,teleshow.wp.pl,gry.wp.pl,kuchnia.wp.pl,ksiazki.wp.pl,wiadomosci.wp.pl,moto.wp.pl,pogoda.wp.pl,fitness.wp.pl,turystyka.wp.pl,wroclaw.wp.pl,wawalove.wp.pl,opinie.wp.pl,tech.wp.pl,sportowefakty.wp.pl,kobieta.wp.pl,finanse.wp.pl#%#//scriptlet("abort-on-property-write", "Object.prototype.callBids")
 pysznosci.pl,domodi.pl,wideo.wp.pl,poczta.wp.pl,autokult.pl,benchmark.pl,vpolshchi.pl,dobreprogramy.pl,poczta.o2.pl,www.wp.pl,parenting.pl,kafeteria.pl,magazyn.wp.pl,facet.wp.pl,turystyka.wp.pl,teleshow.wp.pl,gry.wp.pl,kuchnia.wp.pl,ksiazki.wp.pl,sportowefakty.wp.pl,film.wp.pl,wiadomosci.wp.pl,kobieta.wp.pl,moto.wp.pl,horoskop.wp.pl,twojeip.wp.pl,money.pl,polygamia.pl,vibez.pl,abczdrowie.pl,pudelek.pl#%#//scriptlet("abort-on-property-write", "Object.prototype.directOnly")
 pysznosci.pl,jastrzabpost.pl,wp.pl,o2.pl,money.pl,dobreprogramy.pl#%#//scriptlet('trusted-create-element', 'head', 'script', '', 'Object.defineProperty(Object.prototype,"getCreativeId",{value:()=>{}});')
-pysznosci.pl,jastrzabpost.pl,wp.pl,o2.pl,money.pl,dobreprogramy.pl#%#//scriptlet('trusted-set-constant', 'google.ima.VERSION', '"3.728.0"')
+pysznosci.pl,jastrzabpost.pl,wp.pl,o2.pl,money.pl,dobreprogramy.pl#%#//scriptlet('trusted-set-constant', 'google.ima.VERSION', '"3.793.0"')
 pysznosci.pl,jastrzabpost.pl,wp.pl,o2.pl,money.pl,dobreprogramy.pl#%#Object.defineProperty(Object.prototype,'getCreativeId',{value:()=>{}});
 pythonthree.com##.astra-advanced-hook-7063
 pythonthree.com##.sidebar-main
