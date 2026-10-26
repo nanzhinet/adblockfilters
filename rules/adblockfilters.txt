@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261026023854
-! Last modified: 2026/10/26 02:38:54
-! Blocked Filters: 103232
+! Version: 20261026102722
+! Last modified: 2026/10/26 10:27:22
+! Blocked Filters: 103217
 !
 ###AC_ad
 ###AD_160
@@ -44204,7 +44204,6 @@ cqnews.net##.taobao
 cr173.com##.downurl[data^="viewAds"]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
-crackdj.com##button[class^="buttonPress-"]
 cracked-games.org##.widget_metaslider_widget
 crackedresource.com##a[href^="https://popcornpump.xyz/"]
 crackedvst.com#?#.g1-collection-items > .g1-injected-unit:has(> .g1-advertisement-inside-grid)
@@ -52717,7 +52716,6 @@ gom.ge##a[href="http://topkinoebi.com/"]
 gomagic.org###fullscreen_ad
 gomagic.org###fullscreen_ad_wrap
 gomostream.com##.adtimes
-gomovies.sx##div[style="width: 100%; padding-bottom: 320px; position: relative;"]
 gomoviestv.to,9anime.*,swiftload.io,decmelfot.xyz,usgate.xyz#$?#div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] { remove: true; }
 gomoviestv.to,9anime.*,swiftload.io,decmelfot.xyz,usgate.xyz#$?#iframe[src="about:blank"] { remove: true; }
 gongkong.com###dull_left
@@ -63737,8 +63735,6 @@ movies123-online.me##a[href$="/premium-membership"] > img
 movies123-online.me#?#body > div[class]:has(> div[id] > div[id] > a[href$="/premium-membership"])
 movies123.pics##.popOverForADSInPlayer
 movies2watch.ru#%#//scriptlet("prevent-window-open")
-movies2watch.tv##div[id^="gift-"]
-movies2watch.tv#%#//scriptlet('prevent-window-open')
 movies4u.*#%#//scriptlet('abort-on-property-write', 'app_advert')
 movies7to.net##.banner_wrapper
 moviesand.com###ggf-aside > .inner-aside-af
@@ -64414,7 +64410,6 @@ myfilmyzilla.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2
 myfitnesspal.com##[title*="Ad"]
 myflixer.to###overlay-container
 myflixerfree.org,vidify.top#%#//scriptlet('set-constant', 'vastAdData', 'undefined')
-myflixerz.to##a[href="https://pcnema.to"]
 myflixerz.to,hdtodayz.to,moviesjoy.is##div:is([id$="top"], [id$="middle"]) > a[target="_blank"] > img
 myfoodbook.com.au##.slick--optionset--mfb-banners
 myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
@@ -71468,13 +71463,6 @@ readanybook.com##.timimg-ad-iframe
 readanybook.com##.timing-ads-timer
 readberserk.com,onepiecechapters.com##.pages__ad
 readberserk.com,readopm.com##.widget-area > div.card:first-child
-readcomiconline.li###adbWarnContainer
-readcomiconline.li##.divCloseBut
-readcomiconline.li#%#//scriptlet('abort-current-inline-script', 'document.createElement', '.quit)')
-readcomiconline.li#%#//scriptlet('abort-on-property-write', 'ads_urls')
-readcomiconline.li#%#//scriptlet('abort-on-property-write', 'checkAdsBlocked')
-readcomiconline.li#%#//scriptlet('prevent-xhr', '/bidgear\.com|mgid\.com|pagead2\.googlesyndication\.com/')
-readcomiconline.li#%#//scriptlet('set-constant', 'isAdb', 'false')
 readcomiconline.li,dvdtrailertube.com,weekendnotes.com##div[style*="width: 300px; height: 250px;"]
 readcomicsonline.ru##.ads-large
 reader.gr###in_read_dfp_inread
@@ -87345,7 +87333,6 @@ zzzyk.com###Tinfo
 ||ads.zw.pl/www/images/
 ||adsafelink.com/js/webscript.js
 ||adsage*.*^
-||adsb4trk.com^$popup
 ||adsbreak.com^$popup
 ||adsensor*.*^
 ||adserver*.euroweeklynews.com^
@@ -90574,7 +90561,6 @@ zzzyk.com###Tinfo
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||customerlobby.com/ctrack-
-||cute-cursor.com^$popup
 ||cutegurlz.com/promos-royal-slider/aff/
 ||cv.ee/static/stat.php
 ||cvs.com/tnadstlinj.js
@@ -90620,6 +90606,7 @@ zzzyk.com###Tinfo
 ||d26yk4zpyhjeeq.cloudfront.net/tm/*/asset_*.ts$media,xmlhttprequest,redirect=noopmp4-1s,domain=kick.com
 ||d2badvwg0mti9p.cloudfront.net/script.js
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
+||d33wubrfki0l68.cloudfront.net/js/*/js/ad-payment.js$domain=duellinksmeta.com
 ||d3584kspbipfh3.cloudfront.net/cm/
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
 ||d3nn82uaxijpm6.cloudfront.net/8f96b1247cf4359f8fec.js
@@ -98471,7 +98458,6 @@ zzzyk.com###Tinfo
 ||react-spring.dev/assets/components-*.js$replace=/throw Error\(.\(418\)\);/null;/,domain=react-spring.dev
 ||read.amazon.*/ads-prebid.js$script,redirect=prebid-ads,important
 ||read.amazon.*/uploadMetrics/
-||readcomiconline.li/ads/
 ||readcube.com/assets/track_
 ||readingrockets.org/sites/default/files/swab-promo-300-
 ||readwn.com/*/ad/
@@ -99593,7 +99579,6 @@ zzzyk.com###Tinfo
 ||snrcash.com/profilerotator/$third-party
 ||snva.jp/api/bcon/basic?
 ||so-zou.jp/js/ga.js
-||so.91ks.online/asset/bd.js
 ||so.com/com/ads?
 ||so.com/index/advertise
 ||so.com/recomm/simi?
