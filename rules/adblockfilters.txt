@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261104235302
-! Last modified: 2026/11/04 23:53:02
-! Blocked Filters: 102830
+! Version: 20261105053853
+! Last modified: 2026/11/05 05:38:53
+! Blocked Filters: 102836
 !
 ###AC_ad
 ###AD_160
@@ -17484,6 +17484,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /amazon-associates-link-$~stylesheet
 /amazon_linker.min.js
 /amazonjs.css?
+/amc.gif?
 /amp-access/cta/*
 /amp-access/cta?
 /amp-access/ping?
@@ -21569,6 +21570,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
+/v1/vitals?
 /v2/a/push/js/*$third-party
 /v2/a/skm/*$third-party
 /v2/pv-data?
@@ -87843,6 +87845,7 @@ zzzyk.com###Tinfo
 ||assets.msn.com/service/news/feed/pages/$jsonprune=\$.sections..subSections..cards..[?(key-substr 'type' 'nativead')]
 ||assets.msn.com/service/news/feed/pages/winfullpage$replace=/{"id":"nativead-.*?"type":"nativead".*?}\,{/{/,domain=microsoftstart.msn.com
 ||assets.msn.com/serviceak/news/feed/pages/viewspage$jsonprune=\$.sections..cards..[?(key-substr 'type' 'PartnerUpsell')]
+||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.rpglogs.com/js/global/playwire.*.js$domain=warcraftlogs.com
 ||assets.s-bol.com/AppMeasurement-
@@ -89187,6 +89190,7 @@ zzzyk.com###Tinfo
 ||cdn.coinglasscdn.com/static/bitunix/*.gif
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
 ||cdn.cuty.io/fps.js
+||cdn.datamanager.co.kr/0/tcsdm.js
 ||cdn.dingxiang-inc.com/ctu-group/constid-js/index.js$replace=/(^\/\*!.*?\*\/)/\$1try{const t=document.head\,e=document.createElement("style");e.type="text\/css"\,e.textContent=".wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle) { display: none !important; }"\,t.appendChild(e)}catch(t){};/,domain=right.com.cn
 ||cdn.dopc.cz^$media,domain=iprima.cz
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
@@ -89274,6 +89278,7 @@ zzzyk.com###Tinfo
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.onepiecechapters.com/file/CDN-M-A-N/bannerv3.png
 ||cdn.onepiecechapters.com/file/CDN-M-A-N/halfpagev3.png
+||cdn.onetag.co.kr/0/tcs.js
 ||cdn.onnetwork.tv/js/player$script,domain=ddtorun.pl
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.onnetwork.tv/js/prebid*.js
@@ -96419,6 +96424,8 @@ zzzyk.com###Tinfo
 ||ntce.com/images/js/ntce_public.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
+||ntm.pstatic.net/ex/nlog-v2.js
+||ntm.pstatic.net/ex/nlog.js
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
 ||ntmb.de/count.html?
 ||ntrftrk.com^$popup
@@ -96560,7 +96567,6 @@ zzzyk.com###Tinfo
 ||okx.com/jsstat/sb?
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||olawa24.pl/media/campaigns/files/$image
-||old.fx.co/get_banner/forum/$subdocument,domain=investsocial.com
 ||older-mature.net/pop.js
 ||older-mature.net^$image,domain=pussyspot.net
 ||oldgamesdownload.com/wp-content/plugins/placement-manager/
