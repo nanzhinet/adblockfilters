@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/nanzhinet/adblockfilters
 # Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261107223203
-# Last modified: 2026/11/07 22:32:03
-# Blocked domains: 7369
+# Version: 20261108034606
+# Last modified: 2026/11/08 03:46:06
+# Blocked domains: 7372
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -405,6 +405,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	55726zubo56686.com
 0.0.0.0	win.down.55kantu.com
 0.0.0.0	acs.56.com
+0.0.0.0	acs.agent.56.com
+0.0.0.0	bill.agent.56.com
 0.0.0.0	download.56.com
 0.0.0.0	sp.qf.56.com
 0.0.0.0	stat.56.com
@@ -1413,6 +1415,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cb07whvmx.com
 0.0.0.0	cbh.hl.cn
 0.0.0.0	cbhzxctgm.com
+0.0.0.0	www.cc4008001935.cn
 0.0.0.0	adv.ccb.com
 0.0.0.0	cccspl.shop
 0.0.0.0	ad.ccement.com
@@ -1440,6 +1443,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wy.ce22d.cn
 0.0.0.0	ads.cecb2b.com
 0.0.0.0	tvuser-ch.cedock.com
+0.0.0.0	www.cellphonelocation.net
 0.0.0.0	update.cg100iii.com
 0.0.0.0	cgigc.com.cn
 0.0.0.0	chabeihu.hl.cn
@@ -1633,15 +1637,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	detaillog-global-dual.coolbcloud.com
 0.0.0.0	logreport-global-dual.coolbcloud.com
 0.0.0.0	detaillog-global-dual.coolccloud.com
-0.0.0.0	weblogger-wss.coolccloud.com
 0.0.0.0	wslog-global-dual.coolccloud.com
 0.0.0.0	coolkaba.com
-0.0.0.0	detaillog-global.coolzcloud.com
 0.0.0.0	cootek-file.cdn.cootekservice.com
 0.0.0.0	dialer.cdn.cootekservice.com
 0.0.0.0	ws2.cootekservice.com
 0.0.0.0	bdu1.coozhi.cn
 0.0.0.0	coreldrawchina.com
+0.0.0.0	www.costext.com
 0.0.0.0	coumie.top
 0.0.0.0	cp7iys8fp.com
 0.0.0.0	cpanclean.cn
@@ -1878,7 +1881,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dopa.com
 0.0.0.0	dopa.com.cn
 0.0.0.0	dope-snow.com
-0.0.0.0	monitor-web.dotfashion.cn
 0.0.0.0	dotui.cn
 0.0.0.0	push.douban.com
 0.0.0.0	ad.doubanio.com
@@ -2516,8 +2518,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ulogjp.gifshow.com
 0.0.0.0	ulogjs.gifshow.com
 0.0.0.0	ulogko.gifshow.com
-0.0.0.0	ulogs1.gifshow.com
-0.0.0.0	ulogs2.gifshow.com
 0.0.0.0	ulogvg.gifshow.com
 0.0.0.0	zt.gifshow.com
 0.0.0.0	gio.ren
@@ -4011,7 +4011,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tongji-res1.meizu.com
 0.0.0.0	umid.orion.meizu.com
 0.0.0.0	uxip.meizu.com
-0.0.0.0	matomo.meldingcloud.com
 0.0.0.0	meobsogu.shop
 0.0.0.0	tracking.c.mercedes-benz.com.cn
 0.0.0.0	tracking.m.mercedes-benz.com.cn
@@ -4619,10 +4618,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	app.aplus.pptv.com
 0.0.0.0	as.aplus.pptv.com
 0.0.0.0	de.as.pptv.com
-0.0.0.0	g.pptv.com
+0.0.0.0	img1.g.pptv.com
+0.0.0.0	img2.g.pptv.com
+0.0.0.0	img3.g.pptv.com
 0.0.0.0	jp.as.pptv.com
 0.0.0.0	pp2.pptv.com
 0.0.0.0	pub.aplus.pptv.com
+0.0.0.0	static.g.pptv.com
+0.0.0.0	tj.g.pptv.com
 0.0.0.0	ppvuu.com
 0.0.0.0	pqjprom.cn
 0.0.0.0	prdohgp.cn
@@ -4657,6 +4660,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	q0m9dkp5c.com
 0.0.0.0	q1yv4669q6.com
 0.0.0.0	q4173l5op.com
+0.0.0.0	www.q4ee.top
 0.0.0.0	qawxpzm.cn
 0.0.0.0	cp.qbaobei.com
 0.0.0.0	apilog.qbb6.com
@@ -5040,7 +5044,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	v5-dj-reading-ad.qznovelvod.com
 0.0.0.0	v5-ex-reading-ad.qznovelvod.com
 0.0.0.0	v5-reading-ad.qznovelvod.com
-0.0.0.0	v5-se-bjtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-ex-mc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-gddgtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-jltc-reading-ad.qznovelvod.com
@@ -6131,6 +6134,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	uu.v2raynapps.com.cn
 0.0.0.0	ad.v3mh.com
 0.0.0.0	ads.v3mh.com
+0.0.0.0	www.v61.com
 0.0.0.0	v66v66.com
 0.0.0.0	m.v76rk.cn
 0.0.0.0	v84tz11w7.com
@@ -6427,7 +6431,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tongdun-fingerprint.walmartmobile.cn
 0.0.0.0	analytics.med.wanfangdata.com.cn
 0.0.0.0	wanfeng1.com
-0.0.0.0	mlog.wangsu.com
 0.0.0.0	wangyouxs.cn
 0.0.0.0	analytics.wanmei.com
 0.0.0.0	analytics-gw.games.wanmei.com
@@ -6572,7 +6575,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.wps.cn
 0.0.0.0	wpsweb-dc.wps.cn
 0.0.0.0	api-ad-adapter.wps.com
-0.0.0.0	api-ad-adapter-mb.wps.com
 0.0.0.0	mo.res.wpscdn.cn
 0.0.0.0	abroadad.cache.wpscdn.com
 0.0.0.0	wpwpquse.cn
@@ -6677,6 +6679,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adtrack.xiaojukeji.com
 0.0.0.0	omgup.xiaojukeji.com
 0.0.0.0	omgup1.xiaojukeji.com
+0.0.0.0	api.d.xiaomi.com
 0.0.0.0	api.hybrid.xiaomi.com
 0.0.0.0	api.installer.xiaomi.com
 0.0.0.0	api.miui.security.xiaomi.com
@@ -6724,6 +6727,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
 0.0.0.0	t17.market.xiaomi.com
+0.0.0.0	tj1.staging.mibi.xiaomi.com
 0.0.0.0	tv.weixin.pandora.xiaomi.com
 0.0.0.0	tvepg.pandora.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
@@ -7176,7 +7180,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-analytics-de.zepp.com
 0.0.0.0	api-analytics-us.zepp.com
 0.0.0.0	api-analytics-us3.zepp.com
-0.0.0.0	app-analytics.zepp.com
 0.0.0.0	zeszo.cn
 0.0.0.0	zg40c.cn
 0.0.0.0	zggxkj.com.cn

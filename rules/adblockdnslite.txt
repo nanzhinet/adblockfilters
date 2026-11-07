@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20261107223203
-! Last modified: 2026/11/07 22:32:03
-! Blocked domains: 7369
+! Version: 20261108034606
+! Last modified: 2026/11/08 03:46:06
+! Blocked domains: 7372
 ! unBlocked domains: 31
 !
 ||013572.cn^
@@ -391,6 +391,8 @@
 ||55726zubo56686.com^
 ||win.down.55kantu.com^
 ||acs.56.com^
+||acs.agent.56.com^
+||bill.agent.56.com^
 ||download.56.com^
 ||sp.qf.56.com^
 ||stat.56.com^
@@ -1399,6 +1401,7 @@
 ||cb07whvmx.com^
 ||cbh.hl.cn^
 ||cbhzxctgm.com^
+||www.cc4008001935.cn^
 ||adv.ccb.com^
 ||cccspl.shop^
 ||ad.ccement.com^
@@ -1426,6 +1429,7 @@
 ||wy.ce22d.cn^
 ||ads.cecb2b.com^
 ||tvuser-ch.cedock.com^
+||www.cellphonelocation.net^
 ||update.cg100iii.com^
 ||cgigc.com.cn^
 ||chabeihu.hl.cn^
@@ -1619,15 +1623,14 @@
 ||detaillog-global-dual.coolbcloud.com^
 ||logreport-global-dual.coolbcloud.com^
 ||detaillog-global-dual.coolccloud.com^
-||weblogger-wss.coolccloud.com^
 ||wslog-global-dual.coolccloud.com^
 ||coolkaba.com^
-||detaillog-global.coolzcloud.com^
 ||cootek-file.cdn.cootekservice.com^
 ||dialer.cdn.cootekservice.com^
 ||ws2.cootekservice.com^
 ||bdu1.coozhi.cn^
 ||coreldrawchina.com^
+||www.costext.com^
 ||coumie.top^
 ||cp7iys8fp.com^
 ||cpanclean.cn^
@@ -1864,7 +1867,6 @@
 ||dopa.com^
 ||dopa.com.cn^
 ||dope-snow.com^
-||monitor-web.dotfashion.cn^
 ||dotui.cn^
 ||push.douban.com^
 ||ad.doubanio.com^
@@ -2502,8 +2504,6 @@
 ||ulogjp.gifshow.com^
 ||ulogjs.gifshow.com^
 ||ulogko.gifshow.com^
-||ulogs1.gifshow.com^
-||ulogs2.gifshow.com^
 ||ulogvg.gifshow.com^
 ||zt.gifshow.com^
 ||gio.ren^
@@ -3997,7 +3997,6 @@
 ||tongji-res1.meizu.com^
 ||umid.orion.meizu.com^
 ||uxip.meizu.com^
-||matomo.meldingcloud.com^
 ||meobsogu.shop^
 ||tracking.c.mercedes-benz.com.cn^
 ||tracking.m.mercedes-benz.com.cn^
@@ -4605,10 +4604,14 @@
 ||app.aplus.pptv.com^
 ||as.aplus.pptv.com^
 ||de.as.pptv.com^
-||g.pptv.com^
+||img1.g.pptv.com^
+||img2.g.pptv.com^
+||img3.g.pptv.com^
 ||jp.as.pptv.com^
 ||pp2.pptv.com^
 ||pub.aplus.pptv.com^
+||static.g.pptv.com^
+||tj.g.pptv.com^
 ||ppvuu.com^
 ||pqjprom.cn^
 ||prdohgp.cn^
@@ -4643,6 +4646,7 @@
 ||q0m9dkp5c.com^
 ||q1yv4669q6.com^
 ||q4173l5op.com^
+||www.q4ee.top^
 ||qawxpzm.cn^
 ||cp.qbaobei.com^
 ||apilog.qbb6.com^
@@ -5026,7 +5030,6 @@
 ||v5-dj-reading-ad.qznovelvod.com^
 ||v5-ex-reading-ad.qznovelvod.com^
 ||v5-reading-ad.qznovelvod.com^
-||v5-se-bjtc-reading-ad.qznovelvod.com^
 ||v5-se-ex-mc-reading-ad.qznovelvod.com^
 ||v5-se-gddgtc-reading-ad.qznovelvod.com^
 ||v5-se-jltc-reading-ad.qznovelvod.com^
@@ -6117,6 +6120,7 @@
 ||uu.v2raynapps.com.cn^
 ||ad.v3mh.com^
 ||ads.v3mh.com^
+||www.v61.com^
 ||v66v66.com^
 ||m.v76rk.cn^
 ||v84tz11w7.com^
@@ -6413,7 +6417,6 @@
 ||tongdun-fingerprint.walmartmobile.cn^
 ||analytics.med.wanfangdata.com.cn^
 ||wanfeng1.com^
-||mlog.wangsu.com^
 ||wangyouxs.cn^
 ||analytics.wanmei.com^
 ||analytics-gw.games.wanmei.com^
@@ -6558,7 +6561,6 @@
 ||update.wps.cn^
 ||wpsweb-dc.wps.cn^
 ||api-ad-adapter.wps.com^
-||api-ad-adapter-mb.wps.com^
 ||mo.res.wpscdn.cn^
 ||abroadad.cache.wpscdn.com^
 ||wpwpquse.cn^
@@ -6663,6 +6665,7 @@
 ||adtrack.xiaojukeji.com^
 ||omgup.xiaojukeji.com^
 ||omgup1.xiaojukeji.com^
+||api.d.xiaomi.com^
 ||api.hybrid.xiaomi.com^
 ||api.installer.xiaomi.com^
 ||api.miui.security.xiaomi.com^
@@ -6710,6 +6713,7 @@
 ||sys.tv.india.xiaomi.com^
 ||t1.a.market.xiaomi.com^
 ||t17.market.xiaomi.com^
+||tj1.staging.mibi.xiaomi.com^
 ||tv.weixin.pandora.xiaomi.com^
 ||tvepg.pandora.xiaomi.com^
 ||tz.sec.xiaomi.com^
@@ -7162,7 +7166,6 @@
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
 ||api-analytics-us3.zepp.com^
-||app-analytics.zepp.com^
 ||zeszo.cn^
 ||zg40c.cn^
 ||zggxkj.com.cn^
