@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/nanzhinet/adblockfilters
 # Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261108034606
-# Last modified: 2026/11/08 03:46:06
-# Blocked domains: 7372
+# Version: 20261108113357
+# Last modified: 2026/11/08 11:33:57
+# Blocked domains: 7354
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -602,7 +602,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.abercrombie.cn
 0.0.0.0	abodevra.com
 0.0.0.0	abusfrance.fr
-0.0.0.0	disk.accord1key.cn
 0.0.0.0	apilog-web.acfun.cn
 0.0.0.0	apilog.app.acfun.cn
 0.0.0.0	jscode.acg68.com
@@ -660,7 +659,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adsame.com
 0.0.0.0	e.adsdsu.cn
 0.0.0.0	m.adsdsu.cn
-0.0.0.0	cdn.adseye.com
 0.0.0.0	logrcv.adseyeservice.com
 0.0.0.0	adsmogo.com
 0.0.0.0	adsunflower.cn
@@ -1020,7 +1018,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	titan.babytree.com
 0.0.0.0	titan01.babytree.com
 0.0.0.0	tracking.babytree.com
-0.0.0.0	banca.baccredomatico.help
 0.0.0.0	bacexperience.help
 0.0.0.0	bacservices.help
 0.0.0.0	qmlog.baertt.com
@@ -1637,8 +1634,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	detaillog-global-dual.coolbcloud.com
 0.0.0.0	logreport-global-dual.coolbcloud.com
 0.0.0.0	detaillog-global-dual.coolccloud.com
+0.0.0.0	weblogger-wss.coolccloud.com
 0.0.0.0	wslog-global-dual.coolccloud.com
 0.0.0.0	coolkaba.com
+0.0.0.0	detaillog-global.coolzcloud.com
 0.0.0.0	cootek-file.cdn.cootekservice.com
 0.0.0.0	dialer.cdn.cootekservice.com
 0.0.0.0	ws2.cootekservice.com
@@ -1881,6 +1880,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dopa.com
 0.0.0.0	dopa.com.cn
 0.0.0.0	dope-snow.com
+0.0.0.0	monitor-web.dotfashion.cn
 0.0.0.0	dotui.cn
 0.0.0.0	push.douban.com
 0.0.0.0	ad.doubanio.com
@@ -2124,7 +2124,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	mypmgrca-dpq4xiqwj2ki.edgeone.dev
 0.0.0.0	na4-docusignv1-52fe74b0160e448ceb80dfbd0a1159128ace1fb4dc97c9b1.edgeone.dev
 0.0.0.0	newgooglgecheckoutroundwebmailer-dpzcf6efmgzv.edgeone.dev
-0.0.0.0	nice-gray-rmhnvluy.edgeone.dev
 0.0.0.0	no2body7-dpyijatuyl2q.edgeone.dev
 0.0.0.0	officedeskego-dp8bsedoxuio.edgeone.dev
 0.0.0.0	officeme-dpjs5aucgasw.edgeone.dev
@@ -2518,6 +2517,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	ulogjp.gifshow.com
 0.0.0.0	ulogjs.gifshow.com
 0.0.0.0	ulogko.gifshow.com
+0.0.0.0	ulogs1.gifshow.com
+0.0.0.0	ulogs2.gifshow.com
 0.0.0.0	ulogvg.gifshow.com
 0.0.0.0	zt.gifshow.com
 0.0.0.0	gio.ren
@@ -2581,13 +2582,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	go-todesk.hl.cn
 0.0.0.0	gocye.com
 0.0.0.0	godloveme.cn
-0.0.0.0	adlockscreen.goforandroid.com
-0.0.0.0	adpush.goforandroid.com
-0.0.0.0	adpushsdk.goforandroid.com
-0.0.0.0	adserver.goforandroid.com
-0.0.0.0	adviap.goforandroid.com
-0.0.0.0	geoip.goforandroid.com
-0.0.0.0	navigation.api.hk.goforandroid.com
 0.0.0.0	gogardens.shop
 0.0.0.0	gojunkclean.cn
 0.0.0.0	gokoton.shop
@@ -2873,18 +2867,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-drcn.platform.hihonorcloud.com
 0.0.0.0	log-dre.platform.hihonorcloud.com
 0.0.0.0	log-drru.platform.hihonorcloud.com
-0.0.0.0	logservice-dra.dt.hihonorcloud.com
-0.0.0.0	logservice-drcn.dt.hihonorcloud.com
-0.0.0.0	logservice-dre.dt.hihonorcloud.com
-0.0.0.0	logservice-lbs-drcn.dt.hihonorcloud.com
-0.0.0.0	metrics-ad-drcn.dt.hihonorcloud.com
-0.0.0.0	metrics-appdistribute-drcn.dt.hihonorcloud.com
-0.0.0.0	metrics-basecloud-drcn.dt.hihonorcloud.com
-0.0.0.0	metrics-dra.dt.hihonorcloud.com
-0.0.0.0	metrics-drcn.dt.hihonorcloud.com
-0.0.0.0	metrics-dre.dt.hihonorcloud.com
-0.0.0.0	metrics-drru.dt.hihonorcloud.com
-0.0.0.0	metrics-pcc-drcn.dt.hihonorcloud.com
 0.0.0.0	tracking-data-drru.platform.hihonorcloud.com
 0.0.0.0	tracking-data.platform.hihonorcloud.com
 0.0.0.0	adeq.hiidc.com.cn
@@ -3096,9 +3078,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zuowen.hydcd.com
 0.0.0.0	hyfyuan.com
 0.0.0.0	hypers.com
-0.0.0.0	dsp.hypers.com.cn
-0.0.0.0	hw-t.hypers.com.cn
-0.0.0.0	t.hypers.com.cn
 0.0.0.0	hysdknb.com
 0.0.0.0	hytzp.cn
 0.0.0.0	hzbxm.com
@@ -3896,6 +3875,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	news-log.lsttnews.com
 0.0.0.0	ltdzz.com
 0.0.0.0	luciochen.cn
+0.0.0.0	ludashi.com
 0.0.0.0	lumeo.cn
 0.0.0.0	luolikong.net
 0.0.0.0	luping.net.cn
@@ -3925,7 +3905,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m43ocq1uoj.com
 0.0.0.0	p.m5bn.com
 0.0.0.0	analytics.m5stack.com
-0.0.0.0	amendes.justice.gov.ma-co.eu.cc
 0.0.0.0	xc.macd.cn
 0.0.0.0	madhouse.cn
 0.0.0.0	tongji.mafengwo.cn
@@ -4011,6 +3990,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tongji-res1.meizu.com
 0.0.0.0	umid.orion.meizu.com
 0.0.0.0	uxip.meizu.com
+0.0.0.0	matomo.meldingcloud.com
 0.0.0.0	meobsogu.shop
 0.0.0.0	tracking.c.mercedes-benz.com.cn
 0.0.0.0	tracking.m.mercedes-benz.com.cn
@@ -4931,7 +4911,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sngmta.qq.com
 0.0.0.0	snowflake.qq.com
 0.0.0.0	soup.v.qq.com
-0.0.0.0	sq.bls.mdt.qq.com
 0.0.0.0	ssp.qq.com
 0.0.0.0	statistic.qzone.qq.com
 0.0.0.0	stdl.qq.com
@@ -5044,6 +5023,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	v5-dj-reading-ad.qznovelvod.com
 0.0.0.0	v5-ex-reading-ad.qznovelvod.com
 0.0.0.0	v5-reading-ad.qznovelvod.com
+0.0.0.0	v5-se-bjtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-ex-mc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-gddgtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-jltc-reading-ad.qznovelvod.com
@@ -6431,6 +6411,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tongdun-fingerprint.walmartmobile.cn
 0.0.0.0	analytics.med.wanfangdata.com.cn
 0.0.0.0	wanfeng1.com
+0.0.0.0	mlog.wangsu.com
 0.0.0.0	wangyouxs.cn
 0.0.0.0	analytics.wanmei.com
 0.0.0.0	analytics-gw.games.wanmei.com
@@ -6575,6 +6556,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.wps.cn
 0.0.0.0	wpsweb-dc.wps.cn
 0.0.0.0	api-ad-adapter.wps.com
+0.0.0.0	api-ad-adapter-mb.wps.com
 0.0.0.0	mo.res.wpscdn.cn
 0.0.0.0	abroadad.cache.wpscdn.com
 0.0.0.0	wpwpquse.cn
@@ -7180,6 +7162,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-analytics-de.zepp.com
 0.0.0.0	api-analytics-us.zepp.com
 0.0.0.0	api-analytics-us3.zepp.com
+0.0.0.0	app-analytics.zepp.com
 0.0.0.0	zeszo.cn
 0.0.0.0	zg40c.cn
 0.0.0.0	zggxkj.com.cn
@@ -7212,7 +7195,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sugar.zhihu.com
 0.0.0.0	zhihu-web-analytics.zhihu.com
 0.0.0.0	collector2c.zhihuishu.com
-0.0.0.0	zhikey.com
 0.0.0.0	zhilingshidai.com
 0.0.0.0	zhimengad.com
 0.0.0.0	ads.zhinengxiyifang.cn
