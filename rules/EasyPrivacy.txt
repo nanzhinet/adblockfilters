@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6qVYPb4vZAWxRwHovVMS2Q
-! Version: 202611090342
+! Checksum: M4kr7YoZJdKL2V1xFPxqKg
+! Version: 202611091752
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 03:42 UTC
+! Last modified: 09 Nov 2026 17:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2728,6 +2728,7 @@
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
+/v1/care/engagement/ux/bundle.js?
 /v1/events/publish|
 /v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
@@ -2979,11 +2980,13 @@
 ://collect.*/pageview
 ://collector.*/event
 ://data.*/v1/interact?
+://data.*=L2cvY29sbGVjd
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://elqtrk.
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm-server.
 ://gtm-tagging.
 ://gtm.prd.
 ://gtm.prod.
@@ -4930,6 +4933,7 @@ omni.soundestlink.com$image
 ||funstage.com^$third-party
 ||fusestats.com^$third-party
 ||fuziontech.net^$third-party
+||fw-cdn.com^$third-party
 ||fwpixel.com^$third-party
 ||fyreball.com^$third-party
 ||ga-analytics.com^$third-party
@@ -5827,6 +5831,7 @@ omni.soundestlink.com$image
 ||reactful.com^$third-party
 ||readertracking.com^$third-party
 ||readnotify.com^$third-party
+||readtargeting.com^$third-party
 ||realcounter.eu^$third-party
 ||realcounters.com^$third-party
 ||reallyfreegeoip.org^$third-party
@@ -10264,6 +10269,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
 ||shrinetheme.com/api/analytics/
 ||shrtfly.vip/js/tag.js
+||sierra.chat/-/api/events
 ||sinajs.cn/open/analytics/
 ||sitebooster.com/sb/wix/p?$third-party
 ||sitecorecloud.io/v1/events/
@@ -10643,6 +10649,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.360playvid.info^
 ||track.91app.io^
 ||track.addevent.com^
+||track.adzeb.com^
 ||track.aimroas.com^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
@@ -12498,6 +12505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.rum.cdnvideo.ru^
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
+||statad.ru/tracker.js
 ||statistics.fppressa.ru^
 ||stats-*.p2pnow.ru^
 ||stats.tazeros.com^
@@ -52887,6 +52895,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||j1.ax.xrea.com^
 ||k-crm.jp/tracking.js
 ||kabu-sokuhou.com/js/cpv/
+||knshow.com/ab?
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
 ||link.tv-asahi.co.jp/tver/cookiesync?
@@ -53480,6 +53489,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
 ||pixel.coccoc.com^
+||rivo.vin/api/*/view
 ||rivo.vin/rivo-stealer/
 ||tka.tiki.vn/pixel/
 ||track-srv.vietnamnet.vn^
