@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20261118011453
-! Last modified: 2026/11/18 01:14:53
-! Blocked Filters: 42881
+! Version: 20261118131652
+! Last modified: 2026/11/18 13:16:52
+! Blocked Filters: 42887
 !
 ###AC_ad
 ###AD_160
@@ -14703,6 +14703,7 @@
 ##div.mobile > div.content IMG[src*='.gif']
 ##div.module-list-right-title-wrap > div.normal-title-wrap > div > a
 ##div.module-player-side > .is_mb
+##div.module.module-player > .is_mb
 ##div.my-ad > a
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##div.page.list div.small-icon-container
@@ -14720,6 +14721,7 @@
 ##div.row > div[id] > ul > li.cpn > a
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
 ##div.slide-baidu IMG[src='/images/aw1.gif']
+##div.small-icon-container > .small-icon-div
 ##div.stui-pannel__bd > #t-img-box
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
@@ -17958,6 +17960,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cklog.js
 /cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
+/cl/2x2.json
 /clear.gif?
 /click-tracking.js
 /click.*/q/*$image
@@ -29342,6 +29345,7 @@ datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sti
 datanaukri.com,moviemaniak.com#%#//scriptlet('abort-on-stack-trace', 'Array.prototype.includes', 'adblockTrigger')
 datanaukri.com,moviemaniak.com#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="hustle_optin_adBlock_detector"')
 datanodes.to#$?#body > form[method="POST"][target="_blank"] { remove: true; }
+datavaults.co,fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 dataversity.net,ippmedia.com,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 datingsitespot.com,tips-and-tricks.co###text-10
 datingsitespot.com,utilitymagazine.com.au###text-16
@@ -30343,7 +30347,6 @@ fapnado.xxx,fapnado.com##.text_link_holder
 fapnado.xxx,some.porn,xcafe.com##.fluid_html_on_pause_container
 fapnow.*##.primary > li:not([class]):has(> a[href][target="_blank"]:not(.nav-cams))
 fapnow.xxx,fapnado.xxx,fapnado.com##a[href^="https://t.javhd-trk.com/"]
-faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 faptor.com,fapnow.xxx,fapnado.xxx,fapnado.com###list_videos_related_videos_items > div[class]:has(a[href^="https://www.tckcandy.com/"])
 faqwiki.*#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/AdBlock|adsbygoogle\.js/')
 faqwiki.*#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googlesyndication')
@@ -30719,7 +30722,6 @@ ftuapps.farlad.com$$script:contains(showAntiAdblockOverlay)
 ftw.usatoday.com,kansascity.com,rotowire.com##.gdcg-oplist
 ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 fuckcelebs.net,onlinestars.net##.fp-ui > a[href][target="_blank"]
-fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 fuckit.cc,camhub.cc,camhub.world#@#.ads-iframe
 fuliba.net,fuliba2023.net,fuliba2025.net##.article-topbanner
 fuliba.net,fuliba2023.net,laozuo.org###focusslide
@@ -30884,6 +30886,8 @@ gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
 gayforfans.com,namethatporn.com##iframe[src*="//a.adtng.com/"]
 gayfuckporn.tv,goldgay.tv,justustrannies.com##.b-random-column
 gayfuror.com,pornjam.com##.publis-bottom
+gayhaus.com,katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
+gayhaus.com,xxxfetish.tube,faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 gaymaletube.name,gogaytube.tv,hdpornvideo.tv,madgaysex.com,xgaytube.tv##.b-advertisement
 gaymovievids.com,verygayboys.com##.mobile-random
 gaypornhot.com,javgay.com##.back-to-top + div[id][class*=" "]
@@ -32797,7 +32801,6 @@ katestube.com,fetishshrine.com,wankoz.com,vikiporn.com##.native-holder
 katestube.com,sheshaft.com,fetishshrine.com,youfreeporntube.net##.nav > li > a[target="_blank"]
 katestube.com,sleazyneasy.com,vikiporn.com##.after_adv
 katestube.com,sleazyneasy.com,vikiporn.com,wankoz.com##.advertising
-katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
 katfile.*#%#//scriptlet('prevent-window-open')
 katfile.*#%#//scriptlet('trusted-replace-node-text', 'script', 'adEnable', '/if\s?\(adEnable\)/g', 'if(!0)')
 katfile.*#%#//scriptlet('trusted-replace-node-text', 'script', 'download_click', '/if\s?\(download_click\s?==\s?false\)/g', 'if(!1)')
@@ -40311,6 +40314,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||execute-api.*.amazonaws.com/forms-impressions
 ||exmoo.com/js/ad-position/
 ||expedia.*/cl/
+||expedia.*/tagging-client
 ||eyuyao.com/yyad/
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
 ||f-log-*.grammarly.io^
@@ -42217,6 +42221,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||stats.zone-annuaire.
 ||stats.zone-telechargement.
 ||stats2.*.fdnames.com^
+||stayz.*/tagging-client
 ||stbturbo.xyz^$replace=/premium == '0'/0/
 ||steamchina.com/events/
 ||steelcn.cn/img/bj_*_146_315.jpg
@@ -42584,6 +42589,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||workers.dev^$header=x-target-domain:pagead2.googlesyndication.com
 ||workora.space^$replace=/(function playContent\(\) \{[\s\S]*?adMessage[\s\S]*?\})/\$1;playContent();/,document
 ||workora.space^$replace=/let seconds = \d+;/let seconds = 0;/,document
+||wotif.*/tagging-client
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wp.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script,app=~pl.videostar
 ||wp.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script,domain=~profil.wp.pl
