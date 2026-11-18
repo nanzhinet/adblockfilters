@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/nanzhinet/adblockfilters
 # Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261118131652
-# Last modified: 2026/11/18 13:16:52
-# Blocked domains: 7780
+# Version: 20261119005123
+# Last modified: 2026/11/19 00:51:23
+# Blocked domains: 7864
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -25,8 +25,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	013572.cn
 0.0.0.0	photo.0234408.cn
 0.0.0.0	img.0279.net
+0.0.0.0	027dir.com
 0.0.0.0	o.027eat.com
 0.0.0.0	jc.0351dvd.cn
+0.0.0.0	036e.cn
+0.0.0.0	0471fcw.com
+0.0.0.0	0512pifa.com.cn
+0.0.0.0	0575bbs.com
+0.0.0.0	0597kk.com
+0.0.0.0	06362.com
 0.0.0.0	m.072va.cn
 0.0.0.0	0755rc.com
 0.0.0.0	g1.08160.cn
@@ -235,6 +242,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	2bj.cn
 0.0.0.0	2mdn-cn.net
 0.0.0.0	2te.com
+0.0.0.0	2vv.cc
 0.0.0.0	2yt.cn
 0.0.0.0	2ztav5r7r.com
 0.0.0.0	ad.3.cn
@@ -451,9 +459,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	stat.56.com
 0.0.0.0	union.56.com
 0.0.0.0	uvimage.56.com
+0.0.0.0	v16.56.com
 0.0.0.0	www.56.com
 0.0.0.0	5646.cn
 0.0.0.0	matomo.5688.cn
+0.0.0.0	dl.1003b.56a.com
 0.0.0.0	57.com.cn
 0.0.0.0	57573zubo36833.com
 0.0.0.0	adshow.58.com
@@ -533,7 +543,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	7577.cc
 0.0.0.0	75ww.com
 0.0.0.0	7631.com
-0.0.0.0	api.76aca206c0e2134956dc03c144fe7ad2.com
 0.0.0.0	77455.com
 0.0.0.0	7794.com
 0.0.0.0	m.77vcd.com
@@ -897,6 +906,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	com-eonsun-owl.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	commondata.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com
+0.0.0.0	dashijie2026.oss-ap-southeast-7.aliyuncs.com
 0.0.0.0	daxiu01.oss-accelerate.aliyuncs.com
 0.0.0.0	dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
 0.0.0.0	dressimage.img-cn-beijing.aliyuncs.com
@@ -927,7 +937,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tci.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	tmea116.oss-cn-beijing.aliyuncs.com
 0.0.0.0	union-record.oss-cn-zhangjiakou.aliyuncs.com
-0.0.0.0	video231.oss-cn-beijing.aliyuncs.com
 0.0.0.0	weco2.oss-me-east-1.aliyuncs.com
 0.0.0.0	windo.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	www5.oss-cn-hangzhou.aliyuncs.com
@@ -1249,6 +1258,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	baigm.com
 0.0.0.0	ad.baihemob.com
 0.0.0.0	pic.baihuawen.cn
+0.0.0.0	baihuwang.com
 0.0.0.0	baike.biz
 0.0.0.0	baiwv.com
 0.0.0.0	baixing.com
@@ -1263,6 +1273,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	n.baminw.com.cn
 0.0.0.0	q.baminw.com.cn
 0.0.0.0	bangyoul.cn
+0.0.0.0	banmamedia.com
 0.0.0.0	baobaoshiye.com.cn
 0.0.0.0	active.baofeng.com
 0.0.0.0	co.dtech.baofeng.com
@@ -1342,6 +1353,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sentry.bhbapp.cn
 0.0.0.0	app-posthog.bi-sage.site
 0.0.0.0	bianxian.com
+0.0.0.0	code.bianxianwu.com
 0.0.0.0	biddingx.com
 0.0.0.0	m.biduo.cc
 0.0.0.0	biedronka-outlet.shop
@@ -1376,7 +1388,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	as.bjmama.net
 0.0.0.0	bjmantis.net
 0.0.0.0	bjmcmj.cn
-0.0.0.0	bjsthy.com
 0.0.0.0	bjvvqu.cn
 0.0.0.0	file.blackint3.com
 0.0.0.0	blacktridents.shop
@@ -1424,9 +1435,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.bwton.com
 0.0.0.0	dlogs.bwton.com
 0.0.0.0	bxsnews.com
-0.0.0.0	analytics1.bybanking.com
-0.0.0.0	metrics.izzi1m3i.bybanking.com
-0.0.0.0	metrics2.izzi1m3i.bybanking.com
+0.0.0.0	metrics2.bybanking.com
 0.0.0.0	byscy.cn
 0.0.0.0	dm.bytedance.com
 0.0.0.0	mssdk.bytedance.com
@@ -1544,6 +1553,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	p4-ad.adkwai.com.3dce113f.cdnhwchcg02.com
 0.0.0.0	p4-ad.adukwai.com.3dce113f.cdnhwchcg02.com
 0.0.0.0	p66-ad.adkwai.com.3dce113f.cdnhwchcg02.com
+0.0.0.0	v4-ad.adukwai.com.3dce113f.cdnhwcoem01.com
 0.0.0.0	ads-i4.xhscdn.com.057f7a7d.cdnhwcxcy07.com
 0.0.0.0	ad.cdnjm.cn
 0.0.0.0	syh-imp.cdnjtzy.com
@@ -1607,6 +1617,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	feedbackstorage.blob.core.chinacloudapi.cn
 0.0.0.0	pcmactivity.chinacloudsites.cn
 0.0.0.0	usercollection.chinadaily.com.cn
+0.0.0.0	v96-reading-ad.qznovelvod.com.cdn.chinamobile.com
 0.0.0.0	sdkoptedge.chinanetcenter.com
 0.0.0.0	adq.chinaso.com
 0.0.0.0	a2put.chinaz.com
@@ -1722,7 +1733,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cobitoy.com
 0.0.0.0	coco988.cn
 0.0.0.0	codenow.cn
-0.0.0.0	1.codesdq.com
 0.0.0.0	codesoftchina.com
 0.0.0.0	reportwest-midas.codmwest.com
 0.0.0.0	coffeeplantco.shop
@@ -1743,7 +1753,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	smartcard.apps.coloros.com
 0.0.0.0	smartcardf-eu.apps.coloros.com
 0.0.0.0	smartcardf.apps.coloros.com
-0.0.0.0	columbia-france.fr
 0.0.0.0	com5.com.cn
 0.0.0.0	commedesgarconsfrance.fr
 0.0.0.0	trk.compair.com.cn
@@ -1820,7 +1829,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	z1.cwbaike.com
 0.0.0.0	cxad.cn
 0.0.0.0	hhn.cxslcc.cn
-0.0.0.0	news.cxxtv.com
 0.0.0.0	ad.cyapi.cn
 0.0.0.0	c.cyhx98.com
 0.0.0.0	cyq8vqq9s.com
@@ -1920,8 +1928,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	grs.dbankcloud.eu
 0.0.0.0	adx-drru.op.dbankcloud.ru
 0.0.0.0	events-drru.op.dbankcloud.ru
-0.0.0.0	grs.platform.dbankcloud.ru
 0.0.0.0	0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
+0.0.0.0	0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
 0.0.0.0	adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 0.0.0.0	adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 0.0.0.0	adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn
@@ -2089,7 +2097,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	stun1.douyucdn.cn
 0.0.0.0	dotcounter.douyutv.com
 0.0.0.0	bigdata.downza.com
-0.0.0.0	s.doyo.cn
 0.0.0.0	dpd-dostawa-poland.shop
 0.0.0.0	dpjzzgw.cn
 0.0.0.0	drdwy.com
@@ -2098,6 +2105,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dspunion.com
 0.0.0.0	analytics.dsyqt.com
 0.0.0.0	dualspace.com
+0.0.0.0	src.duanxin520.com
 0.0.0.0	agentchannel.api.duapp.com
 0.0.0.0	channel.api.duapp.com
 0.0.0.0	duapps.com
@@ -2146,6 +2154,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dytuj6zs26.com
 0.0.0.0	dz6xqe19d2.com
 0.0.0.0	dzgg.com
+0.0.0.0	dzoimeoo.shop
 0.0.0.0	dl.dzqzd.com
 0.0.0.0	sdd.dzsc.com
 0.0.0.0	ad.dzwindows.com
@@ -2206,12 +2215,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	webmail-myaccount-secure-micrsoftnotifications-dpob324t4jqd.zh-cn.edgeone.cool
 0.0.0.0	webmail-updateupcoming-com-dp7cp80id24e.zh-cn.edgeone.cool
 0.0.0.0	0i3n894u-dpwyvwoituy1.edgeone.dev
-0.0.0.0	0whw23nd-dpb9te1dacqs.edgeone.dev
 0.0.0.0	65362655721.edgeone.dev
+0.0.0.0	above-violet-fuqtxfwy-dpkfdrf7eb1f.edgeone.dev
 0.0.0.0	achdh-dpdwwrdxc0a9.edgeone.dev
+0.0.0.0	added-teal-gwcsf8th-dpn55rsmiiiz.edgeone.dev
 0.0.0.0	addmeononoutllokpositionlist-dpu6dy3fqowd.edgeone.dev
 0.0.0.0	adminnfupanel-dpg54ztfrzuf.edgeone.dev
+0.0.0.0	advisory-plum-yqgznigh-dp7snxz23lkd.edgeone.dev
+0.0.0.0	ageofmachines-dpig4ib8orew.edgeone.dev
 0.0.0.0	alldbgdhhdhhdhhhchhchdhdm-dp9hzij3r3mr.edgeone.dev
+0.0.0.0	applicable-amber-drv22ngd-dpv3htbqy9tr.edgeone.dev
 0.0.0.0	appropriate-peach-qqgcy0q6.edgeone.dev
 0.0.0.0	arrogant-magenta-2yqmtzc8.edgeone.dev
 0.0.0.0	awsforensicl3ns-west1apprunner-dprd03feve9j.edgeone.dev
@@ -2223,8 +2236,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	b73223085-49c6-4dca-a2f1-4722014079fb-dpi4fgipupcs.edgeone.dev
 0.0.0.0	b74364238-d49c-4f21-a234-d47e9697ee92-dpowf5bnj9al.edgeone.dev
 0.0.0.0	balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev
+0.0.0.0	bandaiyan-gov-dp1m5ktxirfg.edgeone.dev
+0.0.0.0	beneficial-salmon-cabb2uaf-dpdgbh7biici.edgeone.dev
+0.0.0.0	beside-id-dp3ka6eiupsz.edgeone.dev
+0.0.0.0	besideid-dp45royxuvll.edgeone.dev
+0.0.0.0	big-bronze-cw6qplhs-dpmipygh74nx.edgeone.dev
 0.0.0.0	bigbuxshop-dpsbmzniwema.edgeone.dev
-0.0.0.0	blanked.edgeone.dev
+0.0.0.0	blind-brown-mihg1y5l-dp9zjtvrkz12.edgeone.dev
+0.0.0.0	blushing-violet-uirxwmn4-dprqtvhv21ao.edgeone.dev
 0.0.0.0	bottom-coral-l4ei8f1s.edgeone.dev
 0.0.0.0	build-flex-ttg-dpgzqjmv7a1i.edgeone.dev
 0.0.0.0	buildnowandeployprogram-dpkxx50ris3x.edgeone.dev
@@ -2232,30 +2251,53 @@ ff02::3	ip6-allhosts
 0.0.0.0	c0-m9w0489dfgychjk-bsh3cs6t2s.edgeone.dev
 0.0.0.0	cas-microsoft.edgeone.dev
 0.0.0.0	cautious-parakeet-dp8m7ealq3k4.edgeone.dev
+0.0.0.0	cdn-check-dpzgr0kyzxks.edgeone.dev
+0.0.0.0	chilly-black-hqdd80xn-dpmqm0hkl6gm.edgeone.dev
 0.0.0.0	cloudsrvjk876nj987-dp1lu5k2i9vz.edgeone.dev
 0.0.0.0	combined-silver-0x5s9uu5.edgeone.dev
+0.0.0.0	coming-yellow-v38eayln-dp5lpmxh2pyx.edgeone.dev
+0.0.0.0	compulsory-plum-elk34n7z-dpi5rtrgiprj.edgeone.dev
+0.0.0.0	conceptual-crimson-y1jd8rd2-dpctumy3otkp.edgeone.dev
 0.0.0.0	congenial-goggles-dpuw9y8aky56.edgeone.dev
 0.0.0.0	considerable-orange-q8rwmb3p.edgeone.dev
+0.0.0.0	controversial-sapphire-nlz9aq0v-dpzqvecckwzf.edgeone.dev
+0.0.0.0	convincing-emerald-9t25ngaf-dp0crdwd359a.edgeone.dev
 0.0.0.0	copyright-case-review.edgeone.dev
 0.0.0.0	copyright-claim-review-request-form.edgeone.dev
 0.0.0.0	copyright-policy-review-form.edgeone.dev
 0.0.0.0	copyright-policy-troubleshooting-request-form.edgeone.dev
 0.0.0.0	coremail-dp3qtv7j363o.edgeone.dev
+0.0.0.0	cosmos-dpteiox1954f.edgeone.dev
 0.0.0.0	cpwehwhhhdsjddjkdfhesh-dps076qx66zp.edgeone.dev
 0.0.0.0	crispy-garbanzo-me-dpbt0uga9b5v.edgeone.dev
+0.0.0.0	crooked-silver-hviumorn-dp8a2cnxti6n.edgeone.dev
+0.0.0.0	crowded-tan-4kqgpqat-dp2ndkrqwidp.edgeone.dev
+0.0.0.0	cultural-rose-vfw1s2mu-dpip9s2go7mo.edgeone.dev
 0.0.0.0	d7522e2c-c5f7-4dc8-b83f-9f9dacd15c4d.edgeone.dev
 0.0.0.0	dead-coffee-vczxixdn-dpwj3cuq93cf.edgeone.dev
+0.0.0.0	defeated-gold-jhgr0w4t-dpnkbmvr36qo.edgeone.dev
+0.0.0.0	delightful-salmon-iog5xda7-dpgym3y5of3b.edgeone.dev
+0.0.0.0	desirable-bronze-gnnsuiwc-dpihxpj45pmu.edgeone.dev
+0.0.0.0	disabled-copper-0fyausta-dpx8s49k3ana.edgeone.dev
+0.0.0.0	disciplinary-scarlet-yeu59a8g-dpvjjooej6r7.edgeone.dev
 0.0.0.0	doc-fcms.edgeone.dev
+0.0.0.0	dokht-hastiya-dptd9to8m7w9.edgeone.dev
+0.0.0.0	drab-fuchsia-pqqtbybk-dp5kf4xuf4an.edgeone.dev
 0.0.0.0	educational-blush-ooupnjp2.edgeone.dev
 0.0.0.0	efhjfjdhdksdhlfsfsvjvj-dprhmd8pvnvd.edgeone.dev
 0.0.0.0	emzy-li-dpb7940xq7sj.edgeone.dev
+0.0.0.0	enormous-tan-xifyqwie-dpqbivjvw48o.edgeone.dev
 0.0.0.0	es4dr56tyuikdf6g-dp9xyf4hhc53.edgeone.dev
 0.0.0.0	exotic-lime-olunrtbr.edgeone.dev
 0.0.0.0	expensive-teal-oljdkw3m.edgeone.dev
 0.0.0.0	explicit-amaranth-qng8tdbe.edgeone.dev
 0.0.0.0	f40914238-3da7-4de7-8dee-307e6692cfb8.edgeone.dev
+0.0.0.0	fazlani-trader-offer-list-dpugahrb4sag.edgeone.dev
 0.0.0.0	ffsre-dpzou3ijaxzb.edgeone.dev
+0.0.0.0	firstverificattionsettingsi-dpxrca6view0.edgeone.dev
 0.0.0.0	flyaairlogis-dp1f8pq5osbp.edgeone.dev
+0.0.0.0	forkknife-dpbuser1wbnn.edgeone.dev
+0.0.0.0	frail-jade-ee1jhxmq-dpph0f7wkiuz.edgeone.dev
 0.0.0.0	fyguhaghytusg.edgeone.dev
 0.0.0.0	garage-intense-polar.edgeone.dev
 0.0.0.0	gastric-rose-hwpw4awz.edgeone.dev
@@ -2266,17 +2308,22 @@ ff02::3	ip6-allhosts
 0.0.0.0	ggkhhfhhfhflhjdcxcvbthg-dpfmbose3uxq.edgeone.dev
 0.0.0.0	ggsgsgsgdjjczkjgjkggacggc-dpqt3wpkjdo9.edgeone.dev
 0.0.0.0	global-fuchsia-9par6vcz-dp5x4caf1rmk.edgeone.dev
+0.0.0.0	grand-amethyst-tknswcjo-dpduqfqv79g2.edgeone.dev
 0.0.0.0	hdggdhjdhjdgdjjjgcjggjgj-dpt5xisw7bfs.edgeone.dev
+0.0.0.0	historic-white-1awztlzi-dp1pxi3953s2.edgeone.dev
 0.0.0.0	hjmdbcvvukhjhk-dpjrblo0l584.edgeone.dev
 0.0.0.0	horrible-coral-ugrwxhbj.edgeone.dev
 0.0.0.0	htmlbddhjghtnkcgjjhhjdhtml-dpptwqylzrhe.edgeone.dev
 0.0.0.0	icy-brown-yrznyes4.edgeone.dev
+0.0.0.0	inclined-yellow-ih44nanw-dp4w9brid610.edgeone.dev
 0.0.0.0	inland-brown-8x0ej8me.edgeone.dev
 0.0.0.0	inquisitive-teal-omezr4ob.edgeone.dev
 0.0.0.0	intellectual-property-appeal-dp16ue7mh0wc.edgeone.dev
 0.0.0.0	intellectual-property-center.edgeone.dev
 0.0.0.0	intellectual-property-review-dp8cm75v8j31.edgeone.dev
 0.0.0.0	intellectual-property-troubleshooting-center.edgeone.dev
+0.0.0.0	jksoccer-dpk87i2mbj4g.edgeone.dev
+0.0.0.0	justine-dp38s40kme7r.edgeone.dev
 0.0.0.0	kerenare54-dpwekmulre85.edgeone.dev
 0.0.0.0	khjfdgsfsdfhjklljdhgdstryt-dp97141gwv85.edgeone.dev
 0.0.0.0	kloclibkblink-dp73tqm8r6w5.edgeone.dev
@@ -2284,51 +2331,86 @@ ff02::3	ip6-allhosts
 0.0.0.0	limitlessdubai-dp8oxsl60kva.edgeone.dev
 0.0.0.0	loginpages0000-dpf0869el7ik.edgeone.dev
 0.0.0.0	loginsecurde4-dpqom26teqv9.edgeone.dev
+0.0.0.0	loud-brown-iqsn4sba-dpb0nvqqo4co.edgeone.dev
+0.0.0.0	magnificent-copper-qxg6oiwa-dp844zyfl1jd.edgeone.dev
 0.0.0.0	mailsemailveirifucationofrsettings-dpgk7yxwdg6m.edgeone.dev
 0.0.0.0	mailwilling-dp9gqao71lzl.edgeone.dev
 0.0.0.0	managpoztaopl.edgeone.dev
+0.0.0.0	manual-apricot-k5xonfxl-dpvgicnn6dsr.edgeone.dev
+0.0.0.0	masterma-dpjww39mtz2y.edgeone.dev
 0.0.0.0	meta-transparency-appeal-form-471ed0d914a1.edgeone.dev
+0.0.0.0	michaelscouchlol12-dpzk7z7h16yn.edgeone.dev
+0.0.0.0	microworkers-dp9yhyq3h7za.edgeone.dev
+0.0.0.0	minecraft-dpvtake94md4.edgeone.dev
 0.0.0.0	moudhgsr-dp4lyapywtjw.edgeone.dev
 0.0.0.0	musical-octo-robot-dptlf6z6tv2g.edgeone.dev
 0.0.0.0	mxoot-dp3j3hh9ymkp.edgeone.dev
 0.0.0.0	mypmgrca-dpq4xiqwj2ki.edgeone.dev
+0.0.0.0	mysterious-purple-y5gsbla2-dpsr7b1mro1e.edgeone.dev
 0.0.0.0	na4-docusignv1-52fe74b0160e448ceb80dfbd0a1159128ace1fb4dc97c9b1.edgeone.dev
 0.0.0.0	newgooglgecheckoutroundwebmailer-dpzcf6efmgzv.edgeone.dev
 0.0.0.0	no2body7-dpyijatuyl2q.edgeone.dev
+0.0.0.0	notable-lime-pgjel30s-dpie9gi2l0kk.edgeone.dev
 0.0.0.0	officedeskego-dp8bsedoxuio.edgeone.dev
 0.0.0.0	officeme-dpjs5aucgasw.edgeone.dev
 0.0.0.0	officialgmailveirifcationtunnel-dpfk8fse6v5v.edgeone.dev
 0.0.0.0	ofornaogu-dpzv6dife1hh.edgeone.dev
+0.0.0.0	oneupdailytips-dpza13z2sh2r.edgeone.dev
 0.0.0.0	ordinary-silver-rkbwyw06.edgeone.dev
 0.0.0.0	outlookliveonverification-dp52uq80y4cv.edgeone.dev
+0.0.0.0	outrageous-blue-4wselybs-dp4kgo99ey02.edgeone.dev
+0.0.0.0	overseas-coral-wd0gf4j7-dpukgzdaglvu.edgeone.dev
 0.0.0.0	papa.edgeone.dev
 0.0.0.0	portalportalportalportalportal.edgeone.dev
+0.0.0.0	preliminary-lavender-lqooaqkl-dpmj63yli2c6.edgeone.dev
 0.0.0.0	pretty-white-ziekneey.edgeone.dev
 0.0.0.0	prior-jade-yjoyvniu.edgeone.dev
 0.0.0.0	profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
+0.0.0.0	rational-black-nzqystl4-dpp3ecmarbrn.edgeone.dev
 0.0.0.0	ready-to-g0u3yt-dp10u3ka993x.edgeone.dev
+0.0.0.0	recent-azure-nstd1tmy-dp32zwqpk6xq.edgeone.dev
 0.0.0.0	register-demand-framework-shareholding-capital-dpuvktbvtbq4.edgeone.dev
+0.0.0.0	reliable-purple-qwfxhldd-dpbkw3vhards.edgeone.dev
 0.0.0.0	reloader-dpffdavrss4p.edgeone.dev
+0.0.0.0	remaining-orange-4i09pgpv-dp2o4spw3kw5.edgeone.dev
 0.0.0.0	request-copyright-policy-review.edgeone.dev
+0.0.0.0	resulting-turquoise-guqeswgf-dpdznv3vpx56.edgeone.dev
 0.0.0.0	review-copyright-infringement-reports.edgeone.dev
 0.0.0.0	review-copyright-infringement-request.edgeone.dev
 0.0.0.0	review-copyright-policy-violations.edgeone.dev
 0.0.0.0	right-copper-xkzqbqnk.edgeone.dev
+0.0.0.0	rival-green-6sqsz6t4-dp4igcdcd6sy.edgeone.dev
+0.0.0.0	rough-olive-fsxn2jlr-dpg3k0qf4xkn.edgeone.dev
+0.0.0.0	say-dp57omfxx5q6.edgeone.dev
+0.0.0.0	scrawny-lime-6dlukffp-dpkbrx90ho5a.edgeone.dev
 0.0.0.0	secure-tan-rq4ghtdc.edgeone.dev
 0.0.0.0	separate-apricot-hbdffwuz.edgeone.dev
 0.0.0.0	seri3sawsapprunner-south1-dpkkvw2rkadj.edgeone.dev
+0.0.0.0	severe-cyan-yqypgvlq-dpojisavmk33.edgeone.dev
 0.0.0.0	shiny-octo-pancake-jnr-dpxs36pdbgzg.edgeone.dev
+0.0.0.0	shocked-maroon-mscrqpcm-dph9msrks4w0.edgeone.dev
+0.0.0.0	similar-moccasin-3d9jqhkx-dpty5hf0h0qc.edgeone.dev
+0.0.0.0	slow-amethyst-6ahiltyb-dpjdml1h2faz.edgeone.dev
+0.0.0.0	spacewaves-dp3cgshvhwlb.edgeone.dev
 0.0.0.0	sriramnwar-dpoae04723lz.edgeone.dev
 0.0.0.0	srvkdtsged5w23456ds-dplleb90jz3x.edgeone.dev
+0.0.0.0	sst-dpev9jbebnf2.edgeone.dev
+0.0.0.0	stale-jade-dinnsmor-dpn6m1gh7s43.edgeone.dev
+0.0.0.0	strategic-scarlet-pogtlhld-dp03344lbh2q.edgeone.dev
 0.0.0.0	super-chocolate-gaxl7qfi.edgeone.dev
+0.0.0.0	supporting-scarlet-6ucrwejs-dptlh9awqi6s.edgeone.dev
 0.0.0.0	supprtrcb-dpldxysyz96q.edgeone.dev
 0.0.0.0	supreme-lavender-t9nd7q0w.edgeone.dev
 0.0.0.0	symmetrical-octo-umbrella-dpfq8j6ozudi.edgeone.dev
+0.0.0.0	tame-crimson-mppy4hbe-dp52c6itr3um.edgeone.dev
 0.0.0.0	tapin.edgeone.dev
+0.0.0.0	tart-tan-36u4r8tp-dpmmnlu5xmno.edgeone.dev
+0.0.0.0	tbc-care-dp39nyf2kxya.edgeone.dev
 0.0.0.0	tdrdwhxxgjzhztwxtxsf-dp9ctcz1v8gi.edgeone.dev
 0.0.0.0	tino0908-ecount-dp78obhyuaqp.edgeone.dev
 0.0.0.0	tokyoforum-dpuw1bbe43fa.edgeone.dev
 0.0.0.0	traditional-violet-gzelm9rw.edgeone.dev
+0.0.0.0	tricky-peach-7rw7vnjm-dpogur02x2fb.edgeone.dev
 0.0.0.0	troubleshoot-ad-account-issues.edgeone.dev
 0.0.0.0	troubleshoot-copyright-policy-violations.edgeone.dev
 0.0.0.0	uefa46-dpimi9v6dp2i.edgeone.dev
@@ -2339,10 +2421,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	webmaprocessinh-dpbehei5spwx.edgeone.dev
 0.0.0.0	welcome-ivory-mla3tpma-dpgbipy9x8sc.edgeone.dev
 0.0.0.0	well-aquamarine-psata8ej.edgeone.dev
+0.0.0.0	wet-amaranth-cue6zlnn-dp04ylnxcu23.edgeone.dev
 0.0.0.0	whyte11chase-dpkso5utb08y.edgeone.dev
+0.0.0.0	windowsdfendeemailvautoinfordata-dp2giq731oep.edgeone.dev
+0.0.0.0	wrong-copper-nqovc6ad-dposof3zvkkv.edgeone.dev
 0.0.0.0	wwwww-dpe7gpnooou7.edgeone.dev
+0.0.0.0	xenogeneic-cyan-wu3nxexb-dpsx4uety6rq.edgeone.dev
 0.0.0.0	xminesserversaqwq.edgeone.dev
 0.0.0.0	y87f6s34a2qw-dp3fy8azkrz8.edgeone.dev
+0.0.0.0	yeasty-coffee-ebvrdvtr-dpoaig060z4p.edgeone.dev
 0.0.0.0	ytterbic-amber-qilwigl2.edgeone.dev
 0.0.0.0	ediuschina.com
 0.0.0.0	eduace.com.cn
@@ -2401,6 +2488,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	epaes.com.cn
 0.0.0.0	epernn.cn
 0.0.0.0	eavs02.eqifa.com
+0.0.0.0	eqlidke.cn
 0.0.0.0	eraaoec.cn
 0.0.0.0	m.ercos.cn
 0.0.0.0	ergeapp.com
@@ -2890,6 +2978,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pf.h5game.cn
 0.0.0.0	s.h5king.com
 0.0.0.0	h7ima6w5k.com
+0.0.0.0	images.newsletter.hach.com.cn
 0.0.0.0	hacker.com.cn
 0.0.0.0	haejkmm.cn
 0.0.0.0	hats.haibao.cn
@@ -3247,11 +3336,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.huantest.com
 0.0.0.0	ads.cloud.huawei.com
 0.0.0.0	hwa.his.huawei.com
+0.0.0.0	sg.nebula-collector.huawei.com
 0.0.0.0	httpdns.huaweicloud.com
+0.0.0.0	repo.huaweicloud.com
 0.0.0.0	uba.huaweicloud.com
 0.0.0.0	huayiav.cn
 0.0.0.0	inner-hw.huazirc.com
 0.0.0.0	hubcloud.com.cn
+0.0.0.0	download2.huduntech.com
 0.0.0.0	umami.huexef.cn
 0.0.0.0	huidakms.com.cn
 0.0.0.0	huishenghuiying.com
@@ -3329,6 +3421,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.icloseli.cn
 0.0.0.0	iconworkshop.cn
 0.0.0.0	id6.me
+0.0.0.0	idd1.com
 0.0.0.0	js.idgdmgroup.com.cn
 0.0.0.0	idmchina.net
 0.0.0.0	actsdk.idreamsky.com
@@ -3382,7 +3475,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a4.ikafan.com
 0.0.0.0	posthog.ikuai8.com
 0.0.0.0	ikuailian.com
-0.0.0.0	ikujy.cn
 0.0.0.0	static.ilclock.com
 0.0.0.0	ilkwork.com
 0.0.0.0	smetrics.illumina.com.cn
@@ -3405,6 +3497,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	schedule-media.immomo.com
 0.0.0.0	sla-media.immomo.com
 0.0.0.0	atb-stats-api.imolive.tv
+0.0.0.0	imop.com
 0.0.0.0	pyk.in-neo.cn
 0.0.0.0	inad.com
 0.0.0.0	dlres.ind9ed.com
@@ -3442,6 +3535,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ipinyou.com
 0.0.0.0	ipinyou.com.cn
 0.0.0.0	iplogger.cn
+0.0.0.0	iptujwgl.shop
 0.0.0.0	ibd-as-api.iq.com
 0.0.0.0	g3.iqilu.com
 0.0.0.0	g4.iqilu.com
@@ -3481,6 +3575,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	am.g.ireader.com
 0.0.0.0	log.ireader.com
 0.0.0.0	logv2.ireader.com
+0.0.0.0	irobot-france.fr
 0.0.0.0	is16yobjh7.com
 0.0.0.0	iscrv.com
 0.0.0.0	ads.ishansong.com
@@ -3517,6 +3612,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	v1-dc-ad.ixigua.com
 0.0.0.0	v3-ad.ixigua.com
 0.0.0.0	v3-dc-ad.ixigua.com
+0.0.0.0	v6-ad.ixigua.com
 0.0.0.0	v6-dc-ad.ixigua.com
 0.0.0.0	v9-ad.ixigua.com
 0.0.0.0	v9-dc-ad.ixigua.com
@@ -3582,7 +3678,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pic.jdbbs.com
 0.0.0.0	rmw.jdburl.com
 0.0.0.0	jddaw.com
-0.0.0.0	klk.jdflower.cn
 0.0.0.0	jdnlynb.cn
 0.0.0.0	pic.jdunion.com
 0.0.0.0	jesgoo.com
@@ -3597,6 +3692,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jhwap.cn
 0.0.0.0	jhzfwl.cn
 0.0.0.0	api.jialiangad.com
+0.0.0.0	wj.jiancai365.cn
 0.0.0.0	acc.jiangsujiaxue.com
 0.0.0.0	ahm.jiankang123.net
 0.0.0.0	jiankongbao.com
@@ -3651,6 +3747,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	v.jntxst.cn
 0.0.0.0	jnykjgs.cn
 0.0.0.0	jnyngg.cn
+0.0.0.0	ub1.job592.com
 0.0.0.0	bd3.jobui.com
 0.0.0.0	hiorange1.jobui.com
 0.0.0.0	yqg.jobui.com
@@ -3736,7 +3833,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.keai36.cn
 0.0.0.0	keensfrance.fr
 0.0.0.0	kehuduan.com
-0.0.0.0	kekop.cn
 0.0.0.0	kekuailai.com
 0.0.0.0	analytic.kenhub.cn
 0.0.0.0	kenzofrance.fr
@@ -4053,6 +4149,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lianwangtech.com
 0.0.0.0	adimg.liba.com
 0.0.0.0	track.libii.cn
+0.0.0.0	lichaoliang.com
 0.0.0.0	lidanzi.shop
 0.0.0.0	liebaovip.com
 0.0.0.0	log.liepin.com
@@ -4171,6 +4268,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adsapi.manhuaren.com
 0.0.0.0	bi.manhuaren.com
 0.0.0.0	euadsapi.manhuaren.com
+0.0.0.0	mantang-secure-cert.com.cn
 0.0.0.0	manyou.com
 0.0.0.0	umami.mao.fan
 0.0.0.0	ad.maoyan.com
@@ -4296,7 +4394,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tr.tv.global.mi.com
 0.0.0.0	ua.tv.global.mi.com
 0.0.0.0	us.tv.global.mi.com
-0.0.0.0	video.kts.g.mi.com
 0.0.0.0	vn.tv.global.mi.com
 0.0.0.0	za.tv.global.mi.com
 0.0.0.0	miam4.cn
@@ -4455,7 +4552,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log1.molitv.cn
 0.0.0.0	log2.molitv.cn
 0.0.0.0	track.molitv.cn
-0.0.0.0	moodoo.com.cn
 0.0.0.0	m.moomoo.com
 0.0.0.0	ad.moonton.cn
 0.0.0.0	moquanad.com
@@ -4528,7 +4624,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adstore-1252524079.file.myqcloud.com
 0.0.0.0	adstore-index-1252524079.file.myqcloud.com
 0.0.0.0	app-artifacts-1305923417.cos.ap-guangzhou.myqcloud.com
-0.0.0.0	bj5y6-0f-9h4-9fgg4-1324992141.cos.ap-bangkok.myqcloud.com
 0.0.0.0	cdn-10049480.file.myqcloud.com
 0.0.0.0	cndjs-1251973891.coshk.myqcloud.com
 0.0.0.0	dianying-1304791696.cos.ap-shanghai.myqcloud.com
@@ -4743,6 +4838,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	oshoplive.com
 0.0.0.0	osprey-france.fr
 0.0.0.0	osrrltw.cn
+0.0.0.0	otilxyzygagam.eu
 0.0.0.0	ad.otomedream.com
 0.0.0.0	cp.oupeng.com
 0.0.0.0	img-ad.oupeng.com
@@ -4763,7 +4859,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	overlay.top
 0.0.0.0	overturechina.com
 0.0.0.0	ovnrmvg.cn
-0.0.0.0	ovsfr.fr
 0.0.0.0	owalafr.fr
 0.0.0.0	oxi23.cn
 0.0.0.0	oyz61nhz8.com
@@ -4849,8 +4944,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pinkofrance.fr
 0.0.0.0	bd1.pipaw.com
 0.0.0.0	bd2.pipaw.com
-0.0.0.0	pitbullmens.club
-0.0.0.0	pitbullmensp.shop
 0.0.0.0	stat2.pixpin.cn
 0.0.0.0	pj50.com
 0.0.0.0	pjspcy.com
@@ -4898,6 +4991,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	app.aplus.pptv.com
 0.0.0.0	as.aplus.pptv.com
 0.0.0.0	de.as.pptv.com
+0.0.0.0	img1.g.pptv.com
 0.0.0.0	jp.as.pptv.com
 0.0.0.0	pp2.pptv.com
 0.0.0.0	pub.aplus.pptv.com
@@ -5342,11 +5436,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	v13-reading-ad.qznovelvod.com
 0.0.0.0	v26-reading-ad.qznovelvod.com
 0.0.0.0	v3-reading-ad.qznovelvod.com
+0.0.0.0	v5-bd-daily-reading-ad.qznovelvod.com
+0.0.0.0	v5-daily-cm-reading-ad.qznovelvod.com
 0.0.0.0	v5-dj-reading-ad.qznovelvod.com
 0.0.0.0	v5-ex-reading-ad.qznovelvod.com
 0.0.0.0	v5-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-bjtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-ex-mc-reading-ad.qznovelvod.com
+0.0.0.0	v5-se-gddgtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-jltc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-sjy-daily-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-yz-reading-ad.qznovelvod.com
@@ -5448,7 +5545,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ruskhw.cn
 0.0.0.0	rvbztg.cn
 0.0.0.0	rvzlobj.cn
-0.0.0.0	gang.rw33.cn
 0.0.0.0	rwpt.top
 0.0.0.0	rxys.cn
 0.0.0.0	ryd626moj.com
@@ -5712,9 +5808,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.future.smart.com
 0.0.0.0	sms.info.smart.com
 0.0.0.0	smarttrade.cn
-0.0.0.0	smigglefr.fr
 0.0.0.0	smucdn.com
-0.0.0.0	smykmarket.shop
 0.0.0.0	smykmarketspl.shop
 0.0.0.0	res-ga.smzdm.com
 0.0.0.0	errortracking.snapp.site
@@ -5861,6 +5955,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	srqxnvjdd.com
 0.0.0.0	data.ssports.com
 0.0.0.0	show.ssports.com
+0.0.0.0	3.ssqzj.com
 0.0.0.0	sssxwsry.com
 0.0.0.0	ssur.cc
 0.0.0.0	stadebrestois29.fr
@@ -6275,8 +6370,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trcakingapp.trnox.com
 0.0.0.0	ta.trs.cn
 0.0.0.0	ad.truerun.com
-0.0.0.0	truly1-sit6.cfd
-0.0.0.0	truly8-explicabo4.cfd
 0.0.0.0	trumerholz-store.shop
 0.0.0.0	trustutn.org
 0.0.0.0	ts166.net
@@ -6317,6 +6410,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	txstatic.cn
 0.0.0.0	m.txtxr.com
 0.0.0.0	ty.cn
+0.0.0.0	tzcfyre.cn
 0.0.0.0	m.u0r9.cn
 0.0.0.0	u51.me
 0.0.0.0	u7u9.com
@@ -6421,7 +6515,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	uphzxdv.cn
 0.0.0.0	mobilelog.upqzfile.com
 0.0.0.0	other.upqzfile.com
-0.0.0.0	video.upqzfile.com
 0.0.0.0	upzabkw.cn
 0.0.0.0	adscfg.uqualities.com
 0.0.0.0	adsoss.uqualities.com
@@ -6433,6 +6526,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ushaqi.com
 0.0.0.0	usn.cc
 0.0.0.0	gyqpyr.utsource.net
+0.0.0.0	utywsi.cn
 0.0.0.0	app.uu.cc
 0.0.0.0	dl.uu.cc
 0.0.0.0	dlog-config.uu.cc
@@ -6476,14 +6570,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	vamaker.com
 0.0.0.0	collect.vans.com.cn
 0.0.0.0	sea-log-rcv.vansound.com
-0.0.0.0	api.vasb.cn
 0.0.0.0	tc.vbnmhjlp.com
 0.0.0.0	log.vcgame.cn
 0.0.0.0	analytics.umetrip.com.c.vedcdnlb.com
 0.0.0.0	vegaschina.cn
-0.0.0.0	verifyhub.nx.cn
 0.0.0.0	g.analytics.versa-ai.com
-0.0.0.0	veryboys.com
 0.0.0.0	vhgu5ivtew.com
 0.0.0.0	web.m182.vhostgo.com
 0.0.0.0	vhwrju18p.com
@@ -6495,13 +6586,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	tx-p2p-pull.video-voip.com
 0.0.0.0	ws-p2p-pull.video-voip.com
 0.0.0.0	rtas.videocc.net
-0.0.0.0	videojj.com
 0.0.0.0	conf.vidown.cn
 0.0.0.0	gg.vidown.cn
 0.0.0.0	minisite.vidown.cn
 0.0.0.0	rtlog.vidown.cn
 0.0.0.0	tj.vidown.cn
-0.0.0.0	vigyn4gpx.com
 0.0.0.0	api.union.vip.com
 0.0.0.0	click.union.vip.com
 0.0.0.0	n-st.vip.com
@@ -6766,7 +6855,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.vmiua.com
 0.0.0.0	vmj428qvi4.com
 0.0.0.0	service.vmos.cn
-0.0.0.0	vn-adtech-beta-us-east-1-tap-automation.s3.us-east-1.amazonaws.com
 0.0.0.0	vnvmif.cn
 0.0.0.0	vodone.com
 0.0.0.0	mini-prog-drm.vodplayvideo.net
@@ -6790,7 +6878,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vpsgu.cn
 0.0.0.0	p.vq6nsu.cn
 0.0.0.0	vrbrothers.com
-0.0.0.0	vrr.name
 0.0.0.0	n.vs108.com
 0.0.0.0	vsnoon.com
 0.0.0.0	vujzkkz.cn
@@ -6916,7 +7003,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wj8i1rlp2b.com
 0.0.0.0	wjgglm.com
 0.0.0.0	wjxcdn.com
-0.0.0.0	h1.wk2.com
 0.0.0.0	wkanx.com
 0.0.0.0	lm1.wkpcw.cn
 0.0.0.0	p.wktfkj.com
@@ -6977,7 +7063,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wumii.com
 0.0.0.0	wv26d.cn
 0.0.0.0	wwads.cn
-0.0.0.0	vhs.wwstat.com
 0.0.0.0	www-qishiu.com.cn
 0.0.0.0	1500020991.vodplayer.wxamedia.com
 0.0.0.0	1500022744.vodplayer.wxamedia.com
@@ -7130,7 +7215,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tv.weixin.pandora.xiaomi.com
 0.0.0.0	tvepg.pandora.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
-0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
 0.0.0.0	api.g.micloud.xiaomi.net
 0.0.0.0	findapi.micloud.xiaomi.net
@@ -7208,6 +7292,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adm.xmfish.com
 0.0.0.0	cmm.xmfish.com
 0.0.0.0	xmlsxar.cn
+0.0.0.0	xmq123.cn
 0.0.0.0	ad.xmydch.cn
 0.0.0.0	xmywlyh.cn
 0.0.0.0	xn--2qu92fhtxsxexqab.xn--fiqs8s
@@ -7527,6 +7612,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tx-p2p.pull.yximgs.com
 0.0.0.0	v1-ad.video.yximgs.com
 0.0.0.0	v2-ad.video.yximgs.com
+0.0.0.0	v3-ad.video.yximgs.com
 0.0.0.0	ws-p2p-v2.pull.yximgs.com
 0.0.0.0	ws-p2p.pull.yximgs.com
 0.0.0.0	bbcc.yxlady.com
@@ -7573,7 +7659,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zdh11040lo.com
 0.0.0.0	s2.zdmimg.com
 0.0.0.0	sentry-monitor-new.zdmimg.com
-0.0.0.0	imp.zdnet.com.cn
 0.0.0.0	pv.zdnet.com.cn
 0.0.0.0	stat.zdnet.com.cn
 0.0.0.0	detaillog-eu-base.zego.im
@@ -7703,7 +7788,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tnc3-alisc1.zijieapi.com
 0.0.0.0	tnc3-bjlgy.zijieapi.com
 0.0.0.0	vcs.zijieapi.com
-0.0.0.0	view.zijieapi.com
 0.0.0.0	datasink.ziniao.com
 0.0.0.0	logs-collect.ziniao.com
 0.0.0.0	test-cb-log.ziniao.com
