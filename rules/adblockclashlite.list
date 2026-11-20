@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/nanzhinet/adblockfilters
 # Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20261120005814
-# Last modified: 2026/11/20 00:58:14
-# Blocked domains: 7822
+# Version: 20261120125928
+# Last modified: 2026/11/20 12:59:28
+# Blocked domains: 7789
 #
 [Rule]
 DOMAIN-SUFFIX,013572.cn,REJECT-DROP
@@ -753,7 +753,6 @@ DOMAIN-SUFFIX,statscollector-2-oversea.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,webcollector-rtm.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,ahov1.top,REJECT-DROP
 DOMAIN-SUFFIX,ai-kit.cn,REJECT-DROP
-DOMAIN-SUFFIX,aiaixiaoshipin-web.cn,REJECT-DROP
 DOMAIN-SUFFIX,aibantian.cn,REJECT-DROP
 DOMAIN-SUFFIX,brc.aigrammar.net,REJECT-DROP
 DOMAIN-SUFFIX,brc2.aigrammar.net,REJECT-DROP
@@ -1361,7 +1360,10 @@ DOMAIN-SUFFIX,line1-log.biligame.net,REJECT-DROP
 DOMAIN-SUFFIX,line3-adscore-api.biligame.net,REJECT-DROP
 DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT-DROP
 DOMAIN-SUFFIX,billionfocus.com,REJECT-DROP
-DOMAIN-SUFFIX,binance-zh.cn,REJECT-DROP
+DOMAIN-SUFFIX,b.binance-zh.cn,REJECT-DROP
+DOMAIN-SUFFIX,cns.binance-zh.cn,REJECT-DROP
+DOMAIN-SUFFIX,hans.binance-zh.cn,REJECT-DROP
+DOMAIN-SUFFIX,home.binance-zh.cn,REJECT-DROP
 DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT-DROP
 DOMAIN-SUFFIX,ai.bioon.com,REJECT-DROP
 DOMAIN-SUFFIX,bglog.bitauto.com,REJECT-DROP
@@ -2229,12 +2231,10 @@ DOMAIN-SUFFIX,098yjuio-dpwxvxwxcuwy.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,0i3n894u-dpwyvwoituy1.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,0whw23nd-dpb9te1dacqs.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,65362655721.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,above-ivory-nuebjcia-dpbb81jq3hk5.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,achdh-dpdwwrdxc0a9.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,addmeononoutllokpositionlist-dpu6dy3fqowd.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,adminnfupanel-dpg54ztfrzuf.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,alldbgdhhdhhdhhhchhchdhdm-dp9hzij3r3mr.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,alright-silver-lwti90rh-dp96jeu861qh.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,appropriate-peach-qqgcy0q6.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,arrogant-magenta-2yqmtzc8.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,b48411138-0326-4a61-9b6e-51b0d590d944.edgeone.dev,REJECT-DROP
@@ -2246,7 +2246,6 @@ DOMAIN-SUFFIX,b74364238-d49c-4f21-a234-d47e9697ee92-dpowf5bnj9al.edgeone.dev,REJ
 DOMAIN-SUFFIX,balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,bigbuxshop-dpsbmzniwema.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,blanked.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,blushing-violet-d1pp2osj-dpqjthvw2cvu.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,bottom-coral-l4ei8f1s.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,build-flex-ttg-dpgzqjmv7a1i.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,buildnowandeployprogram-dpkxx50ris3x.edgeone.dev,REJECT-DROP
@@ -2266,19 +2265,15 @@ DOMAIN-SUFFIX,coremail-dp3qtv7j363o.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,cpwehwhhhdsjddjkdfhesh-dps076qx66zp.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,crispy-garbanzo-me-dpbt0uga9b5v.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,d7522e2c-c5f7-4dc8-b83f-9f9dacd15c4d.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,dark-teal-l8vhorfe-dplmq7klubpk.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,dead-coffee-vczxixdn-dpwj3cuq93cf.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,doc-fcms.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,drab-red-tgwxvj9g-dpswan5o6263.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,educational-blush-ooupnjp2.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,efhjfjdhdksdhlfsfsvjvj-dprhmd8pvnvd.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,electrodarom-dpn2erqqm0f6.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,emzy-li-dpb7940xq7sj.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,es4dr56tyuikdf6g-dp9xyf4hhc53.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,exotic-lime-olunrtbr.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,expensive-teal-oljdkw3m.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,explicit-amaranth-qng8tdbe.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,exuberant-turquoise-0hb7ck17-dp0bbf81hkqs.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,f40914238-3da7-4de7-8dee-307e6692cfb8.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ffsre-dpzou3ijaxzb.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,firstverificattionsettingsi-dpxrca6view0.edgeone.dev,REJECT-DROP
@@ -2293,7 +2288,6 @@ DOMAIN-SUFFIX,gennewggffyjhsad.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ggkhhfhhfhflhjdcxcvbthg-dpfmbose3uxq.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ggsgsgsgdjjczkjgjkggacggc-dpqt3wpkjdo9.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,global-fuchsia-9par6vcz-dp5x4caf1rmk.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,greasy-black-umslofwa-dpkfdnmf5ca8.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,hdggdhjdhjdgdjjjgcjggjgj-dpt5xisw7bfs.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,hjmdbcvvukhjhk-dpjrblo0l584.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,horrible-coral-ugrwxhbj.edgeone.dev,REJECT-DROP
@@ -2308,8 +2302,6 @@ DOMAIN-SUFFIX,intellectual-property-troubleshooting-center.edgeone.dev,REJECT-DR
 DOMAIN-SUFFIX,kerenare54-dpwekmulre85.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,khjfdgsfsdfhjklljdhgdstryt-dp97141gwv85.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,kloclibkblink-dp73tqm8r6w5.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,kuyrai-day-dp6hhr8m3ndt.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,legitimate-teal-qwp8h1ux-dpysohuv31e1.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,lexical-brown-irnlppnt.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,limitlessdubai-dp8oxsl60kva.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,loginpages0000-dpf0869el7ik.edgeone.dev,REJECT-DROP
@@ -2324,7 +2316,6 @@ DOMAIN-SUFFIX,mxoot-dp3j3hh9ymkp.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,mypmgrca-dpq4xiqwj2ki.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,na4-docusignv1-52fe74b0160e448ceb80dfbd0a1159128ace1fb4dc97c9b1.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,newgooglgecheckoutroundwebmailer-dpzcf6efmgzv.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,nextdemy-dpcu34jso8cb.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,no2body7-dpyijatuyl2q.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,officedeskego-dp8bsedoxuio.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,officeme-dpjs5aucgasw.edgeone.dev,REJECT-DROP
@@ -2333,16 +2324,12 @@ DOMAIN-SUFFIX,ofornaogu-dpzv6dife1hh.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ordinary-silver-rkbwyw06.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,outlookliveonverification-dp52uq80y4cv.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,papa.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,past-chocolate-tkeepmoh-dpo180nyw33b.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,petite-white-urlbwtb3-dpc6h3vrblbs.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,portalportalportalportalportal.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,pretty-white-ziekneey.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,prior-jade-yjoyvniu.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,proud-yellow-evgioafv-dp8huzdssyhv.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,rdghjhktgn-dprbztzfr2ic.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ready-to-g0u3yt-dp10u3ka993x.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,recipesbyadiradare-dptw3mb3y7na.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,register-demand-framework-shareholding-capital-dpuvktbvtbq4.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,reloader-dpffdavrss4p.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,request-copyright-policy-review.edgeone.dev,REJECT-DROP
@@ -2350,40 +2337,27 @@ DOMAIN-SUFFIX,review-copyright-infringement-reports.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,review-copyright-infringement-request.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,review-copyright-policy-violations.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,right-copper-xkzqbqnk.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,satisfactory-bronze-rhcf30o7-dp979euzmg6b.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,satishmhta-dp4oo0pz4kuu.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,secure-tan-rq4ghtdc.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,separate-apricot-hbdffwuz.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,seri3sawsapprunner-south1-dpkkvw2rkadj.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,shiny-octo-pancake-jnr-dpxs36pdbgzg.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,significant-emerald-tntczu5y-dpgoip0tva0q.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,sophisticated-aquamarine-pomuxkxx-dp4vwbcpmbc3.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,spellingtestw13-dpvjclgyxz4w.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,spotty-azure-iqlb6okf-dp0pv2o22wdt.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,sriramnwar-dpoae04723lz.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,srvkdtsged5w23456ds-dplleb90jz3x.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,super-chocolate-gaxl7qfi.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,supprtrcb-dpldxysyz96q.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,supreme-amber-hzuq7evg-dpxs2hntpj0s.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,supreme-lavender-t9nd7q0w.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,symmetrical-octo-umbrella-dpfq8j6ozudi.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tapin.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tdrdwhxxgjzhztwxtxsf-dp9ctcz1v8gi.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tino0908-ecount-dp78obhyuaqp.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tokyoforum-dpuw1bbe43fa.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,top-peach-jmymhyy7-dp6v659t1x9t.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,traditional-violet-gzelm9rw.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,troubleshoot-ad-account-issues.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,troubleshoot-copyright-policy-violations.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,turbo-guacamole-dpb52cl90u4w.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,uefa46-dpimi9v6dp2i.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,unconscious-magenta-3imgkgt8.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,united-ivory-a86g8nhn-dp05vhni0yjx.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,upgrade-dp2c1xqj8ejo.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,valuable-cyan-o57w5hsc-dpaoughabeck.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,very-silver-32kzr2mk.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,vivosandbox-dpvvpr1ri48t.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,voidstore-dpehxht5v2rr.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,walaha123-dpc6cgz84r9u.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,webmaprocessinh-dpbehei5spwx.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,welcome-ivory-mla3tpma-dpgbipy9x8sc.edgeone.dev,REJECT-DROP
@@ -2393,7 +2367,6 @@ DOMAIN-SUFFIX,wwwww-dpe7gpnooou7.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,xminesserversaqwq.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,y87f6s34a2qw-dp3fy8azkrz8.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ytterbic-amber-qilwigl2.edgeone.dev,REJECT-DROP
-DOMAIN-SUFFIX,yummy-coral-nzhxg6r7-dpaic331j2qx.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ediuschina.com,REJECT-DROP
 DOMAIN-SUFFIX,eduace.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.ee99654712225.com,REJECT-DROP
@@ -2470,8 +2443,6 @@ DOMAIN-SUFFIX,a.exam58.com,REJECT-DROP
 DOMAIN-SUFFIX,drovs.excelliance.cn,REJECT-DROP
 DOMAIN-SUFFIX,excsyrv.cn,REJECT-DROP
 DOMAIN-SUFFIX,exevcl.cn,REJECT-DROP
-DOMAIN-SUFFIX,exnesso.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,exnessp.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,exrwl.com,REJECT-DROP
 DOMAIN-SUFFIX,log-operate-1.eye4.cn,REJECT-DROP
 DOMAIN-SUFFIX,veepai-device-log.eye4.cn,REJECT-DROP
@@ -2917,8 +2888,6 @@ DOMAIN-SUFFIX,ggw.gusuwang.com,REJECT-DROP
 DOMAIN-SUFFIX,gw7jpuouik.com,REJECT-DROP
 DOMAIN-SUFFIX,res.gwifi.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,gwmrb.cn,REJECT-DROP
-DOMAIN-SUFFIX,wye9d-pay.gwrky.com,REJECT-DROP
-DOMAIN-SUFFIX,zh288v-pay.gwrky.com,REJECT-DROP
 DOMAIN-SUFFIX,gwrpceo.cn,REJECT-DROP
 DOMAIN-SUFFIX,fpb1.gxfin.com,REJECT-DROP
 DOMAIN-SUFFIX,pvsa.gxfugy.cn,REJECT-DROP
@@ -3292,7 +3261,6 @@ DOMAIN-SUFFIX,ads.cloud.huawei.com,REJECT-DROP
 DOMAIN-SUFFIX,hwa.his.huawei.com,REJECT-DROP
 DOMAIN-SUFFIX,sg.nebula-collector.huawei.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.huaweicloud.com,REJECT-DROP
-DOMAIN-SUFFIX,repo.huaweicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,uba.huaweicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,huayiav.cn,REJECT-DROP
 DOMAIN-SUFFIX,inner-hw.huazirc.com,REJECT-DROP
@@ -3686,7 +3654,6 @@ DOMAIN-SUFFIX,h5.jiumaster.com,REJECT-DROP
 DOMAIN-SUFFIX,jiuyuntian3.cn,REJECT-DROP
 DOMAIN-SUFFIX,analytics.jiuzhilan.com,REJECT-DROP
 DOMAIN-SUFFIX,app.jiuzhilan.com,REJECT-DROP
-DOMAIN-SUFFIX,jiyun.mobi,REJECT-DROP
 DOMAIN-SUFFIX,stat.m.jj.cn,REJECT-DROP
 DOMAIN-SUFFIX,jj123.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,jjyx.com,REJECT-DROP
