@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD。
 ! Homepage: https://github.com/nanzhinet/adblockfilters
 ! Source: https://raw.githubusercontent.com/nanzhinet/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261122052255
-! Last modified: 2026/11/22 05:22:55
-! Blocked Filters: 103560
+! Version: 20261122121431
+! Last modified: 2026/11/22 12:14:31
+! Blocked Filters: 103566
 !
 ###AC_ad
 ###AD_160
@@ -15886,6 +15886,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
+.com:30009/*t*$third-party
 .com:7891/stats$third-party
 .com:8*/mj*$third-party
 .com:8001/*/*?*=$third-party
@@ -19363,6 +19364,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js-cdn/scstats.js
 /js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
+/js/0x1a2b3c4d.js
 /js/AD_tv.js
 /js/_analytics.js
 /js/aa.htm$script
@@ -21355,6 +21357,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /track.v2.js
 /track/?*&event=
 /track/?data=
+/track/?evt=
 /track/?verbose=
 /track/aggregate?
 /track/batch?
@@ -33211,6 +33214,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||scorecard.api.mywot.com^$document
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||scorecardresearch.com/plugins/streaming-jwplayer/$domain=newstak.in
+@@||scorecardresearch.com/plugins/streaming-jwplayer/$script,domain=newstak.in
 @@||scorecardresearch.com^$domain=abc.go.com
 @@||scorecardresearch.com^$domain=ticketmaster.com.au
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
@@ -36905,11 +36909,14 @@ amateur8.com,bigtitslust.com,dafreeporn.com,ebony8.com,freeporn8.com,lesbian8.co
 amateur8.com,bigtitslust.com,maturetubehere.com,lesbian8.com,sortporn.com,freeporn8.com#%#//scriptlet("abort-on-property-read", "Q433")
 amateurest.com##.under-player-text
 amateurfapper.com,iceporn.tv,pornmonde.com##.sources
+amateurphotographer.com###VideoAdContainer
+amateurphotographer.com##.pageskin-ads
 amateurphotographer.com,cryptoslate.com,techspot.com##.cta
 amateurphotographer.com,mensfitness.co.uk,worldsoccer.com###VideoAdContainer
 amateurphotographer.com,mensfitness.co.uk,worldsoccer.com##.content-ad
 amateurphotographer.com,mensfitness.co.uk,worldsoccer.com##.pageskin-ads
 amateurphotographer.com,sherwood.news##.content-ad
+amateurphotographer.com,stuff.tv##.c-squirrel-embed
 amateurporn.co#%#//scriptlet('set-constant', 'isAdBlockActive', 'false')
 amateurporn.me,eachporn.com##.item[style]
 amateurpornvidz.com##div[style="height:280px;"]
@@ -76918,7 +76925,6 @@ stuff.co.nz,thepost.co.nz##.horizontal-ad-slot
 stuff.co.nz,thepost.co.nz,thepress.co.nz,waikatotimes.co.nz##.header-ads-block
 stuff.tv##.c-ad--mpu-bottom
 stuff.tv##.c-ad--mpu-top
-stuff.tv##.c-squirrel-embed
 stuff.tv##.c-video-ad__container
 stuff.tv##.wp-block-ad
 stuff.tv##body .c-ad
@@ -84909,6 +84915,7 @@ x-mol.com##.news-white-content-right
 x-x-x.tube###inpage-ad-container
 x-x-x.tube#%#//scriptlet('prevent-popads-net')
 x.com##[id^="urt"] > ul > li:has([class^="group-has-\[\[data-ad-disclosure"])
+x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
 x.com,twitter.com##div[data-testid="trend"]:has(> div[class]:only-child svg + span)
 x.com,twitter.com#?#div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:contains(/^(?:Promoted Post|Promowany Post|Post promovat|プロモポスト)$/):upward(3)
 x.com/*/videoads/
@@ -86492,6 +86499,10 @@ zeebiz.com##.daburbanner
 zeebiz.com,zeoob.com,nasdaq.com##div[class^="ads_"]
 zeefiles.download#%#//scriptlet("prevent-window-open")
 zeekmagazine.com##.td-all-devices
+zeenews.com,zee24taas.com##div[class$="_adsRow"]
+zeenews.com,zee24taas.com##div[class$="ads_box_300_250"]
+zeenews.com,zee24taas.com##div[class*="_topBanner"]
+zeenews.com,zee24taas.com#%#(()=>{const noop=()=>{},callbacks=[];let player,ready=false,head=0;const invoke=callback=>{try{callback([]);}catch{}};const flush=()=>{ready=true;while(head<callbacks.length)invoke(callbacks[head++]);callbacks.length=0;head=0;};const requestBids=(_,callback)=>{if(typeof callback!=="function")return;if(ready||player){ready=true;invoke(callback);}else callbacks.push(callback);};try{Object.defineProperty(window,"PWT",{configurable:true,get:()=>({requestBids,generateConfForGPT:noop,addKeyValuePairsToGPTSlots:noop,generateDFPURL:noop}),set:noop});}catch{}try{Object.defineProperty(window,"KalturaPlayer",{configurable:true,get:()=>player,set:value=>{player=value;if(value)flush();}});}catch{}})();
 zeenews.india.com##.add-placeholder
 zeenews.india.com##.ads-box-300x250::before
 zeenews.india.com##.ads-placeholder-internal
@@ -86924,7 +86935,6 @@ zzzyk.com###Tinfo
 ||*us*watcab*.blob.core.windows.net^
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
-||/js/0x1a2b3c4d.js
 ||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 ||007ds.com/js/js/
 ||01net.com/track/
@@ -88054,7 +88064,6 @@ zzzyk.com###Tinfo
 ||aflamfree.top/tv/BoxO.gif
 ||afloat.ie/images/banners/
 ||afocus.com.cn/s?
-||afodreet.net^$popup
 ||afrikalyrics.com/images/download-vantaart-
 ||afternic.com/v1/aftermarket/landers/
 ||afterpay.com^*/v1/event
@@ -92155,9 +92164,6 @@ zzzyk.com###Tinfo
 ||eshentai.tv/app/eshentai/themes/assets/js/sukuna.js
 ||esmas.com/scripts/esmas_stats.js
 ||esports-world.jp/js/banner.event.js
-||essentiallysports.com/api/track/
-||essentiallysports.com/api/v1/counts
-||essentiallysports.com/growth/engagement/
 ||estadion.pl/_next/image?url=https%3A%2F%2Fapi.estadion.pl%2Fimg%2Fads%2F
 ||estaticos01.gays-cruising.es/recursos/tres-doce.js
 ||estore.jp/beacon/
@@ -93187,7 +93193,6 @@ zzzyk.com###Tinfo
 ||go.*.com/*&sourceId=$xmlhttprequest,third-party,domain=leakgallery.com
 ||go.aff.betplays.com^$popup
 ||go.aff.estrelabetpartners.com^$popup
-||go.camterest.com^$popup
 ||go.com/capmon/GetDE/?
 ||go.fakta.id/assets/compat.js
 ||go.goasrv.com^$removeheader=location
@@ -96343,7 +96348,6 @@ zzzyk.com###Tinfo
 ||maxcheaters.com/uploads/monthly_2019_01/ezgif-5-a8ea8efcb8c0.jpg.fd373ccbe260d53b1d2dad88d4755f62.jpg
 ||maxedtech.com/promo*.php
 ||maxgames.com/img/sponsor_
-||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||maxmind.com/app/$third-party
 ||maxmind.com/geoip/$third-party
 ||maxmind.com/js/country.js
@@ -99681,6 +99685,7 @@ zzzyk.com###Tinfo
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sf2.net/a/index.
 ||sfchronicle.com/413gkwMT/init.js
+||sfchronicle.com/api/client-logs
 ||sfgate.com/413gkwMT/init.js
 ||sfgate.com/api/client-logs
 ||sfgate.com/juiceExport/production/sfgate.com/loadAds.js
@@ -100061,6 +100066,7 @@ zzzyk.com###Tinfo
 ||snrbox.com/tck/
 ||snrcash.com/profilerotator/$third-party
 ||so-zou.jp/js/ga.js
+||so.91ks.online/asset/bd.js
 ||so.com/com/ads?
 ||so.com/index/advertise
 ||so.com/recomm/simi?
